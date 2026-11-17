@@ -16,22 +16,21 @@ export function WeddingForm() {
   const [date, setDate] = useState("");
   const [venue, setVenue] = useState("");
   const [cars, setCars] = useState("1");
-  const [preferred, setPreferred] = useState("Land Cruiser Prado TX");
-  const [glam, setGlam] = useState(true);
+  const [preferred, setPreferred] = useState("");
   const [timing, setTiming] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [consent, setConsent] = useState(false);
 
-  const summary = weddingMessage({ date, venue, cars, glam });
+  const summary = weddingMessage({ date, venue, cars });
 
   if (status === "success") return <FormSuccess />;
   if (status === "fallback") return <FormFallback whatsappMessage={summary} />;
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
-    submit({ date, venue, cars, preferred, glam, timing, name, phone, email, consent });
+    submit({ date, venue, cars, preferred, timing, name, phone, email, consent });
   }
 
   return (
@@ -43,28 +42,13 @@ export function WeddingForm() {
         <Field label="Venue or area" required error={errors.venue}>
           {(p) => <input {...p} className="input" maxLength={120} value={venue} onChange={(e) => setVenue(e.target.value)} />}
         </Field>
-        <Field label="Number of cars" required error={errors.cars}>
+        <Field label="Number of vehicles" required error={errors.cars}>
           {(p) => <input {...p} className="input tabular" type="number" min={1} max={MAX_WEDDING_CARS} inputMode="numeric" value={cars} onChange={(e) => setCars(e.target.value)} />}
         </Field>
-        <Field label="Preferred car" error={errors.preferred}>
+        <Field label="Preferred vehicle (optional)" error={errors.preferred}>
           {(p) => <input {...p} required={false} className="input" maxLength={80} value={preferred} onChange={(e) => setPreferred(e.target.value)} />}
         </Field>
       </div>
-      <fieldset>
-        <legend className="label">Wedding glam decoration</legend>
-        <div className="flex gap-6">
-          {[
-            { label: "Yes, please", value: true },
-            { label: "No, thank you", value: false },
-          ].map((o) => (
-            <label key={o.label} className="flex min-h-11 items-center gap-2.5 font-normal text-ink">
-              <input type="radio" name="glam" checked={glam === o.value} onChange={() => setGlam(o.value)} className="h-[18px] w-[18px] accent-(--brand-purple)" />
-              {o.label}
-            </label>
-          ))}
-        </div>
-        <p className="text-sm">Options are confirmed with your booking.</p>
-      </fieldset>
       <Field label="Timing notes (optional)" error={errors.timing}>
         {(p) => <textarea {...p} className="input" maxLength={NOTES_MAX} value={timing} onChange={(e) => setTiming(e.target.value)} />}
       </Field>
@@ -74,7 +58,7 @@ export function WeddingForm() {
       <ConsentField checked={consent} onChange={setConsent} error={errors.consent} />
       <ErrorSummary count={Object.keys(errors).length} />
       <div className="flex flex-wrap items-center gap-3">
-        <SubmitButton status={status} label="Request wedding cars" />
+        <SubmitButton status={status} label="Request wedding transport" />
         <a href={waLink(date ? summary : brand.copy.whatsappPrefill)} target="_blank" rel="noopener noreferrer" className="link inline-flex min-h-11 items-center">
           {brand.copy.whatsappCta}
         </a>

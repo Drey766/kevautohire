@@ -15,7 +15,7 @@ export default function NotFound() {
         <p className="lede mt-5 text-white">{brand.copy.notFoundBody}</p>
         <ArrivalLine className="mx-auto mt-8 h-20 max-w-xl" />
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Link href="/" className="btn btn-gold">
+          <Link href="/" className="btn btn-accent">
             Back to home
           </Link>
           <Link href="/fleet" className="btn btn-ghost">

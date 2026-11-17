@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { GoldRing } from "@/components/brand/GoldRing";
+import { AccentRing } from "@/components/brand/AccentRing";
 import { Glow } from "@/components/brand/Glow";
 import { Reveal } from "@/components/ui/Reveal";
 import { getService } from "@/lib/data";
 
-const TRIO = ["airport-transfers", "chauffeur-services", "self-drive"];
+const TRIO = ["chauffeur-services", "airport-transfers", "family-road-trips"];
 
 export function ServicesTrio() {
   return (
@@ -17,11 +17,11 @@ export function ServicesTrio() {
             const s = getService(slug);
             if (!s) return null;
             return (
-              <li key={slug} className="border-t border-lavender/20 py-8 first:border-t-0 first:pt-0 md:border-t-0 md:border-l md:px-8 md:py-0 md:first:border-l-0 md:first:pl-0 md:last:pr-0">
+              <li key={slug} className="border-t border-soft/20 py-8 first:border-t-0 first:pt-0 md:border-t-0 md:border-l md:px-8 md:py-0 md:first:border-l-0 md:first:pl-0 md:last:pr-0">
                 <Reveal delay={i * 110}>
-                  <GoldRing size={64} className="display text-[1.375rem] text-gold">
+                  <AccentRing size={64} className="display text-[1.375rem] text-accent">
                     {`0${i + 1}`}
-                  </GoldRing>
+                  </AccentRing>
                   <h3 className="mt-6 text-[1.875rem]">{s.title}</h3>
                   <p className="mt-3">{s.summary}</p>
                   <Link href={`/services/${s.slug}`} className="link mt-5 inline-flex min-h-11 items-center">

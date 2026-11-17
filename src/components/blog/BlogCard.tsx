@@ -17,12 +17,12 @@ export function BlogCard({ post, level = "h3" }: { post: BlogPost; level?: "h2" 
           </span>
         )}
       </div>
-      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-purple">
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-primary">
         <span className="font-normal">{post.category}</span>
         <DraftBadge status={post.status} />
       </div>
       <Heading className="mt-2 text-[1.4375rem]">
-        <Link href={`/blog/${post.slug}`} className="hover:text-purple">
+        <Link href={`/blog/${post.slug}`} className="hover:text-primary">
           {post.title}
         </Link>
       </Heading>

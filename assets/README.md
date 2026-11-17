@@ -1,10 +1,7 @@
 # Brand assets
 
-- `logo-original.jpg` (150×150): the logo as posted, on a mock-up charcoal background.
-- `post-reference.png`: their wedding convoy post (the colour reference).
-- `imtalii-logo.svg`: the logo **traced into a vector**: the gold gradient "imtalii" wordmark, the ring emblem (redrawn as a clean circle; its tiny inner detail was unreadable in the original), and "CAR RENTALS". Colours come from CSS variables `--logo-gold-from`, `--logo-gold-to` and `--logo-tagline` (white on dark, ink or purple on light).
-- `own-photos/prado-wedding-convoy.jpg`: **iMtalii's own** image, cropped from their post (no text). It's used for the hero, Weddings and IM-001.
+- `logo-original.jpg` (150×150, white background): Kev Auto Hire's logo as provided.
 
-`node scripts/prepare-assets.mjs` copies these into `public/` and makes the ringed-"i" favicon, the Apple icon and the share image.
+`node rebrand/scripts/logo-prep.mjs assets/logo-original.jpg` makes the transparent `public/brand/logo.png` and `logo@2x.png`, the favicon, the Apple icon and the share image (copy `favicon-256.png`, `apple-touch-icon.png` and `og-image.jpg` into `src/app/` as `icon.png`, `apple-icon.png` and `opengraph-image.jpg`).
 
-**Ask iMtalii for their official vector logo and more of their own car photos.** Replace the files here when they arrive.
+**Ask Kev Auto Hire for their official vector logo (SVG or PDF) and photos of their own vehicles.** Replace the files here when they arrive.

@@ -11,7 +11,7 @@ import { faqs, requirements } from "@/lib/data";
 export const metadata: Metadata = pageMeta({
   path: "/requirements",
   title: "Requirements & FAQs",
-  description: "What you need to book self-drive, chauffeur, airport and wedding cars, and answers to common questions.",
+  description: "What to have ready for chauffeur-driven hire, airport transfers, weddings and road trips, and answers to common questions.",
 });
 
 export default function RequirementsPage() {
@@ -32,7 +32,7 @@ export default function RequirementsPage() {
                 <ul className="mt-3 space-y-2">
                   {g.items.map((item) => (
                     <li key={item} className="flex items-start gap-2.5">
-                      <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-purple" aria-hidden="true" />
+                      <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-primary" aria-hidden="true" />
                       {item}
                     </li>
                   ))}

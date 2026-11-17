@@ -1,57 +1,24 @@
 # Progress log
 
-Claude: update this at the end of every phase. If you were compacted, read this first.
+Claude: update this after every piece of work. If you were compacted, read this first.
 
-## Phases
-- [x] Phase 1 — Foundation
-- [x] Phase 2 — Car content (IM-001 + 28 samples)
-- [x] Phase 3 — Supporting content
-- [x] Phase 4 — Home
-- [x] Phase 5 — Fleet, car pages, Compare
-- [x] Phase 6 — Services, How It Works, Requirements & FAQs, About
-- [x] Phase 7 — Book, Blog, Contact, API, legal, SEO
-- [x] Phase 8 — Audit
-- [x] Phase 9 — Polish, QA, README
+## History
+- [x] Original build: 9 phases for an earlier client (see git history before the rebrand commit).
+- [x] **Rebrand to Kev Auto Hire** (2026-11-17, branch `rebrand/kev-auto-hire`). Details: `rebrand/REPORT.md`.
 
-## Phase 2 batch tracker
-- [x] IM-001 (own Prado TX — description only)
-- [x] IM-002 – IM-011
-- [x] IM-012 – IM-021
-- [x] IM-022 – IM-029
+## Rebrand notes
+New logo (PNG from the client's 150px JPG, on a white disc on dark), colours from the logo (black and green), all copy rewritten in Kev Auto Hire's voice (their quotes confirmed, everything else draft), services reshaped around their posts (Airport Transfers, Chauffeur-Driven Hire, Weddings, Corporate Travel, Family Trips & Road Trips). Self-drive, 24/7, delivery, office, email and wedding decoration removed (not confirmed). The earlier client's own car and photos removed; the 28 samples kept (refs KA-002 to KA-029), chauffeur-only. Lint and build pass. Visual check done at 375 and 1280 (Home, a car page, Contact).
 
-## Notes per phase (include "visual check done / skipped")
-
-**Phase 1:** Next 16.4 scaffold merged (Cache Components on, as scaffolded). Brand config, theme variables, layout, nav, footer, mobile bar and brand components built. Demo mode is treated as on unless explicitly "false", so samples cannot be indexed by accident. Visual check not required this phase.
-
-**Phase 2:** IM-001 description from their posts only (features left empty). IM-002 to IM-029 rewritten; features restricted to source items clearly right for each model. Automated checks clean.
-
-**Phase 3:** Services, steps, requirements, FAQs and 6 blog posts written, all draft (service names marked confirmed via nameStatus). Checked for amounts, policies and superlatives.
-
-**Phase 4:** Home built with all sections. Visual check done at 375 and 1280 (fixed hero contrast on phones, WhatsApp pill overlap, tab clipping, arrival line draw).
-
-**Phase 5:** Fleet (URL-synced filters, mobile sheet, sorting, estimates, empty state, compare tray), car pages (gallery, lightbox, booking card, live estimate) and Compare. Visual check done at 375 and 1280. Sample photos load slowly from the source host in dev, and SmartImage shows its fallback when they time out.
-
-**Phase 6:** Services and 5 detail pages (forms built in full, wired to the API in Phase 7), How It Works stepper, Requirements & FAQs, About. Empty About experience and team are hidden. Visual check done at 375 and 1280.
-
-**Phase 7:** Book, Blog, Contact, /api/booking (zod, honeypot, timing, rate limit, Resend, optional WhatsApp alert, no logging), Privacy, Terms, 404, sitemap, robots. Tested all four kinds with no email keys (always ok:false with the WhatsApp and Call fallback), date validation, honeypot, timing and 404s. Visual check done.
-
-**Phase 8:** All 20 audit checks run. Fixed: hardcoded address in Contact metadata, ratings-rule hit on two Mercedes descriptions, Sample tags missing on class tiles, heading order on /blog, booking card tabpanel. Everything else passed; remaining grep hits were false positives (for example Tailwind leading-*, "Preview", "frustrating").
-
-**Phase 9:** Personality review by component: hero (Hero, BookingConsole), occasions (Occasions), promise strip (PromiseStrip), luxury meets business (LuxuryMeetsBusiness, ArrivalLine), rhythm (Home section order), details (RateBadge, Marcellus names, Field date inputs, focus variables, not-found). Lighthouse accessibility 100 on Home, Fleet, Book, a car page and Weddings. Keyboard tabs checked. Fixed /book overflow at 375, tap targets under 44px and generic link text. Production test found soft 404s on unknown slugs, so Cache Components (scaffold default, unused) was turned off and dynamicParams = false added: unknown slugs now return 404. README written. Visual check done.
-
-## Open questions (for iMtalii — copy into the README checklist)
-
-All of these are in the README checklist.
-- Real fleet, photos and rates; Prado TX rate, seats and self-drive availability.
-- Name styling (iMtalii or Imtalii); hours beyond 24/7 support; primary WhatsApp number.
-- Airport details (airports, meet and greet, waiting); wedding glam options; delivery fees and areas.
-- Requirements (licence, ID, deposit, age); what rates include; payment methods.
-- Social links, Bruce House map pin, official vector logo, higher-resolution photos.
-- A verified email sending domain, without which every form falls back to WhatsApp and Call.
+## Open questions (for Kev Auto Hire — also in the README checklist)
+- Their real vehicles (models, seats, photos, rates). The site currently shows only samples.
+- Their own photos, especially for the home hero (`brand.heroImage`), Weddings and About.
+- An official vector logo (the current one is a 150px image, shown no taller than 75px).
+- Email address (for bookings and the privacy and terms pages), office address or pick-up base, map pin, hours, website domain, Facebook and TikTok.
+- Do they offer self-drive? (Hidden; the code still supports it.)
+- Airports served; how airport pickups and delays work; wedding extras such as decoration.
+- Requirements, what rates include, payment methods.
+- **Demo mode safeguards:** the earlier build kept the site indexable and showed no site-wide notice (only sample car pages are noindexed and tagged). Now that *every* car is a sample, consider a site-wide demo notice and site-wide noindex until the real fleet is in (CLAUDE.md guardrail 5).
 - Blog post dates are placeholders (build date).
 
-- IM-029 (C-Class) image URLs in fleet.json point at S-Class photos. Left unchanged (sample data); it goes away when the real fleet replaces samples.
-
 ## Blocked
-
-Nothing blocked. Note: sample photos load from a slow third-party host, so some cards can show the emblem fallback until the image cache warms up. Reduced-motion is handled by a global CSS rule and was not exercised in a browser.
+Nothing blocked. Sample photos load from a slow third-party host, so cards can show the logo fallback until the image cache warms up.

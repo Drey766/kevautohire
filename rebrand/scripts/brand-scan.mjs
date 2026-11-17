@@ -38,7 +38,7 @@ console.log(hits ? "" : "  none ✔");
 let hexHits = 0;
 console.log(`Hex colours outside ${config ?? "(no config found)"} (src/ only; SVG brand files excluded):`);
 for (const f of files) {
-  if (!f.startsWith("src") || f === config || f.endsWith(".svg") || f.endsWith(".json")) continue;
+  if (!f.startsWith("src") || f.replace(/\\/g, "/") === config || f.endsWith(".svg") || f.endsWith(".json")) continue;
   readFileSync(f, "utf8").split("\n").forEach((l, i) => {
     if (/#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b(?![\w-])/.test(l) && !/^\s*(\/\/|\*)/.test(l)) { hexHits++; console.log(`  ${f}:${i + 1}  ${l.trim().slice(0, 110)}`); }
   });

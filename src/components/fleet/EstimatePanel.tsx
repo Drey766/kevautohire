@@ -19,7 +19,7 @@ export function EstimatePanel({ car, from, to }: { car: Pick<Car, "dailyRateKes"
       {estimate ? (
         <>
           <p className="tabular text-sm">{estimate.line}</p>
-          <p className="tabular text-2xl font-medium text-purple">{formatKes(estimate.total)}</p>
+          <p className="tabular text-2xl font-medium text-primary">{formatKes(estimate.total)}</p>
           <p className="mt-2 text-sm leading-snug">
             {brand.legal.estimateNotice} {brand.legal.estimateSmallPrint}
           </p>

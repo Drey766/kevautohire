@@ -9,15 +9,14 @@ import { rangeErrorText, validatePickup, validateRange, type RangeError } from "
 import { AIRPORTS, DIRECTIONS } from "@/lib/forms";
 
 const TABS = [
-  { id: "self-drive", label: "Self-Drive" },
-  { id: "chauffeur", label: "Chauffeur" },
+  { id: "chauffeur", label: "Chauffeur-Driven" },
   { id: "airport", label: "Airport Transfer" },
 ] as const;
 type TabId = (typeof TABS)[number]["id"];
 
 export function BookingConsole() {
   const router = useRouter();
-  const [tab, setTab] = useState<TabId>("self-drive");
+  const [tab, setTab] = useState<TabId>("chauffeur");
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [carClass, setCarClass] = useState("");
@@ -46,14 +45,14 @@ export function BookingConsole() {
     const problem = validateRange(from, to);
     setError(problem);
     if (problem) return;
-    const q = new URLSearchParams({ drive: tab, from, to });
+    const q = new URLSearchParams({ from, to });
     if (carClass) q.set("class", carClass);
     router.push(`/fleet?${q}`);
   }
 
   return (
     <form onSubmit={submit} noValidate className="panel-glass night-scope p-4 sm:p-5 lg:p-6">
-      <Tabs tabs={TABS} value={tab} onChange={changeTab} idBase="console" label="Choose how you'd like to ride" className="mb-4 border-b border-lavender/20" />
+      <Tabs tabs={TABS} value={tab} onChange={changeTab} idBase="console" label="Choose how you'd like to ride" className="mb-4 border-b border-soft/20" />
 
       <div role="tabpanel" id={`console-panel-${tab}`} aria-labelledby={`console-tab-${tab}`}>
         {tab === "airport" ? (
@@ -82,14 +81,14 @@ export function BookingConsole() {
             <Field label="Passengers">
               {(p) => <input {...p} type="number" inputMode="numeric" min={1} max={60} className="input tabular" value={passengers} onChange={(e) => setPassengers(e.target.value)} />}
             </Field>
-            <button type="submit" className="btn btn-gold w-full lg:mt-[1.625rem] lg:w-auto">
+            <button type="submit" className="btn btn-accent w-full lg:mt-[1.625rem] lg:w-auto">
               Request transfer
             </button>
           </div>
         ) : (
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[1.3fr_1.3fr_1fr_auto] lg:items-start">
             <DateTimeField label="Pick-up" value={from} onChange={setFrom} error={isPickupError && error ? rangeErrorText[error] : undefined} />
-            <DateTimeField label={tab === "chauffeur" ? "Until" : "Return"} value={to} onChange={setTo} min={from || undefined} error={!isPickupError && error ? rangeErrorText[error] : undefined} />
+            <DateTimeField label="Until" value={to} onChange={setTo} min={from || undefined} error={!isPickupError && error ? rangeErrorText[error] : undefined} />
             <Field label="Class">
               {(p) => (
                 <select {...p} className="input" value={carClass} onChange={(e) => setCarClass(e.target.value)}>
@@ -102,7 +101,7 @@ export function BookingConsole() {
                 </select>
               )}
             </Field>
-            <button type="submit" className="btn btn-gold w-full lg:mt-[1.625rem] lg:w-auto">
+            <button type="submit" className="btn btn-accent w-full lg:mt-[1.625rem] lg:w-auto">
               {brand.copy.fleetCta}
             </button>
           </div>

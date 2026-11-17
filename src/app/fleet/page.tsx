@@ -10,7 +10,7 @@ import { cars } from "@/lib/data";
 export const metadata: Metadata = pageMeta({
   path: "/fleet",
   title: "Fleet",
-  description: "Browse luxury sedans, SUVs and 4x4s by class, brand and rate, with self-drive or chauffeur options.",
+  description: "Browse sedans, SUVs and 4x4s by class, brand and rate. Every booking comes with a professional driver.",
 });
 
 function FleetFallback() {
@@ -28,7 +28,7 @@ function FleetFallback() {
 export default function FleetPage() {
   return (
     <>
-      <PageHero title={brand.copy.fleetCta} lede={brand.voice.fleetLine} />
+      <PageHero title={brand.copy.fleetCta} lede={brand.voice.chauffeurLine} />
       <section className="section-white pt-8 pb-24 lg:pt-12">
         <div className="container-site">
           <Suspense fallback={<FleetFallback />}>

@@ -17,9 +17,9 @@ function Group({ legend, children }: { legend: string; children: ReactNode }) {
 function Option({ type, name, checked, onChange, label, count }: { type: "checkbox" | "radio"; name: string; checked: boolean; onChange: () => void; label: string; count?: number }) {
   return (
     <label className="flex min-h-11 items-center gap-3 text-[0.9375rem] font-normal text-ink lg:min-h-9">
-      <input type={type} name={name} checked={checked} onChange={onChange} className="h-[18px] w-[18px] flex-none accent-(--brand-purple)" />
+      <input type={type} name={name} checked={checked} onChange={onChange} className="h-[18px] w-[18px] flex-none accent-(--brand-primary)" />
       <span className="flex-1">{label}</span>
-      {count !== undefined && <span className="tabular text-sm text-slate">{count}</span>}
+      {count !== undefined && <span className="tabular text-sm text-body">{count}</span>}
     </label>
   );
 }
@@ -88,11 +88,10 @@ const toggleIn = <T,>(list: T[], item: T) => (list.includes(item) ? list.filter(
 export function FilterPanel({ cars, filters, update, scope, resetKey }: FilterPanelProps) {
   const brands = [...new Set(cars.map((c) => c.brand))].sort((a, b) => a.localeCompare(b));
   const countBrand = (b: string) => cars.filter((c) => c.brand === b).length;
-  const drives: { value: DriveOption | null; label: string }[] = [
-    { value: null, label: "Any" },
-    { value: "self-drive", label: "Self-drive available" },
-    { value: "chauffeur", label: "Chauffeur" },
-  ];
+  const DRIVE_LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive available", chauffeur: "Chauffeur-driven" };
+  // Only worth showing when the fleet offers more than one way to ride.
+  const offered = [...new Set(cars.flatMap((c) => c.driveOptions))];
+  const drives: { value: DriveOption | null; label: string }[] = [{ value: null, label: "Any" }, ...offered.map((d) => ({ value: d, label: DRIVE_LABELS[d] }))];
 
   return (
     <div>
@@ -101,11 +100,13 @@ export function FilterPanel({ cars, filters, update, scope, resetKey }: FilterPa
           <Option key={id} type="checkbox" name={`${scope}-class`} label={c.label} checked={filters.classes.includes(id)} onChange={() => update({ classes: toggleIn(filters.classes, id) })} count={cars.filter((x) => x.class === id).length} />
         ))}
       </Group>
-      <Group legend="Drive">
+      {offered.length > 1 && (
+        <Group legend="Drive">
         {drives.map((d) => (
           <Option key={d.label} type="radio" name={`${scope}-drive`} label={d.label} checked={filters.drive === d.value} onChange={() => update({ drive: d.value })} />
         ))}
-      </Group>
+        </Group>
+      )}
       <Group legend="Body">
         {["Sedan", "SUV"].map((b) => (
           <Option key={b} type="checkbox" name={`${scope}-body`} label={b} checked={filters.bodies.includes(b)} onChange={() => update({ bodies: toggleIn(filters.bodies, b) })} />

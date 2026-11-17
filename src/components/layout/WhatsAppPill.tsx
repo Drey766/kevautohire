@@ -25,9 +25,9 @@ export function WhatsAppPill() {
       rel="noopener noreferrer"
       tabIndex={shown ? undefined : -1}
       aria-hidden={shown ? undefined : true}
-      className={cn("night-scope btn fixed right-6 bottom-6 z-30 hidden border-lavender/40 bg-aubergine px-5 text-white shadow-[0_12px_32px_var(--shadow-tint)] hover:bg-aubergine-raised lg:inline-flex", shown ? "opacity-100" : "pointer-events-none opacity-0")}
+      className={cn("night-scope btn fixed right-6 bottom-6 z-30 hidden border-soft/40 bg-night px-5 text-white shadow-[0_12px_32px_var(--shadow-tint)] hover:bg-night-raised lg:inline-flex", shown ? "opacity-100" : "pointer-events-none opacity-0")}
     >
-      <MessageCircle size={18} strokeWidth={1.5} className="text-gold" aria-hidden="true" />
+      <MessageCircle size={18} strokeWidth={1.5} className="text-accent" aria-hidden="true" />
       {brand.copy.whatsappCta}
     </a>
   );

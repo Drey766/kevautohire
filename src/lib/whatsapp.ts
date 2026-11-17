@@ -11,7 +11,6 @@ export function carMessage(input: { name: string; ref: string; from?: string; to
   let msg = `Hello ${brand.name}, I'd like the ${input.name} (${input.ref})`;
   if (input.from && input.to) msg += ` from ${formatDateTime(input.from)} to ${formatDateTime(input.to)}`;
   if (input.service === "chauffeur") msg += ", chauffeur-driven";
-  if (input.service === "self-drive") msg += ", self-drive";
   return `${msg}.`;
 }
 
@@ -33,11 +32,10 @@ export function airportMessage(input: {
   return `${msg}.`;
 }
 
-export function weddingMessage(input: { date?: string; cars?: string | number; glam?: boolean; venue?: string }) {
+export function weddingMessage(input: { date?: string; cars?: string | number; venue?: string }) {
   let msg = "Wedding";
   if (input.date) msg += ` on ${formatDateOnly(input.date)}`;
   if (input.venue) msg += ` at ${input.venue}`;
   if (input.cars) msg += `, ${input.cars} car${String(input.cars) === "1" ? "" : "s"}`;
-  if (input.glam) msg += ", wedding glam";
   return `${msg}.`;
 }

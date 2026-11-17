@@ -13,8 +13,8 @@ export function Footer() {
       <Glow at="left" />
       <div className="container-site grid gap-12 pt-16 pb-10 md:grid-cols-12 lg:pt-20">
         <div className="md:col-span-5">
-          <Logo className="h-24 w-auto" />
-          <p className="display mt-7 max-w-sm text-2xl text-white">{brand.voice.elegance}</p>
+          <Logo size={72} />
+          <p className="display mt-7 max-w-sm text-2xl text-white">{brand.voice.tagline}</p>
           <p className="mt-3 max-w-sm text-base">{brand.voice.promises.join(" · ")}</p>
         </div>
 
@@ -32,11 +32,11 @@ export function Footer() {
         </nav>
 
         <div className="text-base md:col-span-4">
-          <p className="eyebrow">Reach us, 24/7</p>
+          <p className="eyebrow">Reach us</p>
           <ul className="mt-4">
             {brand.phones.map((p) => (
               <li key={p.href}>
-                <a href={p.href} className="tabular inline-flex min-h-9 items-center text-white hover:text-lavender">
+                <a href={p.href} className="tabular inline-flex min-h-9 items-center text-white hover:text-soft">
                   {p.display}
                 </a>
               </li>
@@ -46,17 +46,23 @@ export function Footer() {
                 {brand.copy.whatsappCta}
               </a>
             </li>
-            <li>
-              <a href={`mailto:${brand.email}`} className="inline-flex min-h-9 items-center break-all hover:text-white">
+            {brand.email && (
+              <li>
+                <a href={`mailto:${brand.email}`} className="inline-flex min-h-9 items-center break-all hover:text-white">
                 {brand.email}
               </a>
             </li>
+            )}
           </ul>
-          <address className="mt-4 not-italic">
-            {a.building}, {a.street}
-            <br />
-            {a.area}, {a.postalCode}
-          </address>
+          {a.street ? (
+            <address className="mt-4 not-italic">
+              {[a.building, a.street].filter(Boolean).join(", ")}
+              <br />
+              {[a.area, a.postalCode].filter(Boolean).join(", ")}
+            </address>
+          ) : (
+            <p className="mt-4">{brand.voice.reach}</p>
+          )}
           {socials.length > 0 && (
             <ul className="mt-4 flex gap-4">
               {socials.map(([name, url]) => (
@@ -70,7 +76,7 @@ export function Footer() {
           )}
         </div>
       </div>
-      <div className="container-site flex flex-col gap-3 border-t border-lavender/15 py-6 text-sm md:flex-row md:items-center md:justify-between">
+      <div className="container-site flex flex-col gap-3 border-t border-soft/15 py-6 text-sm md:flex-row md:items-center md:justify-between">
         <p className="max-w-xl">{brand.legal.rateNote}</p>
         <ul className="flex items-center gap-6">
           <li>

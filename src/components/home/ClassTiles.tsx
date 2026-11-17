@@ -25,9 +25,9 @@ export function ClassTiles() {
                       </span>
                     )}
                   </div>
-                  <h3 className="mt-4 text-[1.3125rem] group-hover:text-purple">{brand.classes[c].label}</h3>
+                  <h3 className="mt-4 text-[1.3125rem] group-hover:text-primary">{brand.classes[c].label}</h3>
                   <p className="mt-1 text-[0.9375rem] leading-snug">{brand.classes[c].line}</p>
-                  <p className="tabular mt-2 text-sm font-normal text-purple">
+                  <p className="tabular mt-2 text-sm font-normal text-primary">
                     {from !== null && `from ${formatKes(from)}/day · `}
                     {count} {count === 1 ? "car" : "cars"}
                   </p>

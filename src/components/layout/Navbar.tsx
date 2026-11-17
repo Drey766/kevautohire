@@ -23,14 +23,14 @@ export function Navbar() {
 
   const isActive = (href: string) => (href === "/services" ? pathname === "/services" || (pathname.startsWith("/services/") && pathname !== "/services/weddings") : pathname === href || pathname.startsWith(`${href}/`));
   const linkClass = (active: boolean) =>
-    cn("relative inline-flex min-h-11 items-center px-1 text-[0.9375rem] font-normal transition-colors", scrolled ? (active ? "text-purple" : "text-ink hover:text-purple") : active ? "text-white" : "text-lavender hover:text-white");
+    cn("relative inline-flex min-h-11 items-center px-1 text-[0.9375rem] font-normal transition-colors", scrolled ? (active ? "text-primary" : "text-ink hover:text-primary") : active ? "text-white" : "text-soft hover:text-white");
 
   return (
     // Sticky with a matching negative margin: the page's dark header sits behind the transparent bar.
     <header className={cn("sticky top-0 z-40 -mb-[var(--nav-h)] h-[var(--nav-h)] transition-[background-color,box-shadow] duration-300", scrolled ? "bg-white/90 shadow-[0_1px_0_var(--brand-line)] backdrop-blur-lg" : "night-scope bg-transparent")}>
       <div className="container-site flex h-full items-center justify-between gap-6">
         <Link href="/" aria-label={`${brand.fullName} home`} className="shrink-0">
-          <Logo tone={scrolled ? "light" : "dark"} className="h-[52px] w-auto" decorative />
+          <Logo tone={scrolled ? "light" : "dark"} size={52} decorative />
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-5 xl:flex">
@@ -44,9 +44,9 @@ export function Navbar() {
           })}
           <Link href="/compare" aria-current={pathname === "/compare" ? "page" : undefined} className={linkClass(pathname === "/compare")}>
             Compare
-            {slugs.length > 0 && <span className={cn("tabular ml-1.5 inline-flex h-5 min-w-5 items-center justify-center rounded-full px-1 text-xs font-medium", scrolled ? "bg-purple text-white" : "bg-gold text-aubergine")}>{slugs.length}</span>}
+            {slugs.length > 0 && <span className={cn("tabular ml-1.5 inline-flex h-5 min-w-5 items-center justify-center rounded-full px-1 text-xs font-medium", scrolled ? "bg-primary text-white" : "bg-accent text-night")}>{slugs.length}</span>}
           </Link>
-          <Link href="/book" className={cn("btn min-h-11 px-5", scrolled ? "btn-primary" : "border-gold text-white hover:bg-gold hover:text-aubergine")}>
+          <Link href="/book" className={cn("btn min-h-11 px-5", scrolled ? "btn-primary" : "border-accent text-white hover:bg-accent hover:text-night")}>
             {brand.copy.bookCta}
           </Link>
         </nav>

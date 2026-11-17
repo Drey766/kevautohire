@@ -17,19 +17,19 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
         <nav aria-label="Mobile" className="px-6 pb-10">
           <ul>
             {items.map((item) => (
-              <li key={item.href} className="border-b border-lavender/15">
+              <li key={item.href} className="border-b border-soft/15">
                 <Link href={item.href} onClick={onClose} className="display flex min-h-16 items-center text-[1.75rem] text-white">
                   {item.label}
                 </Link>
               </li>
             ))}
           </ul>
-          <Link href="/book" onClick={onClose} className="btn btn-gold mt-8 w-full">
+          <Link href="/book" onClick={onClose} className="btn btn-accent mt-8 w-full">
             {brand.copy.bookCta}
           </Link>
           <div className="mt-8 space-y-1 text-base">
             {brand.phones.map((p) => (
-              <a key={p.href} href={p.href} className="tabular block py-1.5 text-lavender">
+              <a key={p.href} href={p.href} className="tabular block py-1.5 text-soft">
                 {p.display}
               </a>
             ))}

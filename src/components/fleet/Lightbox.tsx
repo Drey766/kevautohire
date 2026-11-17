@@ -21,10 +21,10 @@ export function Lightbox({ open, onClose, images, name, index, onIndex }: Lightb
     if (e.key === "ArrowRight") step(1);
     if (e.key === "ArrowLeft") step(-1);
   };
-  const arrow = "flex h-12 w-12 items-center justify-center rounded-full bg-aubergine-raised text-white";
+  const arrow = "flex h-12 w-12 items-center justify-center rounded-full bg-night-raised text-white";
 
   return (
-    <Sheet open={open} onClose={onClose} title={`${name} photos`} hideTitle tone="night" variant="full" className="bg-aubergine">
+    <Sheet open={open} onClose={onClose} title={`${name} photos`} hideTitle tone="night" variant="full" className="bg-night">
       <div onKeyDown={onKey} className="flex h-[calc(100dvh-4.5rem)] flex-col px-4 pb-6">
         <div className="relative min-h-0 flex-1">{open && <SmartImage src={images[index]} alt={`${name}, photo ${index + 1} of ${images.length}`} sizes="100vw" className="object-contain" />}</div>
         {images.length > 1 && (

@@ -28,7 +28,7 @@ export default function TermsPage() {
           <p>{brand.legal.estimateNotice}</p>
           <p>{brand.legal.estimateSmallPrint}</p>
           <h2>Your booking terms</h2>
-          <p>The terms that apply to your rental are confirmed with you when you book. Please read them and ask about anything that is unclear.</p>
+          <p>The terms that apply to your booking are confirmed with you when you book. Please read them and ask about anything that is unclear.</p>
           {isDemoMode && (
             <>
               <h2>Preview site</h2>
@@ -39,7 +39,15 @@ export default function TermsPage() {
           <p>{brand.legal.articleNotice}</p>
           <h2>Contact</h2>
           <p>
-            Questions about these terms can be sent to <a href={`mailto:${brand.email}`}>{brand.email}</a>.
+            Questions about these terms are welcome {brand.email ? (
+              <>
+                at <a href={`mailto:${brand.email}`}>{brand.email}</a>
+              </>
+            ) : (
+              <>
+                on <a href={brand.phones[0].href}>{brand.phones[0].display}</a>, by call or WhatsApp
+              </>
+            )}.
           </p>
         </div>
       </section>

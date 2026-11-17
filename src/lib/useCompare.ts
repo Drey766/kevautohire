@@ -2,8 +2,8 @@
 
 import { useCallback, useSyncExternalStore } from "react";
 
-const KEY = "imtalii-compare";
-const EVENT = "imtalii-compare-change";
+const KEY = "kev-auto-compare";
+const EVENT = "kev-auto-compare-change";
 export const COMPARE_MAX = 3;
 const EMPTY: string[] = [];
 

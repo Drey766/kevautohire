@@ -81,7 +81,7 @@ export default async function CarPage({ params }: PageProps<"/fleet/[slug]">) {
                 <ul className="mt-5 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
                   {car.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5 font-normal text-ink">
-                      <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-purple" aria-hidden="true" />
+                      <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-primary" aria-hidden="true" />
                       {f}
                     </li>
                   ))}
@@ -107,8 +107,8 @@ export default async function CarPage({ params }: PageProps<"/fleet/[slug]">) {
                 <Link href="/services/weddings" className="btn btn-ghost">
                   Weddings
                 </Link>
-                <Link href="/services/vip-executive" className="btn btn-ghost">
-                  VIP & Executive
+                <Link href="/services/corporate-travel" className="btn btn-ghost">
+                  Corporate Travel
                 </Link>
               </div>
             )}

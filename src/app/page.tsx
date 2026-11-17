@@ -6,9 +6,9 @@ import { Occasions } from "@/components/home/Occasions";
 import { FeaturedRail } from "@/components/home/FeaturedRail";
 import { ClassTiles } from "@/components/home/ClassTiles";
 import { ServicesTrio } from "@/components/home/ServicesTrio";
-import { LuxuryMeetsBusiness } from "@/components/home/LuxuryMeetsBusiness";
+import { BusinessTravel } from "@/components/home/BusinessTravel";
 import { HowItWorksPreview } from "@/components/home/HowItWorksPreview";
-import { StandOutBand } from "@/components/home/StandOutBand";
+import { TaglineBand } from "@/components/home/TaglineBand";
 import { BlogPreview } from "@/components/home/BlogPreview";
 import { FinalCta } from "@/components/home/FinalCta";
 
@@ -23,9 +23,9 @@ export default function HomePage() {
       <FeaturedRail />
       <ClassTiles />
       <ServicesTrio />
-      <LuxuryMeetsBusiness />
+      <BusinessTravel />
       <HowItWorksPreview />
-      <StandOutBand />
+      <TaglineBand />
       <BlogPreview />
       <FinalCta />
     </>

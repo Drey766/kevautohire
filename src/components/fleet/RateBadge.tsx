@@ -1,17 +1,17 @@
 import { Crown } from "lucide-react";
 import { brand } from "@/config/brand";
-import { GoldRing } from "@/components/brand/GoldRing";
+import { AccentRing } from "@/components/brand/AccentRing";
 import { formatKes } from "@/lib/format";
 import type { Car } from "@/types";
 
-/** The gold-ring rate badge. Sits on dark backgrounds. */
+/** The accent-ring rate badge. Sits on dark backgrounds. */
 export function RateBadge({ car }: { car: Pick<Car, "dailyRateKes" | "rateOnRequest"> }) {
   const onRequest = car.rateOnRequest || car.dailyRateKes === null;
   return (
     <p className="rate-badge">
-      <GoldRing size={60} className="text-gold">
+      <AccentRing size={60} className="text-accent">
         {onRequest ? <Crown size={22} strokeWidth={1.4} aria-hidden="true" /> : <span className="text-xs font-medium tracking-wider">KES</span>}
-      </GoldRing>
+      </AccentRing>
       {onRequest ? (
         <span className="display text-2xl text-white">{brand.copy.rateOnRequest}</span>
       ) : (

@@ -15,7 +15,9 @@ function resolveSiteUrl(): string {
   const onVercel = Boolean(process.env.VERCEL_ENV);
   if (explicit && !(onVercel && /localhost|127\.0\.0\.1/.test(explicit))) return explicit;
   if (process.env.VERCEL_ENV === "preview" && process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  if (onVercel || process.env.NODE_ENV === "production") return brand.siteUrl;
+  if (brand.siteUrl && (onVercel || process.env.NODE_ENV === "production")) return brand.siteUrl;
+  // No domain chosen yet: use the Vercel production address when there is one.
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
   return "http://localhost:3000";
 }
 

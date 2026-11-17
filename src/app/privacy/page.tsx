@@ -3,6 +3,7 @@ import { pageMeta } from "@/lib/seo";
 import { brand } from "@/config/brand";
 import { PageHero } from "@/components/ui/PageHero";
 import { DraftBadge } from "@/components/ui/Tags";
+import { formatFullAddress } from "@/lib/format";
 
 export const metadata: Metadata = pageMeta({
   path: "/privacy",
@@ -32,12 +33,20 @@ export default function PrivacyPage() {
           <p>This website does not use analytics. If you use Compare, the cars you choose are saved in your own browser so the list is still there when you return. That list is not sent to us, and you can clear it at any time.</p>
           <h2>Your rights</h2>
           <p>
-            Under Kenya&apos;s {privacyLaw}, you may ask to see the personal data we hold about you, ask us to correct or delete it, and object to how it is used. To make a request, email <a href={`mailto:${brand.email}`}>{brand.email}</a>.
+            Under Kenya&apos;s {privacyLaw}, you may ask to see the personal data we hold about you, ask us to correct or delete it, and object to how it is used. To make a request, {brand.email ? (
+              <>
+                email <a href={`mailto:${brand.email}`}>{brand.email}</a>
+              </>
+            ) : (
+              <>
+                call or WhatsApp us on <a href={brand.phones[0].href}>{brand.phones[0].display}</a>
+              </>
+            )}.
           </p>
           <p>If you are not satisfied with our response, you can complain to the {privacyRegulator}.</p>
           <h2>Contact</h2>
           <p>
-            {brand.fullName}, {brand.address.building}, {brand.address.street}, {brand.address.area}, {brand.address.postalCode}.
+            {formatFullAddress()}. Phone: <a href={brand.phones[0].href}>{brand.phones[0].display}</a>.
           </p>
         </div>
       </section>

@@ -1,6 +1,6 @@
 // Option lists shared by the forms and the API. No ID, licence or passport fields anywhere.
 export const AIRPORTS = ["JKIA", "Wilson Airport", "Other"] as const;
-export const PURPOSES = ["Business", "Wedding", "VIP event", "Weekend escape", "Other"] as const;
+export const PURPOSES = ["Corporate travel", "Wedding", "Family trip", "Road trip", "Special occasion", "Other"] as const;
 export const DIRECTIONS = [
   { value: "pickup", label: "Pickup from airport" },
   { value: "dropoff", label: "Drop-off to airport" },

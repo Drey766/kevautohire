@@ -9,21 +9,23 @@ export function jsonLd(data: unknown) {
 
 export function autoRentalSchema() {
   const a = brand.address;
+  const socialLinks = Object.values(brand.social).filter(Boolean);
   return {
     "@context": "https://schema.org",
     "@type": "AutoRental",
     name: brand.fullName,
     url: siteUrl,
     telephone: brand.phones.map((p) => p.href.replace("tel:", "")),
-    email: brand.email,
+    ...(brand.email ? { email: brand.email } : {}),
     address: {
       "@type": "PostalAddress",
-      streetAddress: `${a.building}, ${a.street}`,
+      ...(a.street ? { streetAddress: [a.building, a.street].filter(Boolean).join(", ") } : {}),
       addressLocality: brand.city,
-      postalCode: a.postalCode,
+      ...(a.postalCode ? { postalCode: a.postalCode } : {}),
       addressCountry: "KE",
     },
     areaServed: brand.country,
+    ...(socialLinks.length ? { sameAs: socialLinks } : {}),
     ...(brand.hours ? { openingHours: brand.hours } : {}),
   };
 }

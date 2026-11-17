@@ -16,7 +16,7 @@ export function CompareToggle({ slug, name, tone = "light" }: { slug: string; na
       title={disabled ? "You can compare up to 3 cars" : undefined}
       disabled={disabled}
       onClick={() => toggle(slug)}
-      className={cn("inline-flex min-h-11 items-center gap-1 text-sm font-normal transition-colors disabled:opacity-50", tone === "dark" ? "text-lavender hover:text-white" : active ? "text-purple" : "text-slate hover:text-purple")}
+      className={cn("inline-flex min-h-11 items-center gap-1 text-sm font-normal transition-colors disabled:opacity-50", tone === "dark" ? "text-soft hover:text-white" : active ? "text-primary" : "text-body hover:text-primary")}
     >
       {active ? <Check size={16} strokeWidth={1.75} aria-hidden="true" /> : <Plus size={16} strokeWidth={1.75} aria-hidden="true" />}
       {active ? "Comparing" : "Compare"}

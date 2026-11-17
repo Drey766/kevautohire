@@ -1,12 +1,12 @@
 [
   { "id": "booking", "q": "How do I book?", "a": "Send a request through the website, on WhatsApp or by phone. We will confirm availability and your quote. A booking is only in place once we have confirmed it with you.", "status": "draft" },
-  { "id": "self-or-chauffeur", "q": "What is the difference between self-drive and chauffeur?", "a": "With self-drive, you take the wheel. With chauffeur services, we provide the driver and you enjoy the journey. Each car in the fleet shows which options are offered.", "status": "draft" },
-  { "id": "airport", "q": "How do airport pickups work?", "a": "Give us your flight details when you request a transfer, and we will confirm the arrangements with you. If your flight is delayed, contact us and we will work out the next step together.", "status": "draft" },
-  { "id": "weddings", "q": "Can you dress the cars for a wedding?", "a": "Yes, wedding glam is available. The details are on request, so tell us about your day and we will go through the options.", "status": "draft" },
-  { "id": "delivery", "q": "Do you deliver cars outside Nairobi?", "a": "Yes, nationwide delivery is available. Fees and areas are confirmed when you book.", "status": "draft" },
-  { "id": "support", "q": "Can I reach you at any time?", "a": "Yes. We offer 24/7 support by phone and WhatsApp on both of our numbers.", "status": "draft" },
+  { "id": "chauffeur", "q": "Do your vehicles come with a driver?", "a": "Yes. Our hire is chauffeur-driven: a professional driver comes with the vehicle, so you can sit back and enjoy the journey.", "status": "draft" },
+  { "id": "seats", "q": "How many people can travel together?", "a": "Our vehicles are 7-seaters. Tell us how many of you are travelling, and how much luggage, and we will suggest the right number of vehicles.", "status": "draft" },
+  { "id": "airport", "q": "How do airport pickups work?", "a": "Give us your flight details when you request a transfer, and we will confirm the arrangements with you. If your flight is delayed, call or message us and we will work out the next step together.", "status": "draft" },
+  { "id": "weddings", "q": "Can you provide vehicles for a wedding?", "a": "Yes. Tell us your date, your venue and how many vehicles you have in mind, and we will confirm availability and your quote.", "status": "draft" },
+  { "id": "countrywide", "q": "Do you travel outside Nairobi?", "a": "Yes, we serve Nairobi and beyond, with clients countrywide. Tell us your route and the arrangements are confirmed when you book.", "status": "draft" },
   { "id": "included", "q": "What is included in the rate?", "a": "Rates on this website are indicative. Everything your booking includes is confirmed in your quote, so please ask if anything is unclear.", "status": "draft" },
   { "id": "payment", "q": "How do I pay?", "a": "This website does not take payments. Payment is confirmed with you at the time of booking.", "status": "draft" },
-  { "id": "extend", "q": "Can I extend my rental?", "a": "Contact us as early as you can. We will check the car's availability and confirm any change to your quote.", "status": "draft" },
-  { "id": "terrain", "q": "Can I travel upcountry or off-road?", "a": "Our fleet is ready for any terrain, but each car is different. Tell us where you are going and we will confirm what suits your route.", "status": "draft" }
+  { "id": "extend", "q": "Can I extend my booking?", "a": "Call or message us as early as you can. We will check availability and confirm any change to your quote.", "status": "draft" },
+  { "id": "contact", "q": "How do I reach you?", "a": "Call, text or WhatsApp us. Our number is on the Contact page and in the footer of every page.", "status": "draft" }
 ]

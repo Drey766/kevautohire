@@ -8,7 +8,7 @@ export function FeaturedRail() {
   return (
     <section className="section section-mist overflow-hidden">
       <div className="container-site flex flex-wrap items-end justify-between gap-4">
-        <h2 className="h-section">Premium Fleet</h2>
+        <h2 className="h-section">Featured vehicles</h2>
         <Link href="/fleet" className="link inline-flex min-h-11 items-center">
           {brand.copy.fleetCta}
         </Link>

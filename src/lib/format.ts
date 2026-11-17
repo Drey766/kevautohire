@@ -17,9 +17,10 @@ export function classLabel(c: CarClass) {
   return brand.classes[c].label;
 }
 
+/** "Kev Auto Hire, <building>, <street>, ..., Nairobi, Kenya", skipping anything not provided. */
 export function formatFullAddress() {
   const a = brand.address;
-  return `${a.building}, ${a.street}, ${a.area}, ${a.postalCode}, ${a.country}`;
+  return [brand.fullName, a.building, a.street, a.area || brand.city, a.postalCode, a.country].filter(Boolean).join(", ");
 }
 
 export function formatPostDate(iso: string) {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GoldRing } from "@/components/brand/GoldRing";
+import { AccentRing } from "@/components/brand/AccentRing";
 import { DraftBadge } from "@/components/ui/Tags";
 import { steps } from "@/lib/data";
 
@@ -15,9 +15,9 @@ export function HowItWorksPreview() {
         <ol className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {preview.map((s, i) => (
             <li key={s.index}>
-              <GoldRing size={52} className="display text-lg text-ink">
+              <AccentRing size={52} className="display text-lg text-ink">
                 {i + 1}
-              </GoldRing>
+              </AccentRing>
               <h3 className="mt-4 text-[1.3125rem]">{s.title}</h3>
               <p className="mt-2 text-base">{s.text}</p>
             </li>

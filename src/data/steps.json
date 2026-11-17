@@ -1,8 +1,8 @@
 [
-  { "index": "01", "title": "Choose your car or service", "text": "Browse the fleet, or pick a service: airport transfer, chauffeur, self-drive, wedding or VIP event.", "status": "draft" },
+  { "index": "01", "title": "Choose your vehicle or service", "text": "Browse the fleet, or pick a service: airport transfer, chauffeur-driven hire, wedding, corporate travel or a family road trip.", "status": "draft" },
   { "index": "02", "title": "Send your request", "text": "Use a form, WhatsApp or a phone call. Dates, place and occasion are enough to begin.", "status": "draft" },
-  { "index": "03", "title": "We confirm availability and your quote", "text": "We check the car and come back with your quote and the details. A booking is only in place once we have confirmed it.", "status": "draft" },
-  { "index": "04", "title": "Delivery or pick-up", "text": "Collect from Bruce House, ask for delivery, or meet your car at the airport. Arrangements are confirmed when you book.", "status": "draft" },
-  { "index": "05", "title": "Enjoy the ride, with 24/7 support", "text": "Self-driven or chauffeured, you can reach us at any hour if plans change.", "status": "draft" },
-  { "index": "06", "title": "Return or drop-off", "text": "Bring the car back as agreed, or step out at your destination. Your chauffeur takes it from there.", "status": "draft" }
+  { "index": "03", "title": "We confirm availability and your quote", "text": "We check the vehicle and come back with your quote and the details. A booking is only in place once we have confirmed it.", "status": "draft" },
+  { "index": "04", "title": "We pick you up", "text": "Your driver meets you at the place you choose, or at the airport. Arrangements are confirmed when you book.", "status": "draft" },
+  { "index": "05", "title": "Enjoy the ride", "text": "Sit back in comfort. If plans change on the way, call or message us.", "status": "draft" },
+  { "index": "06", "title": "Arrive in style", "text": "Step out at your destination. Your driver takes it from there.", "status": "draft" }
 ]

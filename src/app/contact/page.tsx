@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { Suspense } from "react";
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { AtSign, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { brand } from "@/config/brand";
-import { GoldRing, GoldRingLoader } from "@/components/brand/GoldRing";
+import { AccentRing, RingLoader } from "@/components/brand/AccentRing";
 import { FaqList } from "@/components/faq/FaqList";
 import { ContactClient } from "@/components/forms/ContactClient";
 import { PageHero } from "@/components/ui/PageHero";
@@ -14,15 +14,18 @@ import { waLink } from "@/lib/whatsapp";
 export const metadata: Metadata = pageMeta({
   path: "/contact",
   title: "Contact",
-  description: `Call or WhatsApp us, 24/7. Find us at ${brand.seo.openingNote}.`,
+  description: `Call, text or WhatsApp ${brand.name} on ${brand.phones[0].display}. Chauffeur-driven trips in Nairobi and beyond.`,
 });
+
+/** "https://www.instagram.com/kev_auto_hire/" → "@kev_auto_hire" */
+const socialHandle = (url: string) => `@${url.replace(/\/+$/, "").split("/").pop()}`;
 
 function Row({ icon: Icon, children }: { icon: typeof Phone; children: React.ReactNode }) {
   return (
     <li className="flex items-start gap-4 border-t border-line py-5 first:border-t-0 first:pt-0">
-      <GoldRing size={48} className="text-purple">
+      <AccentRing size={48} className="text-primary">
         <Icon size={18} strokeWidth={1.4} aria-hidden="true" />
-      </GoldRing>
+      </AccentRing>
       <div className="min-w-0 pt-0.5">{children}</div>
     </li>
   );
@@ -32,7 +35,7 @@ export default function ContactPage() {
   const a = brand.address;
   return (
     <>
-      <PageHero title={brand.copy.callCta} lede={brand.copy.support247Note} />
+      <PageHero title={brand.copy.callCta} lede={brand.copy.coverageNote} />
       <section className="section section-white">
         <div className="container-site grid gap-12 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-5">
@@ -53,32 +56,44 @@ export default function ContactPage() {
                   </a>
                 ))}
               </Row>
-              <Row icon={Mail}>
-                <h2 className="text-xl">Email</h2>
-                <a href={`mailto:${brand.email}`} className="link flex min-h-11 items-center break-all">
-                  {brand.email}
-                </a>
-              </Row>
-              <Row icon={MapPin}>
-                <h2 className="text-xl">Visit</h2>
-                <address className="mt-1 not-italic">
-                  {a.building}, {a.street}
-                  <br />
-                  {a.area}, {a.postalCode}
-                </address>
-                {brand.mapUrl && (
-                  <a href={brand.mapUrl} target="_blank" rel="noopener noreferrer" className="link mt-1 inline-flex min-h-11 items-center">
-                    Open in maps
+              {brand.email && (
+                <Row icon={Mail}>
+                  <h2 className="text-xl">Email</h2>
+                  <a href={`mailto:${brand.email}`} className="link flex min-h-11 items-center break-all">
+                    {brand.email}
                   </a>
-                )}
-              </Row>
+                </Row>
+              )}
+              {a.street && (
+                <Row icon={MapPin}>
+                  <h2 className="text-xl">Visit</h2>
+                  <address className="mt-1 not-italic">
+                    {[a.building, a.street].filter(Boolean).join(", ")}
+                    <br />
+                    {[a.area, a.postalCode].filter(Boolean).join(", ")}
+                  </address>
+                  {brand.mapUrl && (
+                    <a href={brand.mapUrl} target="_blank" rel="noopener noreferrer" className="link mt-1 inline-flex min-h-11 items-center">
+                      Open in maps
+                    </a>
+                  )}
+                </Row>
+              )}
+              {brand.social.instagram && (
+                <Row icon={AtSign}>
+                  <h2 className="text-xl">Instagram</h2>
+                  <a href={brand.social.instagram} target="_blank" rel="noopener noreferrer" className="link flex min-h-11 items-center break-all">
+                    {socialHandle(brand.social.instagram)}
+                  </a>
+                </Row>
+              )}
             </ul>
           </div>
           <div className="lg:col-span-7">
             <div className="panel-light p-5 sm:p-8">
               <h2 className="text-3xl">Send a message</h2>
               <div className="mt-5">
-                <Suspense fallback={<GoldRingLoader />}>
+                <Suspense fallback={<RingLoader />}>
                   <ContactClient />
                 </Suspense>
               </div>

@@ -3,19 +3,20 @@
 /* All colours come from src/config/brand.ts via --brand-* variables set on <html>. */
 @theme inline {
   --color-*: initial;
-  --color-purple: var(--brand-purple);
-  --color-purple-deep: var(--brand-purple-deep);
-  --color-aubergine: var(--brand-aubergine);
-  --color-aubergine-raised: var(--brand-aubergine-raised);
-  --color-lavender: var(--brand-lavender);
-  --color-mist: var(--brand-lavender-mist);
+  --color-primary: var(--brand-primary);
+  --color-primary-deep: var(--brand-primary-deep);
+  --color-night: var(--brand-night);
+  --color-night-raised: var(--brand-night-raised);
+  --color-soft: var(--brand-soft);
+  --color-mist: var(--brand-mist);
   --color-white: var(--brand-white);
   --color-ink: var(--brand-ink);
-  --color-slate: var(--brand-slate);
+  --color-body: var(--brand-body);
   --color-line: var(--brand-line);
-  --color-gold: var(--brand-gold);
-  --color-gold-from: var(--brand-gold-from);
-  --color-gold-to: var(--brand-gold-to);
+  --color-accent: var(--brand-accent);
+  --color-accent-from: var(--brand-accent-from);
+  --color-accent-to: var(--brand-accent-to);
+  --color-accent-text: var(--brand-accent-text);
 
   --font-display: var(--font-marcellus);
   --font-sans: var(--font-outfit);
@@ -45,21 +46,21 @@
 
 @layer base {
   :root {
-    --focus: var(--brand-purple);
-    --shadow-tint: color-mix(in srgb, var(--brand-purple) 20%, transparent);
+    --focus: var(--brand-primary);
+    --shadow-tint: color-mix(in srgb, var(--brand-primary) 20%, transparent);
     --nav-h: 76px;
     scroll-padding-top: calc(var(--nav-h) + 16px);
   }
   html {
     -webkit-text-size-adjust: 100%;
-    background: var(--brand-aubergine);
+    background: var(--brand-night);
   }
   html:has(dialog[open]) {
     overflow: hidden;
   }
   body {
     background: var(--brand-white);
-    color: var(--brand-slate);
+    color: var(--brand-body);
     font-family: var(--font-sans), sans-serif;
     font-weight: 300;
     font-size: 1.0625rem;
@@ -100,17 +101,17 @@
     color: inherit;
   }
   dialog::backdrop {
-    background: color-mix(in srgb, var(--brand-aubergine) 72%, transparent);
+    background: color-mix(in srgb, var(--brand-night) 72%, transparent);
     backdrop-filter: blur(3px);
   }
 }
 
 @layer components {
-  /* Night: anything on aubergine. Sets the focus colour and text defaults for its subtree. */
+  /* Night: anything on night. Sets the focus colour and text defaults for its subtree. */
   .night {
-    --focus: var(--brand-lavender);
-    background-color: var(--brand-aubergine);
-    color: var(--brand-lavender);
+    --focus: var(--brand-soft);
+    background-color: var(--brand-night);
+    color: var(--brand-soft);
     position: relative;
     isolation: isolate;
   }
@@ -118,7 +119,7 @@
     color: var(--brand-white);
   }
   .night-scope {
-    --focus: var(--brand-lavender);
+    --focus: var(--brand-soft);
   }
 
   .container-site {
@@ -135,7 +136,7 @@
     padding-block: clamp(4.25rem, 9vw, 7.5rem);
     position: relative;
   }
-  .section-mist { background-color: var(--brand-lavender-mist); }
+  .section-mist { background-color: var(--brand-mist); }
   .section-white { background-color: var(--brand-white); }
 
   .eyebrow {
@@ -145,10 +146,10 @@
     line-height: 1.5;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--brand-purple);
+    color: var(--brand-primary);
   }
   .night .eyebrow, .night-scope .eyebrow {
-    color: var(--brand-gold);
+    color: var(--brand-accent);
   }
 
   .display {
@@ -182,36 +183,36 @@
     transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
   }
   .btn-primary {
-    background-color: var(--brand-purple);
+    background-color: var(--brand-primary);
     color: var(--brand-white);
   }
   .btn-primary:hover {
-    background-color: var(--brand-purple-deep);
+    background-color: var(--brand-primary-deep);
     box-shadow: 0 10px 28px var(--shadow-tint);
   }
-  .btn-gold {
-    background-color: var(--brand-gold);
-    color: var(--brand-aubergine);
+  .btn-accent {
+    background-color: var(--brand-accent);
+    color: var(--brand-night);
   }
-  .btn-gold:hover {
-    background-color: var(--brand-gold-to);
+  .btn-accent:hover {
+    background-color: var(--brand-accent-to);
   }
   .btn-ghost {
-    border-color: var(--brand-purple);
-    color: var(--brand-purple);
+    border-color: var(--brand-primary);
+    color: var(--brand-primary);
     background-color: transparent;
   }
   .btn-ghost:hover {
-    background-color: var(--brand-purple);
+    background-color: var(--brand-primary);
     color: var(--brand-white);
   }
   .night .btn-ghost, .night-scope .btn-ghost {
-    border-color: color-mix(in srgb, var(--brand-lavender) 60%, transparent);
+    border-color: color-mix(in srgb, var(--brand-soft) 60%, transparent);
     color: var(--brand-white);
   }
   .night .btn-ghost:hover, .night-scope .btn-ghost:hover {
-    background-color: color-mix(in srgb, var(--brand-lavender) 16%, transparent);
-    border-color: var(--brand-lavender);
+    background-color: color-mix(in srgb, var(--brand-soft) 16%, transparent);
+    border-color: var(--brand-soft);
     color: var(--brand-white);
   }
   .btn[aria-disabled="true"], .btn:disabled {
@@ -219,10 +220,10 @@
   }
 
   .link {
-    color: var(--brand-purple);
+    color: var(--brand-primary);
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--brand-purple) 35%, transparent);
+    text-decoration-color: color-mix(in srgb, var(--brand-primary) 35%, transparent);
     text-underline-offset: 4px;
     transition: text-decoration-color 0.2s ease;
   }
@@ -230,27 +231,38 @@
     text-decoration-color: currentColor;
   }
   .night .link, .night-scope .link {
-    color: var(--brand-lavender);
-    text-decoration-color: color-mix(in srgb, var(--brand-lavender) 45%, transparent);
+    color: var(--brand-soft);
+    text-decoration-color: color-mix(in srgb, var(--brand-soft) 45%, transparent);
   }
 
-  /* Gold ring: the logo's emblem as a frame */
-  .gold-ring {
+  /* Accent ring: the logo's emblem as a frame */
+  .accent-ring {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     flex: none;
     border-radius: 999px;
-    border: 1px solid var(--brand-gold);
+    border: 1px solid var(--brand-accent);
     position: relative;
   }
-  .gold-ring::after {
+  .accent-ring::after {
     content: "";
     position: absolute;
     inset: 3px;
     border-radius: inherit;
-    border: 1px solid color-mix(in srgb, var(--brand-gold) 35%, transparent);
+    border: 1px solid color-mix(in srgb, var(--brand-accent) 35%, transparent);
     pointer-events: none;
+  }
+
+  /* The logo on dark: a white disc, echoing the round emblem */
+  .logo-disc {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background-color: var(--brand-white);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--brand-accent) 55%, transparent);
   }
 
   .rate-badge {
@@ -274,7 +286,7 @@
   .card-car .stage {
     position: relative;
     aspect-ratio: 16 / 10;
-    background-color: var(--brand-lavender-mist);
+    background-color: var(--brand-mist);
     overflow: hidden;
   }
   .card-car .stage img {
@@ -291,10 +303,10 @@
   }
 
   .panel-glass {
-    background-color: color-mix(in srgb, var(--brand-aubergine) 60%, transparent);
+    background-color: color-mix(in srgb, var(--brand-night) 60%, transparent);
     -webkit-backdrop-filter: blur(18px) saturate(1.2);
     backdrop-filter: blur(18px) saturate(1.2);
-    border: 1px solid color-mix(in srgb, var(--brand-lavender) 24%, transparent);
+    border: 1px solid color-mix(in srgb, var(--brand-soft) 24%, transparent);
     border-radius: 16px;
   }
   .panel-light {
@@ -313,14 +325,14 @@
     margin-bottom: 0.375rem;
   }
   .night .label, .night-scope .label {
-    color: var(--brand-lavender);
+    color: var(--brand-soft);
   }
   .input {
     width: 100%;
     min-height: 48px;
     padding: 0.625rem 0.875rem;
     border-radius: 10px;
-    border: 1px solid color-mix(in srgb, var(--brand-slate) 40%, var(--brand-white));
+    border: 1px solid color-mix(in srgb, var(--brand-body) 40%, var(--brand-white));
     background-color: var(--brand-white);
     color: var(--brand-ink);
     font-weight: 400;
@@ -334,7 +346,7 @@
     resize: vertical;
   }
   .input::placeholder {
-    color: var(--brand-slate);
+    color: var(--brand-body);
   }
   .input:focus {
     outline: none;
@@ -342,27 +354,27 @@
     box-shadow: 0 0 0 2px var(--focus);
   }
   .input[aria-invalid="true"] {
-    border-color: var(--brand-purple-deep);
+    border-color: var(--brand-primary-deep);
     border-width: 2px;
   }
   .night .input, .night-scope .input {
     background-color: color-mix(in srgb, var(--brand-white) 7%, transparent);
-    border-color: color-mix(in srgb, var(--brand-lavender) 42%, transparent);
+    border-color: color-mix(in srgb, var(--brand-soft) 42%, transparent);
     color: var(--brand-white);
     color-scheme: dark;
   }
   .night .input::placeholder, .night-scope .input::placeholder {
-    color: var(--brand-lavender);
+    color: var(--brand-soft);
   }
   .night select.input option, .night-scope select.input option {
-    background-color: var(--brand-aubergine-raised);
+    background-color: var(--brand-night-raised);
     color: var(--brand-white);
   }
   .field-error {
     margin-top: 0.375rem;
     font-size: 0.875rem;
     font-weight: 400;
-    color: var(--brand-purple-deep);
+    color: var(--brand-primary-deep);
   }
   .night .field-error, .night-scope .field-error {
     color: var(--brand-white);
@@ -380,18 +392,18 @@
     line-height: 1.3;
   }
   .tag-sample {
-    background-color: var(--brand-lavender);
-    color: var(--brand-aubergine);
+    background-color: var(--brand-soft);
+    color: var(--brand-night);
   }
   .tag-own {
-    background-color: var(--brand-aubergine);
-    color: var(--brand-gold);
-    border: 1px solid var(--brand-gold);
+    background-color: var(--brand-night);
+    color: var(--brand-accent);
+    border: 1px solid var(--brand-accent);
   }
   .badge-draft {
     background-color: var(--brand-white);
-    color: var(--brand-purple-deep);
-    border: 1px dashed var(--brand-purple);
+    color: var(--brand-primary-deep);
+    border: 1px dashed var(--brand-primary);
   }
 
   .chip {
@@ -400,8 +412,8 @@
     min-height: 34px;
     padding: 0.25rem 0.875rem;
     border-radius: 999px;
-    background-color: var(--brand-lavender-mist);
-    color: var(--brand-purple-deep);
+    background-color: var(--brand-mist);
+    color: var(--brand-primary-deep);
     font-size: 0.875rem;
     font-weight: 400;
   }
@@ -415,11 +427,11 @@
     font-size: 0.9375rem;
     line-height: 1.2;
     white-space: nowrap;
-    color: var(--brand-slate);
+    color: var(--brand-body);
     transition: color 0.2s ease;
   }
   .tab:hover {
-    color: var(--brand-purple);
+    color: var(--brand-primary);
   }
   .tab::after {
     content: "";
@@ -427,20 +439,20 @@
     inset-inline: clamp(0.5rem, 2.2vw, 1rem);
     bottom: 0;
     height: 2px;
-    background-color: var(--brand-purple);
+    background-color: var(--brand-primary);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
   }
   .tab[aria-selected="true"] {
-    color: var(--brand-purple);
+    color: var(--brand-primary);
     font-weight: 500;
   }
   .tab[aria-selected="true"]::after {
     transform: scaleX(1);
   }
   .night .tab, .night-scope .tab {
-    color: var(--brand-lavender);
+    color: var(--brand-soft);
   }
   .night .tab:hover, .night-scope .tab:hover {
     color: var(--brand-white);
@@ -449,12 +461,12 @@
     color: var(--brand-white);
   }
   .night .tab::after, .night-scope .tab::after {
-    background-color: var(--brand-gold);
+    background-color: var(--brand-accent);
   }
 
   /* Blog prose */
   .prose-blog {
-    color: var(--brand-slate);
+    color: var(--brand-body);
     font-size: 1.125rem;
     line-height: 1.75;
     max-width: 68ch;
@@ -481,14 +493,14 @@
     margin-bottom: 0.5rem;
   }
   .prose-blog li::marker {
-    color: var(--brand-purple);
+    color: var(--brand-primary);
   }
   .prose-blog strong {
     font-weight: 500;
     color: var(--brand-ink);
   }
   .prose-blog a {
-    color: var(--brand-purple);
+    color: var(--brand-primary);
     text-decoration: underline;
     text-underline-offset: 3px;
   }
@@ -508,7 +520,7 @@
     top: -6rem;
     z-index: 100;
     background: var(--brand-white);
-    color: var(--brand-purple);
+    color: var(--brand-primary);
     padding: 0.75rem 1.25rem;
     border-radius: 999px;
     font-weight: 500;
@@ -552,12 +564,12 @@
     overflow-y: auto;
     background-color: var(--brand-white);
     border-radius: 20px 20px 0 0;
-    color: var(--brand-slate);
+    color: var(--brand-body);
     animation: sheet-up 0.32s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
   .sheet-night {
-    background-color: var(--brand-aubergine);
-    color: var(--brand-lavender);
+    background-color: var(--brand-night);
+    color: var(--brand-soft);
   }
   .sheet-full {
     position: fixed;

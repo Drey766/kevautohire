@@ -2,45 +2,12 @@
   "meta": {
     "currency": "KES",
     "rateUnit": "day",
-    "count": 29,
-    "source": "IM-001 is iMtalii's own Prado TX fleet (from their posts). All other cars, photos, rates and features are illustrative samples for a preview build and must be replaced before launch."
+    "count": 28,
+    "source": "All cars, photos, rates and features are illustrative samples for a preview build and must be replaced with Kev Auto Hire's own fleet before launch."
   },
   "cars": [
     {
-      "ref": "IM-001",
-      "slug": "toyota-land-cruiser-prado-tx",
-      "name": "Toyota Land Cruiser Prado TX",
-      "brand": "Toyota",
-      "model": "Land Cruiser Prado TX",
-      "class": "safari-4x4",
-      "bodyType": "SUV",
-      "seats": null,
-      "driveOptions": [
-        "chauffeur",
-        "self-drive"
-      ],
-      "dailyRateKes": null,
-      "rateOnRequest": true,
-      "images": [
-        "/fleet/im-001/prado-wedding-convoy.jpg"
-      ],
-      "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for any terrain.",
-      "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP events and executive transfers. Dressed in wedding glam for a big day, or sent quietly to collect a guest at the airport, it brings luxury and comfort to every arrival, and it is ready for any terrain.\n\nBook it with chauffeur services and let the day run around you. 24/7 support is always on hand, and nationwide delivery is available. Tell us the occasion, and we'll confirm availability and your quote.",
-      "features": [],
-      "idealFor": [
-        "Weddings",
-        "VIP events",
-        "Executive transfers",
-        "Airport transfers",
-        "Upcountry trips"
-      ],
-      "featured": true,
-      "sample": false,
-      "contentStatus": "confirmed",
-      "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers). Rate, seats and self-drive availability to confirm."
-    },
-    {
-      "ref": "IM-003",
+      "ref": "KA-003",
       "slug": "toyota-axio",
       "name": "Toyota Axio",
       "brand": "Toyota",
@@ -59,7 +26,7 @@
         "https://luxurycarhire.co.ke/images/toyota-axio-rear.jpg"
       ],
       "summary": "A neat, frugal sedan that slips through town without fuss, with a chauffeur at the wheel.",
-      "description": "Small enough to thread through the CBD and light on its feet in traffic, the Toyota Axio makes short work of a full diary. It is the sensible choice among our sedans, and it wears that well.\n\nWith a chauffeur handling the route and the parking, your time stays your own. Settle in, take your calls and step out at each stop feeling unhurried. For everyday journeys around Nairobi, it keeps things simple and comfortable.",
+      "description": "Small enough to thread through the city centre and light on its feet in traffic, the Toyota Axio makes short work of a full diary. It is the sensible choice among our sedans, and it wears that well.\n\nWith a chauffeur handling the route and the parking, your time stays your own. Settle in, take your calls and step out at each stop feeling unhurried. For everyday journeys around Nairobi, it keeps things simple and comfortable.",
       "features": [
         "Cloth Upholstery",
         "Climate Control",
@@ -77,7 +44,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-002",
+      "ref": "KA-002",
       "slug": "toyota-allion",
       "name": "Toyota Allion",
       "brand": "Toyota",
@@ -86,7 +53,6 @@
       "bodyType": "Sedan",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 4500,
@@ -97,7 +63,7 @@
         "https://luxurycarhire.co.ke/images/toyota-allion-rear.jpg"
       ],
       "summary": "A calm, roomy saloon for daily errands, airport runs and unhurried city meetings.",
-      "description": "The Toyota Allion is a quiet companion for the working week. Its cabin is wider than its neat outline suggests, the ride stays settled over Nairobi's busier streets, and everything falls easily to hand.\n\nChoose it when the day calls for composure rather than theatre: a run to the airport, a string of appointments, a relative to collect from across town. Drive it yourself or hand over the keys to a chauffeur and use the back seat to catch up.",
+      "description": "The Toyota Allion is a quiet companion for the working week. Its cabin is wider than its neat outline suggests, the ride stays settled over Nairobi's busier streets, and everything falls easily to hand.\n\nChoose it when the day calls for composure rather than theatre: a run to the airport, a string of appointments, a relative to collect from across town. Your chauffeur handles the road while you use the back seat to catch up.",
       "features": [
         "Cloth Upholstery",
         "Power Windows",
@@ -116,7 +82,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-007",
+      "ref": "KA-007",
       "slug": "toyota-mark-x",
       "name": "Toyota Mark X",
       "brand": "Toyota",
@@ -154,7 +120,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-005",
+      "ref": "KA-005",
       "slug": "mazda-cx-5",
       "name": "Mazda CX-5",
       "brand": "Mazda",
@@ -163,7 +129,6 @@
       "bodyType": "SUV",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 7500,
@@ -174,7 +139,7 @@
         "https://luxurycarhire.co.ke/images/mazda-cx5-rear.jpg"
       ],
       "summary": "A stylish compact SUV with a raised view of the road and an interior that feels considered.",
-      "description": "Sharp lines outside and a tidy, well-finished cabin inside make the Mazda CX-5 an easy car to like. You sit a little higher than the traffic, the controls feel precise, and the proportions are right for both tight parking and open roads.\n\nIt is equally at home on a weekday in Nairobi and on a weekend away. Drive yourself and enjoy it, or book a chauffeur and let someone else mind the road.",
+      "description": "Sharp lines outside and a tidy, well-finished cabin inside make the Mazda CX-5 an easy car to like. You sit a little higher than the traffic, the controls feel precise, and the proportions are right for both tight parking and open roads.\n\nIt is equally at home on a weekday in Nairobi and on a weekend away. Sit back and let your chauffeur mind the road.",
       "features": [
         "Leather Upholstery",
         "Dual-Zone Climate Control",
@@ -194,7 +159,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-009",
+      "ref": "KA-009",
       "slug": "subaru-forester",
       "name": "Subaru Forester",
       "brand": "Subaru",
@@ -232,7 +197,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-006",
+      "ref": "KA-006",
       "slug": "nissan-x-trail",
       "name": "Nissan X-Trail",
       "brand": "Nissan",
@@ -241,7 +206,6 @@
       "bodyType": "SUV",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 10000,
@@ -252,7 +216,7 @@
         "https://luxurycarhire.co.ke/images/nissan-xtrail-rear.jpg"
       ],
       "summary": "A practical family SUV with room for luggage, comfortable seats and a willing nature.",
-      "description": "The Nissan X-Trail is built for days when plans include bags, children and a change of scenery. There is generous space front and back, a tall driving position, and a relaxed manner that keeps long stretches from feeling long.\n\nLoad it up for a family weekend or use it for a week of errands around the city. It is available to drive yourself or with a chauffeur, whichever makes the trip easier.",
+      "description": "The Nissan X-Trail is built for days when plans include bags, children and a change of scenery. There is generous space front and back, a tall driving position, and a relaxed manner that keeps long stretches from feeling long.\n\nLoad it up for a family weekend or use it for a week of errands around the city. With a chauffeur at the wheel, the trip is easier for everyone on board.",
       "features": [
         "Dual-Zone Climate Control",
         "LED Headlights",
@@ -271,7 +235,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-010",
+      "ref": "KA-010",
       "slug": "toyota-rav4",
       "name": "Toyota RAV4",
       "brand": "Toyota",
@@ -280,7 +244,6 @@
       "bodyType": "SUV",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 12000,
@@ -291,7 +254,7 @@
         "https://luxurycarhire.co.ke/images/toyota-rav4-rear.jpg"
       ],
       "summary": "A versatile, adventure-minded crossover that is just as comfortable on the school run.",
-      "description": "The Toyota RAV4 has an honest, go-anywhere character that makes it easy to live with. The cabin is spacious, the boot swallows a weekend's luggage, and the driving position gives you a clear, confident view ahead.\n\nTake it out of town for a change of air or keep it for a busy week in Nairobi. Drive it yourself if the road is part of the pleasure, or book a chauffeur if you would prefer to watch the scenery.",
+      "description": "The Toyota RAV4 has an honest, go-anywhere character that makes it easy to live with. The cabin is spacious, the boot swallows a weekend's luggage, and the driving position gives you a clear, confident view ahead.\n\nTake it out of town for a change of air or keep it for a busy week in Nairobi. Let your chauffeur take the road while you watch the scenery.",
       "features": [
         "Cloth Upholstery",
         "Dual-Zone Climate Control",
@@ -312,7 +275,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-004",
+      "ref": "KA-004",
       "slug": "mazda-atenza",
       "name": "Mazda Atenza",
       "brand": "Mazda",
@@ -321,7 +284,6 @@
       "bodyType": "Sedan",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 8000,
@@ -332,7 +294,7 @@
         "https://luxurycarhire.co.ke/images/mazda-atenza-rear.jpg"
       ],
       "summary": "A sleek Japanese sedan with a flowing silhouette and a cabin that feels a class above.",
-      "description": "The Mazda Atenza looks as though it was drawn in a single stroke. Long, low and gracefully proportioned, it arrives with more presence than you might expect, and the leather-lined cabin carries on the thought.\n\nIt suits the client lunch and the long afternoon of meetings equally well. Take the wheel and enjoy how neatly it responds, or have a chauffeur drive while you prepare for what comes next.",
+      "description": "The Mazda Atenza looks as though it was drawn in a single stroke. Long, low and gracefully proportioned, it arrives with more presence than you might expect, and the leather-lined cabin carries on the thought.\n\nIt suits the client lunch and the long afternoon of meetings equally well. Let a chauffeur drive while you prepare for what comes next.",
       "features": [
         "Leather Upholstery",
         "Dual-Zone Climate Control",
@@ -353,7 +315,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-008",
+      "ref": "KA-008",
       "slug": "toyota-crown",
       "name": "Toyota Crown",
       "brand": "Toyota",
@@ -392,7 +354,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-022",
+      "ref": "KA-022",
       "slug": "audi-a6",
       "name": "Audi A6",
       "brand": "Audi",
@@ -432,7 +394,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-029",
+      "ref": "KA-029",
       "slug": "mercedes-benz-c-class",
       "name": "Mercedes-Benz C-Class",
       "brand": "Mercedes-Benz",
@@ -441,7 +403,6 @@
       "bodyType": "Sedan",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 18000,
@@ -451,8 +412,8 @@
         "https://luxurycarhire.co.ke/images/mercedes-s-class-interior.jpg",
         "https://luxurycarhire.co.ke/images/mercedes-s-class-rear.jpg"
       ],
-      "summary": "A compact Mercedes-Benz with big-car poise, for driving yourself or being driven.",
-      "description": "The Mercedes-Benz C-Class brings the marque's elegance to a size that suits the city. Its cabin borrows from the larger models, with sweeping trim, soft ambient light and a central screen that feels pleasantly modern.\n\nTake the wheel for a day of appointments around Nairobi, or leave the driving to a chauffeur and arrive fresh. It is a poised, approachable way to enjoy a Mercedes-Benz whenever the occasion deserves a little polish.",
+      "summary": "A compact Mercedes-Benz with big-car poise, for being driven around the city in comfort.",
+      "description": "The Mercedes-Benz C-Class brings the marque's elegance to a size that suits the city. Its cabin borrows from the larger models, with sweeping trim, soft ambient light and a central screen that feels pleasantly modern.\n\nBook it for a day of appointments around Nairobi, leave the driving to a chauffeur and arrive fresh. It is a poised, approachable way to enjoy a Mercedes-Benz whenever the occasion deserves a little polish.",
       "features": [
         "Premium Leather Seats",
         "Climate Control",
@@ -472,7 +433,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-024",
+      "ref": "KA-024",
       "slug": "mercedes-benz-e-class",
       "name": "Mercedes-Benz E-Class",
       "brand": "Mercedes-Benz",
@@ -513,7 +474,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-021",
+      "ref": "KA-021",
       "slug": "lexus-es",
       "name": "Lexus ES",
       "brand": "Lexus",
@@ -553,7 +514,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-017",
+      "ref": "KA-017",
       "slug": "volvo-s90",
       "name": "Volvo S90",
       "brand": "Volvo",
@@ -593,7 +554,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-023",
+      "ref": "KA-023",
       "slug": "bmw-5-series",
       "name": "BMW 5 Series",
       "brand": "BMW",
@@ -633,7 +594,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-016",
+      "ref": "KA-016",
       "slug": "jaguar-xf",
       "name": "Jaguar XF",
       "brand": "Jaguar",
@@ -673,7 +634,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-027",
+      "ref": "KA-027",
       "slug": "audi-a8",
       "name": "Audi A8",
       "brand": "Audi",
@@ -713,7 +674,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-028",
+      "ref": "KA-028",
       "slug": "bmw-7-series",
       "name": "BMW 7 Series",
       "brand": "BMW",
@@ -753,7 +714,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-026",
+      "ref": "KA-026",
       "slug": "lexus-ls",
       "name": "Lexus LS",
       "brand": "Lexus",
@@ -793,7 +754,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-015",
+      "ref": "KA-015",
       "slug": "porsche-panamera",
       "name": "Porsche Panamera",
       "brand": "Porsche",
@@ -833,7 +794,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-014",
+      "ref": "KA-014",
       "slug": "mercedes-benz-gle",
       "name": "Mercedes-Benz GLE",
       "brand": "Mercedes-Benz",
@@ -873,7 +834,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-012",
+      "ref": "KA-012",
       "slug": "audi-q7",
       "name": "Audi Q7",
       "brand": "Audi",
@@ -882,7 +843,6 @@
       "bodyType": "SUV",
       "seats": 7,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 30000,
@@ -893,7 +853,7 @@
         "https://luxurycarhire.co.ke/images/audi-q7-rear.jpg"
       ],
       "summary": "A broad-shouldered seven-seat Audi that brings the whole party along in comfort.",
-      "description": "The Audi Q7 solves a familiar problem with style: how to bring everyone and still arrive looking composed. Three rows of seats sit inside a cabin of crisp German design, and the ride stays calm however full the car may be.\n\nUse it for the family gathering, the visiting delegation or the bridal party's second car. Drive yourself, or let a chauffeur manage the road while the conversation carries on behind.",
+      "description": "The Audi Q7 solves a familiar problem with style: how to bring everyone and still arrive looking composed. Three rows of seats sit inside a cabin of crisp German design, and the ride stays calm however full the car may be.\n\nUse it for the family gathering, the visiting delegation or the bridal party's second car. Your chauffeur manages the road while the conversation carries on behind.",
       "features": [
         "Leather Upholstery",
         "Panoramic Sunroof",
@@ -915,7 +875,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-013",
+      "ref": "KA-013",
       "slug": "bmw-x5",
       "name": "BMW X5",
       "brand": "BMW",
@@ -924,7 +884,6 @@
       "bodyType": "SUV",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 30000,
@@ -935,7 +894,7 @@
         "https://luxurycarhire.co.ke/images/bmw-x5-rear.jpg"
       ],
       "summary": "A poised, athletic luxury SUV that makes every journey feel well spent.",
-      "description": "The BMW X5 has the rare gift of feeling both substantial and light on its feet. Sit up high behind that familiar grille, and the road opens up with a clarity that makes driving a pleasure again.\n\nWhether you take the keys yourself or sit behind a chauffeur, the glass roof and well-appointed cabin keep the mood bright. It is a strong presence at a meeting, an event or a getaway from the city.",
+      "description": "The BMW X5 has the rare gift of feeling both substantial and light on its feet. Sit up high behind that familiar grille, and the road opens up with a clarity that makes driving a pleasure again.\n\nSit back behind your chauffeur, and the glass roof and well-appointed cabin keep the mood bright. It is a strong presence at a meeting, an event or a getaway from the city.",
       "features": [
         "Leather Upholstery",
         "Ambient Lighting",
@@ -956,7 +915,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-018",
+      "ref": "KA-018",
       "slug": "land-rover-discovery",
       "name": "Land Rover Discovery",
       "brand": "Land Rover",
@@ -996,7 +955,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-011",
+      "ref": "KA-011",
       "slug": "lexus-rx",
       "name": "Lexus RX",
       "brand": "Lexus",
@@ -1005,7 +964,6 @@
       "bodyType": "SUV",
       "seats": 5,
       "driveOptions": [
-        "self-drive",
         "chauffeur"
       ],
       "dailyRateKes": 30000,
@@ -1016,7 +974,7 @@
         "https://luxurycarhire.co.ke/images/lexus-rx-rear.jpg"
       ],
       "summary": "A serene Japanese luxury crossover, with a beautifully hushed cabin and warm craftsmanship.",
-      "description": "Few cars do quiet as convincingly as the Lexus RX. Doors close with a soft thud, the road noise fades, and you are left in a cabin of supple leather and careful detail. It is luxury without any need to raise its voice.\n\nIt makes an elegant choice for airport collections and family occasions, and it is just as agreeable for a long afternoon behind the wheel. Book it as a self-drive, or with a chauffeur for complete ease.",
+      "description": "Few cars do quiet as convincingly as the Lexus RX. Doors close with a soft thud, the road noise fades, and you are left in a cabin of supple leather and careful detail. It is luxury without any need to raise its voice.\n\nIt makes an elegant choice for airport collections and family occasions, and it is just as agreeable for a long afternoon on the road. Book it with a chauffeur for complete ease.",
       "features": [
         "Leather Upholstery",
         "Panoramic Sunroof",
@@ -1037,7 +995,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-025",
+      "ref": "KA-025",
       "slug": "range-rover-vogue",
       "name": "Range Rover Vogue",
       "brand": "Land Rover",
@@ -1078,7 +1036,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-020",
+      "ref": "KA-020",
       "slug": "toyota-land-cruiser-prado",
       "name": "Toyota Land Cruiser Prado",
       "brand": "Toyota",
@@ -1118,7 +1076,7 @@
       "contentStatus": "sample"
     },
     {
-      "ref": "IM-019",
+      "ref": "KA-019",
       "slug": "nissan-patrol",
       "name": "Nissan Patrol",
       "brand": "Nissan",

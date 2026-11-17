@@ -23,15 +23,15 @@ export interface BookingInitial {
   purpose?: string;
 }
 
-const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur" };
+const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur-driven" };
 
 export function BookingForm({ cars, initial = {} }: { cars: BookableCar[]; initial?: BookingInitial }) {
   const { status, errors, submit, company, setCompany } = useRequestForm("booking");
   const [slug, setSlug] = useState(cars.some((c) => c.slug === initial.car) ? (initial.car as string) : "");
-  const [requested, setRequested] = useState<DriveOption>(initial.service === "self-drive" ? "self-drive" : "chauffeur");
+  const [requested, setRequested] = useState<DriveOption>("chauffeur");
   const [from, setFrom] = useState(initial.from ?? "");
   const [to, setTo] = useState(initial.to ?? "");
-  const [pickup, setPickup] = useState(["office", "deliver", "airport"].includes(initial.pickup ?? "") ? (initial.pickup as string) : "office");
+  const [pickup, setPickup] = useState(["area", "airport"].includes(initial.pickup ?? "") ? (initial.pickup as string) : "area");
   const [area, setArea] = useState(initial.area ?? "");
   const [purpose, setPurpose] = useState<string>(PURPOSES.includes(initial.purpose as (typeof PURPOSES)[number]) ? (initial.purpose as string) : "");
   const [passengers, setPassengers] = useState("");
@@ -42,7 +42,7 @@ export function BookingForm({ cars, initial = {} }: { cars: BookableCar[]; initi
   const [consent, setConsent] = useState(false);
 
   const car = cars.find((c) => c.slug === slug);
-  const options: DriveOption[] = car ? car.driveOptions : ["self-drive", "chauffeur"];
+  const options: DriveOption[] = car ? car.driveOptions : ["chauffeur"];
   // The chosen car decides what's on offer; fall back to the option it actually has.
   const service = options.includes(requested) ? requested : options[0];
 
@@ -69,30 +69,36 @@ export function BookingForm({ cars, initial = {} }: { cars: BookableCar[]; initi
             </select>
           )}
         </Field>
-        <Field label="Service" required error={errors.service}>
-          {(p) => (
-            <select {...p} className="input" value={service} onChange={(e) => setRequested(e.target.value as DriveOption)}>
-              {options.map((o) => (
-                <option key={o} value={o}>
-                  {LABELS[o]}
-                </option>
-              ))}
-            </select>
-          )}
-        </Field>
+        {options.length > 1 ? (
+          <Field label="Service" required error={errors.service}>
+            {(p) => (
+              <select {...p} className="input" value={service} onChange={(e) => setRequested(e.target.value as DriveOption)}>
+                {options.map((o) => (
+                  <option key={o} value={o}>
+                    {LABELS[o]}
+                  </option>
+                ))}
+              </select>
+            )}
+          </Field>
+        ) : (
+          <div>
+            <p className="label">Service</p>
+            <p className="flex min-h-12 items-center font-normal text-ink">{LABELS[service]}, with a professional driver</p>
+          </div>
+        )}
         <DateTimeField label="Pick-up date and time" required value={from} onChange={setFrom} error={errors.from} />
-        <DateTimeField label="Return date and time" required value={to} onChange={setTo} min={from || undefined} error={errors.to} />
+        <DateTimeField label="Until (date and time)" required value={to} onChange={setTo} min={from || undefined} error={errors.to} />
         <Field label="Pick-up" required error={errors.pickup}>
           {(p) => (
             <select {...p} className="input" value={pickup} onChange={(e) => setPickup(e.target.value)}>
-              <option value="office">{brand.copy.officeOption}</option>
-              <option value="deliver">{brand.copy.deliverOption}</option>
+              <option value="area">{brand.copy.pickupOption}</option>
               <option value="airport">{brand.copy.airportOption}</option>
             </select>
           )}
         </Field>
-        {pickup === "deliver" && (
-          <Field label="Delivery area" required error={errors.area}>
+        {pickup === "area" && (
+          <Field label="Pick-up area" required error={errors.area}>
             {(p) => <input {...p} className="input" maxLength={120} value={area} onChange={(e) => setArea(e.target.value)} />}
           </Field>
         )}

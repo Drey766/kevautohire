@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { brand } from "@/config/brand";
 
-// The 1200×630 share image made by scripts/prepare-assets.mjs. Set here because a page-level
+// The 1200×630 share image made by rebrand/scripts/logo-prep.mjs. Set here because a page-level
 // openGraph block replaces the inherited one, image included.
 const SHARE_IMAGE = { url: "/brand/og-image.jpg", width: 1200, height: 630, alt: brand.fullName };
 

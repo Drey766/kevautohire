@@ -1,0 +1,955 @@
+
+Old-brand terms in 111 files:
+  src\app\about\page.tsx:31  [gold]  <Ribbon className="mt-7 w-56" tone="gold" />
+  src\app\about\page.tsx:34  [prado-wedding-convoy]  <SmartImage src="/fleet/im-001/prado-wedding-convoy.jpg" alt={brand.copy.photoAlt} sizes="(min-width: 1024px) 
+  src\app\about\page.tsx:43  [purple]  <p className="display mt-4 text-[1.75rem] leading-snug text-purple">{a.mission}</p>
+  src\app\about\page.tsx:47  [purple]  <p className="display mt-4 text-[1.75rem] leading-snug text-purple">{a.vision}</p>
+  src\app\about\page.tsx:57  [gold]  <div key={v.name} className="border-t border-gold pt-5">
+  src\app\api\booking\route.ts:64  [wedding glam]  details = [line("Wedding date", topic), line("Venue or area", v.venue), line("Number of cars", v.cars), line("
+  src\app\api\booking\route.ts:127  [Self-drive]  if (!car.driveOptions.includes(values.service as "self-drive" | "chauffeur")) return Response.json({ ok: false
+  src\app\book\page.tsx:6  [gold]  import { GoldRingLoader } from "@/components/brand/GoldRing";
+  src\app\book\page.tsx:15  [Self-drive]  description: "Request a self-drive car, a chauffeur, an airport transfer or wedding cars. We confirm availabil
+  src\app\book\page.tsx:30  [gold]  <GoldRingLoader />
+  src\app\book\page.tsx:44  [lavender]  <a href={p.href} className="tabular inline-flex min-h-11 items-center gap-2.5 text-white hover:text-lavender">
+  src\app\book\page.tsx:45  [gold]  <Phone size={16} strokeWidth={1.5} className="text-gold" aria-hidden="true" />
+  src\app\book\page.tsx:51  [gold]  <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-gold mt-4 w-full">
+  src\app\contact\page.tsx:7  [gold]  import { GoldRing, GoldRingLoader } from "@/components/brand/GoldRing";
+  src\app\contact\page.tsx:17  [24/7]  description: `Call or WhatsApp us, 24/7. Find us at ${brand.seo.openingNote}.`,
+  src\app\contact\page.tsx:23  [purple]  <GoldRing size={48} className="text-purple">
+  src\app\contact\page.tsx:23  [gold]  <GoldRing size={48} className="text-purple">
+  src\app\contact\page.tsx:25  [gold]  </GoldRing>
+  src\app\contact\page.tsx:81  [gold]  <Suspense fallback={<GoldRingLoader />}>
+  src\app\fleet\page.tsx:13  [Self-drive]  description: "Browse luxury sedans, SUVs and 4x4s by class, brand and rate, with self-drive or chauffeur optio
+  src\app\fleet\[slug]\page.tsx:84  [purple]  <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-purple" aria-hidden="true" />
+  src\app\globals.css:6  [purple]  --color-purple: var(--brand-purple);
+  src\app\globals.css:7  [purple]  --color-purple-deep: var(--brand-purple-deep);
+  src\app\globals.css:8  [aubergine]  --color-aubergine: var(--brand-aubergine);
+  src\app\globals.css:9  [aubergine]  --color-aubergine-raised: var(--brand-aubergine-raised);
+  src\app\globals.css:10  [lavender]  --color-lavender: var(--brand-lavender);
+  src\app\globals.css:11  [lavender]  --color-mist: var(--brand-lavender-mist);
+  src\app\globals.css:16  [gold]  --color-gold: var(--brand-gold);
+  src\app\globals.css:17  [gold]  --color-gold-from: var(--brand-gold-from);
+  src\app\globals.css:18  [gold]  --color-gold-to: var(--brand-gold-to);
+  src\app\globals.css:48  [purple]  --focus: var(--brand-purple);
+  src\app\globals.css:49  [purple]  --shadow-tint: color-mix(in srgb, var(--brand-purple) 20%, transparent);
+  src\app\globals.css:55  [aubergine]  background: var(--brand-aubergine);
+  src\app\globals.css:103  [aubergine]  background: color-mix(in srgb, var(--brand-aubergine) 72%, transparent);
+  src\app\globals.css:109  [aubergine]  /* Night: anything on aubergine. Sets the focus colour and text defaults for its subtree. */
+  src\app\globals.css:111  [lavender]  --focus: var(--brand-lavender);
+  src\app\globals.css:112  [aubergine]  background-color: var(--brand-aubergine);
+  src\app\globals.css:113  [lavender]  color: var(--brand-lavender);
+  src\app\globals.css:121  [lavender]  --focus: var(--brand-lavender);
+  src\app\globals.css:138  [lavender]  .section-mist { background-color: var(--brand-lavender-mist); }
+  src\app\globals.css:148  [purple]  color: var(--brand-purple);
+  src\app\globals.css:151  [gold]  color: var(--brand-gold);
+  src\app\globals.css:185  [purple]  background-color: var(--brand-purple);
+  src\app\globals.css:189  [purple]  background-color: var(--brand-purple-deep);
+  src\app\globals.css:192  [gold]  .btn-gold {
+  src\app\globals.css:193  [gold]  background-color: var(--brand-gold);
+  src\app\globals.css:194  [aubergine]  color: var(--brand-aubergine);
+  src\app\globals.css:196  [gold]  .btn-gold:hover {
+  src\app\globals.css:197  [gold]  background-color: var(--brand-gold-to);
+  src\app\globals.css:200  [purple]  border-color: var(--brand-purple);
+  src\app\globals.css:201  [purple]  color: var(--brand-purple);
+  src\app\globals.css:205  [purple]  background-color: var(--brand-purple);
+  src\app\globals.css:209  [lavender]  border-color: color-mix(in srgb, var(--brand-lavender) 60%, transparent);
+  src\app\globals.css:213  [lavender]  background-color: color-mix(in srgb, var(--brand-lavender) 16%, transparent);
+  src\app\globals.css:214  [lavender]  border-color: var(--brand-lavender);
+  src\app\globals.css:222  [purple]  color: var(--brand-purple);
+  src\app\globals.css:225  [purple]  text-decoration-color: color-mix(in srgb, var(--brand-purple) 35%, transparent);
+  src\app\globals.css:233  [lavender]  color: var(--brand-lavender);
+  src\app\globals.css:234  [lavender]  text-decoration-color: color-mix(in srgb, var(--brand-lavender) 45%, transparent);
+  src\app\globals.css:237  [gold]  /* Gold ring: the logo's emblem as a frame */
+  src\app\globals.css:238  [gold]  .gold-ring {
+  src\app\globals.css:244  [gold]  border: 1px solid var(--brand-gold);
+  src\app\globals.css:247  [gold]  .gold-ring::after {
+  src\app\globals.css:252  [gold]  border: 1px solid color-mix(in srgb, var(--brand-gold) 35%, transparent);
+  src\app\globals.css:277  [lavender]  background-color: var(--brand-lavender-mist);
+  src\app\globals.css:294  [aubergine]  background-color: color-mix(in srgb, var(--brand-aubergine) 60%, transparent);
+  src\app\globals.css:297  [lavender]  border: 1px solid color-mix(in srgb, var(--brand-lavender) 24%, transparent);
+  src\app\globals.css:316  [lavender]  color: var(--brand-lavender);
+  src\app\globals.css:345  [purple]  border-color: var(--brand-purple-deep);
+  src\app\globals.css:350  [lavender]  border-color: color-mix(in srgb, var(--brand-lavender) 42%, transparent);
+  src\app\globals.css:355  [lavender]  color: var(--brand-lavender);
+  src\app\globals.css:358  [aubergine]  background-color: var(--brand-aubergine-raised);
+  src\app\globals.css:365  [purple]  color: var(--brand-purple-deep);
+  src\app\globals.css:383  [lavender]  background-color: var(--brand-lavender);
+  src\app\globals.css:384  [aubergine]  color: var(--brand-aubergine);
+  src\app\globals.css:387  [aubergine]  background-color: var(--brand-aubergine);
+  src\app\globals.css:388  [gold]  color: var(--brand-gold);
+  src\app\globals.css:389  [gold]  border: 1px solid var(--brand-gold);
+  src\app\globals.css:393  [purple]  color: var(--brand-purple-deep);
+  src\app\globals.css:394  [purple]  border: 1px dashed var(--brand-purple);
+  src\app\globals.css:403  [lavender]  background-color: var(--brand-lavender-mist);
+  src\app\globals.css:404  [purple]  color: var(--brand-purple-deep);
+  src\app\globals.css:422  [purple]  color: var(--brand-purple);
+  src\app\globals.css:430  [purple]  background-color: var(--brand-purple);
+  src\app\globals.css:436  [purple]  color: var(--brand-purple);
+  src\app\globals.css:443  [lavender]  color: var(--brand-lavender);
+  src\app\globals.css:452  [gold]  background-color: var(--brand-gold);
+  src\app\globals.css:484  [purple]  color: var(--brand-purple);
+  src\app\globals.css:491  [purple]  color: var(--brand-purple);
+  src\app\globals.css:511  [purple]  color: var(--brand-purple);
+  src\app\globals.css:559  [aubergine]  background-color: var(--brand-aubergine);
+  src\app\globals.css:560  [lavender]  color: var(--brand-lavender);
+  src\app\how-it-works\page.tsx:22  [24/7]  { title: "Keep us posted", text: "If your flight changes, contact us. Support is available 24/7." },
+  src\app\how-it-works\page.tsx:26  [Self-drive]  const selfDrive = requirements.find((r) => r.id === "self-drive");
+  src\app\how-it-works\page.tsx:42  [Self-drive]  <h2 className="h-section">Self-drive or chauffeur</h2>
+  src\app\how-it-works\page.tsx:45  [Self-drive]  <h3 className="text-[1.75rem]">Self-drive</h3>
+  src\app\how-it-works\page.tsx:46  [Self-drive]  <p className="mt-3">You take the wheel and set your own schedule. Choose a car marked for self-drive, then col
+  src\app\how-it-works\page.tsx:47  [Self-drive]  <Link href="/services/self-drive" className="link mt-5 inline-flex min-h-11 items-center">
+  src\app\how-it-works\page.tsx:48  [Self-drive]  About self-drive hire
+  src\app\how-it-works\page.tsx:63  [Self-drive]  <p className="mt-3">For self-drive, please bring the following. Requirements are confirmed when you book.</p>
+  src\app\how-it-works\page.tsx:83  [gold]  <li key={s.title} className="border-l border-gold/60 pl-4">
+  src\app\layout.tsx:24  [aubergine]  export const viewport: Viewport = { themeColor: brand.colors.aubergine };
+  src\app\not-found.tsx:18  [gold]  <Link href="/" className="btn btn-gold">
+  src\app\requirements\page.tsx:14  [Self-drive]  description: "What you need to book self-drive, chauffeur, airport and wedding cars, and answers to common que
+  src\app\requirements\page.tsx:35  [purple]  <Check size={18} strokeWidth={1.5} className="mt-1 flex-none text-purple" aria-hidden="true" />
+  src\app\services\page.tsx:6  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\app\services\page.tsx:15  [Nairobi CBD]  description: "Airport transfers, chauffeur services, self-drive hire, weddings, VIP events and executive trans
+  src\app\services\page.tsx:15  [CBD]  description: "Airport transfers, chauffeur services, self-drive hire, weddings, VIP events and executive trans
+  src\app\services\page.tsx:15  [Self-drive]  description: "Airport transfers, chauffeur services, self-drive hire, weddings, VIP events and executive trans
+  src\app\services\page.tsx:18  [Self-drive]  const ICONS: Record<string, LucideIcon> = { "airport-transfers": Plane, "chauffeur-services": UserRound, "self
+  src\app\services\page.tsx:33  [purple]  <GoldRing size={60} className="text-purple">
+  src\app\services\page.tsx:33  [gold]  <GoldRing size={60} className="text-purple">
+  src\app\services\page.tsx:35  [gold]  </GoldRing>
+  src\app\services\page.tsx:36  [purple]  <span className="display text-[1.75rem] leading-tight text-ink transition-colors group-hover:text-purple lg:te
+  src\app\services\page.tsx:41  [purple]  <ArrowUpRight size={24} strokeWidth={1.25} aria-hidden="true" className="hidden justify-self-end text-purple m
+  src\app\services\[slug]\page.tsx:8  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\app\services\[slug]\page.tsx:47  [aubergine]  <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-t from-aubergine via-aubergine/70 to-au
+  src\app\services\[slug]\page.tsx:56  [gold]  <a href="#request" className="btn btn-gold">
+  src\app\services\[slug]\page.tsx:67  [purple]  {service.quote && <blockquote className="display text-[clamp(1.625rem,1.2rem+1.5vw,2.5rem)] leading-tight text
+  src\app\services\[slug]\page.tsx:68  [gold]  {isWedding && <Ribbon className="mt-6 w-56" tone="gold" />}
+  src\app\services\[slug]\page.tsx:89  [purple]  <Link href={`/fleet?class=${c}`} className="flex min-h-14 items-center justify-between gap-4 py-2 font-normal 
+  src\app\services\[slug]\page.tsx:91  [purple]  {from !== null && <span className="tabular text-sm text-purple">from {formatKes(from)}/day</span>}
+  src\app\services\[slug]\page.tsx:110  [gold]  <GoldRing size={52} className="display text-lg text-gold">
+  src\app\services\[slug]\page.tsx:112  [gold]  </GoldRing>
+  src\components\blog\BlogCard.tsx:20  [purple]  <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-purple">
+  src\components\blog\BlogCard.tsx:25  [purple]  <Link href={`/blog/${post.slug}`} className="hover:text-purple">
+  src\components\brand\ArrivalLine.tsx:19  [gold]  <div ref={ref} className="draw draw-y h-full w-px mx-auto" style={{ backgroundImage: "repeating-linear-gradien
+  src\components\brand\ArrivalLine.tsx:25  [gold]  <div className={cn("pointer-events-none relative text-gold", className)} aria-hidden="true">
+  src\components\brand\Glow.tsx:4  [lavender]  hero: "radial-gradient(60% 70% at 78% 30%, color-mix(in srgb, var(--brand-purple) 55%, transparent) 0%, transp
+  src\components\brand\Glow.tsx:4  [purple]  hero: "radial-gradient(60% 70% at 78% 30%, color-mix(in srgb, var(--brand-purple) 55%, transparent) 0%, transp
+  src\components\brand\Glow.tsx:5  [lavender]  center: "radial-gradient(55% 70% at 50% 58%, color-mix(in srgb, var(--brand-purple) 60%, transparent) 0%, tran
+  src\components\brand\Glow.tsx:5  [purple]  center: "radial-gradient(55% 70% at 50% 58%, color-mix(in srgb, var(--brand-purple) 60%, transparent) 0%, tran
+  src\components\brand\Glow.tsx:6  [purple]  left: "radial-gradient(50% 80% at 8% 20%, color-mix(in srgb, var(--brand-purple) 50%, transparent) 0%, transpa
+  src\components\brand\Glow.tsx:7  [purple]  right: "radial-gradient(50% 80% at 92% 80%, color-mix(in srgb, var(--brand-purple) 50%, transparent) 0%, trans
+  src\components\brand\Glow.tsx:10  [lavender]  /** Lavender-and-purple night-sky light. Sits behind content inside a `.night` section. */
+  src\components\brand\Glow.tsx:10  [purple]  /** Lavender-and-purple night-sky light. Sits behind content inside a `.night` section. */
+  src\components\brand\GoldRing.tsx:4  [gold]  interface GoldRingProps {
+  src\components\brand\GoldRing.tsx:11  [gold]  export function GoldRing({ size = 56, className, children }: GoldRingProps) {
+  src\components\brand\GoldRing.tsx:13  [gold]  <span className={cn("gold-ring", className)} style={{ width: size, height: size }}>
+  src\components\brand\GoldRing.tsx:20  [gold]  export function GoldRingLoader({ size = 28, label = "Loading" }: { size?: number; label?: string }) {
+  src\components\brand\GoldRing.tsx:22  [gold]  <svg width={size} height={size} viewBox="0 0 32 32" role="img" aria-label={label} className="animate-spin-slow
+  src\components\brand\logo-paths.ts:1  [iMtalii]  // Traced from assets/imtalii-logo.svg. Replace when the official vector arrives.
+  src\components\brand\logo-paths.ts:1  [Imtalii]  // Traced from assets/imtalii-logo.svg. Replace when the official vector arrives.
+  src\components\brand\Logo.tsx:21  [iMtalii]  const gradientId = `imtalii-gold-${useId().replace(/[^a-zA-Z0-9]/g, "")}`;
+  src\components\brand\Logo.tsx:21  [Imtalii]  const gradientId = `imtalii-gold-${useId().replace(/[^a-zA-Z0-9]/g, "")}`;
+  src\components\brand\Logo.tsx:21  [gold]  const gradientId = `imtalii-gold-${useId().replace(/[^a-zA-Z0-9]/g, "")}`;
+  src\components\brand\Logo.tsx:37  [gold]  <stop offset="0" stopColor="var(--logo-gold-from)" />
+  src\components\brand\Logo.tsx:38  [gold]  <stop offset="1" stopColor="var(--logo-gold-to)" />
+  src\components\brand\Ribbon.tsx:4  [lavender]  export function Ribbon({ className, tone = "lavender" }: { className?: string; tone?: "lavender" | "gold" }) {
+  src\components\brand\Ribbon.tsx:4  [gold]  export function Ribbon({ className, tone = "lavender" }: { className?: string; tone?: "lavender" | "gold" }) {
+  src\components\brand\Ribbon.tsx:6  [lavender]  <svg viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true" className={cn("block w-full h-10", to
+  src\components\brand\Ribbon.tsx:6  [gold]  <svg viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true" className={cn("block w-full h-10", to
+  src\components\compare\CompareTable.tsx:13  [Self-drive]  const driveText = (c: Car) => c.driveOptions.map((d) => (d === "self-drive" ? "Self-drive" : "Chauffeur")).joi
+  src\components\compare\CompareTable.tsx:93  [purple]  <Link href={`/fleet/${c.slug}`} className="display inline-flex min-h-11 items-center text-xl leading-tight tex
+  src\components\compare\CompareTable.tsx:96  [purple]  <button type="button" onClick={() => remove(c.slug)} aria-label={`Remove ${c.name}`} className="flex h-11 w-11
+  src\components\compare\CompareTable.tsx:127  [purple]  {yes ? <Check size={18} strokeWidth={1.75} className="text-purple" aria-label="Yes" /> : <Minus size={18} stro
+  src\components\faq\FaqList.tsx:10  [purple]  <ChevronDown size={20} strokeWidth={1.5} className="flex-none text-purple transition-transform group-open:rota
+  src\components\fleet\BookingCard.tsx:14  [Self-drive]  const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur" };
+  src\components\fleet\BookingCard.tsx:51  [purple]  <p className="mt-1 text-sm text-purple">{LABELS[service]} only</p>
+  src\components\fleet\CarCard.tsx:32  [purple]  <Link href={href} className="hover:text-purple">
+  src\components\fleet\CarCard.tsx:38  [purple]  <p className="tabular font-medium text-purple">{formatRate(car)}</p>
+  src\components\fleet\CarGallery.tsx:17  [aubergine]  <span className="absolute right-3 bottom-3 flex h-11 w-11 items-center justify-center rounded-full bg-aubergin
+  src\components\fleet\CarGallery.tsx:25  [aubergine]  <button type="button" onClick={() => setIndex(i)} aria-label={`Show photo ${i + 1} of ${name}`} aria-pressed={
+  src\components\fleet\CarGallery.tsx:25  [gold]  <button type="button" onClick={() => setIndex(i)} aria-label={`Show photo ${i + 1} of ${name}`} aria-pressed={
+  src\components\fleet\CompareToggle.tsx:19  [lavender]  className={cn("inline-flex min-h-11 items-center gap-1 text-sm font-normal transition-colors disabled:opacity-
+  src\components\fleet\CompareToggle.tsx:19  [purple]  className={cn("inline-flex min-h-11 items-center gap-1 text-sm font-normal transition-colors disabled:opacity-
+  src\components\fleet\CompareTray.tsx:13  [aubergine]  <div role="region" aria-label="Compare tray" className="night-scope fixed inset-x-3 bottom-[calc(68px+env(safe
+  src\components\fleet\CompareTray.tsx:13  [lavender]  <div role="region" aria-label="Compare tray" className="night-scope fixed inset-x-3 bottom-[calc(68px+env(safe
+  src\components\fleet\CompareTray.tsx:17  [aubergine]  <li key={c.slug} className="flex flex-none items-center gap-1 rounded-full bg-aubergine-raised py-0.5 pr-0.5 p
+  src\components\fleet\CompareTray.tsx:19  [lavender]  <button type="button" onClick={() => remove(c.slug)} aria-label={`Remove ${c.name} from compare`} className="f
+  src\components\fleet\CompareTray.tsx:25  [lavender]  <button type="button" onClick={clear} className="hidden min-h-11 px-2 text-sm text-lavender hover:text-white s
+  src\components\fleet\CompareTray.tsx:28  [gold]  <Link href="/compare" className="btn btn-gold min-h-11 flex-none px-5">
+  src\components\fleet\EstimatePanel.tsx:22  [purple]  <p className="tabular text-2xl font-medium text-purple">{formatKes(estimate.total)}</p>
+  src\components\fleet\FilterPanel.tsx:20  [purple]  <input type={type} name={name} checked={checked} onChange={onChange} className="h-[18px] w-[18px] flex-none ac
+  src\components\fleet\FilterPanel.tsx:93  [Self-drive]  { value: "self-drive", label: "Self-drive available" },
+  src\components\fleet\Lightbox.tsx:24  [aubergine]  const arrow = "flex h-12 w-12 items-center justify-center rounded-full bg-aubergine-raised text-white";
+  src\components\fleet\Lightbox.tsx:27  [aubergine]  <Sheet open={open} onClose={onClose} title={`${name} photos`} hideTitle tone="night" variant="full" className=
+  src\components\fleet\RateBadge.tsx:3  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\fleet\RateBadge.tsx:7  [gold]  /** The gold-ring rate badge. Sits on dark backgrounds. */
+  src\components\fleet\RateBadge.tsx:12  [gold]  <GoldRing size={60} className="text-gold">
+  src\components\fleet\RateBadge.tsx:14  [gold]  </GoldRing>
+  src\components\fleet\SpecRow.tsx:9  [Self-drive]  car.driveOptions.includes("self-drive") ? { icon: KeyRound, text: "Self-drive" } : null,
+  src\components\forms\BookClient.tsx:11  [Self-drive]  { id: "self-drive", label: "Self-Drive" },
+  src\components\forms\BookClient.tsx:22  [Self-drive]  const initialTab: TabId = TABS.some((t) => t.id === requested) ? (requested as TabId) : (car?.driveOptions[0] 
+  src\components\forms\BookClient.tsx:31  [Self-drive]  {(tab === "self-drive" || tab === "chauffeur") && <BookingForm key={tab} cars={cars} initial={{ car: get("car"
+  src\components\forms\BookingForm.tsx:26  [Self-drive]  const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur" };
+  src\components\forms\BookingForm.tsx:31  [Self-drive]  const [requested, setRequested] = useState<DriveOption>(initial.service === "self-drive" ? "self-drive" : "cha
+  src\components\forms\BookingForm.tsx:45  [Self-drive]  const options: DriveOption[] = car ? car.driveOptions : ["self-drive", "chauffeur"];
+  src\components\forms\FormParts.tsx:7  [gold]  import { GoldRingLoader } from "@/components/brand/GoldRing";
+  src\components\forms\FormParts.tsx:28  [purple]  <input id={id} type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} aria-invalid={er
+  src\components\forms\FormParts.tsx:50  [gold]  {sending ? <GoldRingLoader size={20} label="Sending" /> : null}
+  src\components\forms\FormParts.tsx:68  [purple]  <CheckCircle2 size={36} strokeWidth={1.25} className="mx-auto text-purple" aria-hidden="true" />
+  src\components\forms\WeddingForm.tsx:19  [Prado TX]  const [preferred, setPreferred] = useState("Land Cruiser Prado TX");
+  src\components\forms\WeddingForm.tsx:19  [Land Cruiser Prado]  const [preferred, setPreferred] = useState("Land Cruiser Prado TX");
+  src\components\forms\WeddingForm.tsx:54  [wedding glam]  <legend className="label">Wedding glam decoration</legend>
+  src\components\forms\WeddingForm.tsx:61  [purple]  <input type="radio" name="glam" checked={glam === o.value} onChange={() => setGlam(o.value)} className="h-[18p
+  src\components\home\BookingConsole.tsx:12  [Self-drive]  { id: "self-drive", label: "Self-Drive" },
+  src\components\home\BookingConsole.tsx:20  [Self-drive]  const [tab, setTab] = useState<TabId>("self-drive");
+  src\components\home\BookingConsole.tsx:56  [lavender]  <Tabs tabs={TABS} value={tab} onChange={changeTab} idBase="console" label="Choose how you'd like to ride" clas
+  src\components\home\BookingConsole.tsx:85  [gold]  <button type="submit" className="btn btn-gold w-full lg:mt-[1.625rem] lg:w-auto">
+  src\components\home\BookingConsole.tsx:105  [gold]  <button type="submit" className="btn btn-gold w-full lg:mt-[1.625rem] lg:w-auto">
+  src\components\home\ClassTiles.tsx:28  [purple]  <h3 className="mt-4 text-[1.3125rem] group-hover:text-purple">{brand.classes[c].label}</h3>
+  src\components\home\ClassTiles.tsx:30  [purple]  <p className="tabular mt-2 text-sm font-normal text-purple">
+  src\components\home\FinalCta.tsx:15  [gold]  <Link href="/book" className="btn btn-gold">
+  src\components\home\FinalCta.tsx:26  [lavender]  <a href={p.href} className="tabular inline-flex min-h-11 items-center gap-2 text-white hover:text-lavender">
+  src\components\home\FinalCta.tsx:27  [gold]  <Phone size={16} strokeWidth={1.5} aria-hidden="true" className="text-gold" />
+  src\components\home\Hero.tsx:6  [prado-wedding-convoy]  const HERO_IMAGE = "/fleet/im-001/prado-wedding-convoy.jpg";
+  src\components\home\Hero.tsx:17  [aubergine]  <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[68vw] min-h-[320px] bg-linear-to-b from-a
+  src\components\home\Hero.tsx:18  [aubergine]  <div aria-hidden="true" className="absolute inset-y-0 right-0 -z-10 hidden w-[74%] bg-linear-to-r from-aubergi
+  src\components\home\HowItWorksPreview.tsx:2  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\home\HowItWorksPreview.tsx:18  [gold]  <GoldRing size={52} className="display text-lg text-ink">
+  src\components\home\HowItWorksPreview.tsx:20  [gold]  </GoldRing>
+  src\components\home\LuxuryMeetsBusiness.tsx:31  [gold]  <li key={stop} className="display border-l border-gold/60 pl-4 text-[1.5rem] leading-tight text-white">
+  src\components\home\Occasions.tsx:9  [prado-wedding-convoy]  const PHOTO = "/fleet/im-001/prado-wedding-convoy.jpg";
+  src\components\home\Occasions.tsx:26  [gold]  <Ribbon className="mt-5 w-48" tone="gold" />
+  src\components\home\Occasions.tsx:36  [aubergine]  <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-t from-aubergine via-aubergine/55 to-tr
+  src\components\home\Occasions.tsx:47  [Prado TX]  <SmartImage src={PHOTO} alt="A line of dark Land Cruiser Prado TX cars on the road" sizes="(min-width: 1024px)
+  src\components\home\Occasions.tsx:47  [Land Cruiser Prado]  <SmartImage src={PHOTO} alt="A line of dark Land Cruiser Prado TX cars on the road" sizes="(min-width: 1024px)
+  src\components\home\Occasions.tsx:49  [aubergine]  <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-t from-aubergine via-aubergine/65 to-au
+  src\components\home\Occasions.tsx:67  [Self-drive]  <Link href="/services/self-drive" className="group rounded-2xl bg-lavender transition-colors hover:bg-mist lg:
+  src\components\home\Occasions.tsx:67  [lavender]  <Link href="/services/self-drive" className="group rounded-2xl bg-lavender transition-colors hover:bg-mist lg:
+  src\components\home\Occasions.tsx:70  [aubergine]  <div className="text-aubergine lg:col-span-8">
+  src\components\home\PromiseStrip.tsx:3  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\home\PromiseStrip.tsx:12  [lavender]  <ul className="grid grid-cols-2 gap-x-4 gap-y-5 border-t border-lavender/15 py-8 md:grid-cols-4 xl:flex xl:jus
+  src\components\home\PromiseStrip.tsx:17  [gold]  <GoldRing size={46} className="text-gold">
+  src\components\home\PromiseStrip.tsx:19  [gold]  </GoldRing>
+  src\components\home\ServicesTrio.tsx:2  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\home\ServicesTrio.tsx:7  [Self-drive]  const TRIO = ["airport-transfers", "chauffeur-services", "self-drive"];
+  src\components\home\ServicesTrio.tsx:20  [lavender]  <li key={slug} className="border-t border-lavender/20 py-8 first:border-t-0 first:pt-0 md:border-t-0 md:border
+  src\components\home\ServicesTrio.tsx:22  [gold]  <GoldRing size={64} className="display text-[1.375rem] text-gold">
+  src\components\home\ServicesTrio.tsx:24  [gold]  </GoldRing>
+  src\components\home\StandOutBand.tsx:12  [gold]  <p className="display mt-6 text-xl text-gold">{brand.voice.driveAway}</p>
+  src\components\layout\CallSheet.tsx:6  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\layout\CallSheet.tsx:14  [aubergine]  <a href={p.href} className="flex min-h-16 items-center gap-4 rounded-2xl bg-aubergine-raised px-4 py-3 text-lg
+  src\components\layout\CallSheet.tsx:15  [gold]  <GoldRing size={40} className="text-gold">
+  src\components\layout\CallSheet.tsx:17  [gold]  </GoldRing>
+  src\components\layout\Footer.tsx:35  [24/7]  <p className="eyebrow">Reach us, 24/7</p>
+  src\components\layout\Footer.tsx:39  [lavender]  <a href={p.href} className="tabular inline-flex min-h-9 items-center text-white hover:text-lavender">
+  src\components\layout\Footer.tsx:73  [lavender]  <div className="container-site flex flex-col gap-3 border-t border-lavender/15 py-6 text-sm md:flex-row md:ite
+  src\components\layout\MobileActionBar.tsx:10  [lavender]  const item = "flex min-h-[56px] flex-1 flex-col items-center justify-center gap-0.5 text-[0.75rem] font-normal
+  src\components\layout\MobileActionBar.tsx:19  [aubergine]  <nav aria-label="Quick actions" className="night-scope fixed inset-x-0 bottom-0 z-40 border-t border-lavender/
+  src\components\layout\MobileActionBar.tsx:19  [lavender]  <nav aria-label="Quick actions" className="night-scope fixed inset-x-0 bottom-0 z-40 border-t border-lavender/
+  src\components\layout\MobileActionBar.tsx:35  [gold]  <Link className={`${item} ${carSlug ? "flex-[1.6]" : ""} text-gold`} href={carSlug ? `/book?car=${carSlug}` : 
+  src\components\layout\MobileMenu.tsx:20  [lavender]  <li key={item.href} className="border-b border-lavender/15">
+  src\components\layout\MobileMenu.tsx:27  [gold]  <Link href="/book" onClick={onClose} className="btn btn-gold mt-8 w-full">
+  src\components\layout\MobileMenu.tsx:32  [lavender]  <a key={p.href} href={p.href} className="tabular block py-1.5 text-lavender">
+  src\components\layout\Navbar.tsx:26  [lavender]  cn("relative inline-flex min-h-11 items-center px-1 text-[0.9375rem] font-normal transition-colors", scrolled 
+  src\components\layout\Navbar.tsx:26  [purple]  cn("relative inline-flex min-h-11 items-center px-1 text-[0.9375rem] font-normal transition-colors", scrolled 
+  src\components\layout\Navbar.tsx:47  [aubergine]  {slugs.length > 0 && <span className={cn("tabular ml-1.5 inline-flex h-5 min-w-5 items-center justify-center r
+  src\components\layout\Navbar.tsx:47  [purple]  {slugs.length > 0 && <span className={cn("tabular ml-1.5 inline-flex h-5 min-w-5 items-center justify-center r
+  src\components\layout\Navbar.tsx:47  [gold]  {slugs.length > 0 && <span className={cn("tabular ml-1.5 inline-flex h-5 min-w-5 items-center justify-center r
+  src\components\layout\Navbar.tsx:49  [aubergine]  <Link href="/book" className={cn("btn min-h-11 px-5", scrolled ? "btn-primary" : "border-gold text-white hover
+  src\components\layout\Navbar.tsx:49  [gold]  <Link href="/book" className={cn("btn min-h-11 px-5", scrolled ? "btn-primary" : "border-gold text-white hover
+  src\components\layout\WhatsAppPill.tsx:28  [aubergine]  className={cn("night-scope btn fixed right-6 bottom-6 z-30 hidden border-lavender/40 bg-aubergine px-5 text-wh
+  src\components\layout\WhatsAppPill.tsx:28  [lavender]  className={cn("night-scope btn fixed right-6 bottom-6 z-30 hidden border-lavender/40 bg-aubergine px-5 text-wh
+  src\components\layout\WhatsAppPill.tsx:30  [gold]  <MessageCircle size={18} strokeWidth={1.5} className="text-gold" aria-hidden="true" />
+  src\components\services\ServiceForm.tsx:12  [Self-drive]  "self-drive": { service: "self-drive" },
+  src\components\steps\Stepper.tsx:2  [gold]  import { GoldRing } from "@/components/brand/GoldRing";
+  src\components\steps\Stepper.tsx:12  [gold]  <GoldRing size={64} className="display bg-white text-xl text-ink sm:!h-[72px] sm:!w-[72px]">
+  src\components\steps\Stepper.tsx:14  [gold]  </GoldRing>
+  src\components\ui\SmartImage.tsx:17  [aubergine]  /** Fills its positioned parent. Falls back to an aubergine panel with the gold emblem. */
+  src\components\ui\SmartImage.tsx:17  [gold]  /** Fills its positioned parent. Falls back to an aubergine panel with the gold emblem. */
+  src\components\ui\SmartImage.tsx:23  [aubergine]  <div role="img" aria-label={alt} className="absolute inset-0 flex items-center justify-center bg-aubergine">
+  src\components\ui\SmartImage.tsx:24  [gold]  <span className="gold-ring" style={{ width: 84, height: 84 }}>
+  src\config\brand.ts:7  [iMtalii]  name: "iMtalii",
+  src\config\brand.ts:7  [Imtalii]  name: "iMtalii",
+  src\config\brand.ts:8  [iMtalii]  fullName: "iMtalii Car Rentals",
+  src\config\brand.ts:8  [Imtalii]  fullName: "iMtalii Car Rentals",
+  src\config\brand.ts:8  [iMtalii Car Rentals]  fullName: "iMtalii Car Rentals",
+  src\config\brand.ts:10  [iMtalii]  siteUrl: "https://imtalii.vercel.app", // live address: canonical links and link previews
+  src\config\brand.ts:10  [Imtalii]  siteUrl: "https://imtalii.vercel.app", // live address: canonical links and link previews
+  src\config\brand.ts:10  [imtalii.vercel.app]  siteUrl: "https://imtalii.vercel.app", // live address: canonical links and link previews
+  src\config\brand.ts:16  [+254 721 621 888]  { display: "+254 721 621 888", href: "tel:+254721621888", whatsapp: "254721621888" },
+  src\config\brand.ts:16  [254721621888]  { display: "+254 721 621 888", href: "tel:+254721621888", whatsapp: "254721621888" },
+  src\config\brand.ts:17  [0737 963 950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  src\config\brand.ts:17  [+254 737 963 950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  src\config\brand.ts:17  [254737963950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  src\config\brand.ts:19  [254721621888]  whatsappUrl: "https://wa.me/254721621888",
+  src\config\brand.ts:20  [iMtalii]  email: "imtaliiofficial@gmail.com",
+  src\config\brand.ts:20  [Imtalii]  email: "imtaliiofficial@gmail.com",
+  src\config\brand.ts:20  [imtaliiofficial@gmail.com]  email: "imtaliiofficial@gmail.com",
+  src\config\brand.ts:20  [imtaliiofficial]  email: "imtaliiofficial@gmail.com",
+  src\config\brand.ts:21  [Bruce House]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  src\config\brand.ts:21  [Standard Street]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  src\config\brand.ts:21  [Nairobi CBD]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  src\config\brand.ts:21  [CBD]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  src\config\brand.ts:21  [00200]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  src\config\brand.ts:22  [24/7]  hours: "", // only "24/7 support" is confirmed
+  src\config\brand.ts:30  [Unforgettable Moments Deserve Flawless Rides]  unforgettable: "Unforgettable Moments Deserve Flawless Rides",
+  src\config\brand.ts:31  [iMtalii]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  src\config\brand.ts:31  [Imtalii]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  src\config\brand.ts:31  [Arrive with Prestige]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  src\config\brand.ts:32  [Make your grand entrance]  grandEntrance: "Make your grand entrance unforgettable. The journey starts with us.",
+  src\config\brand.ts:33  [Where Luxury Meets Business]  business: "Where Luxury Meets Business.",
+  src\config\brand.ts:34  [iMtalii]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  src\config\brand.ts:34  [Imtalii]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  src\config\brand.ts:34  [Seal every deal]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  src\config\brand.ts:37  [Elegance in Every Arrival]  elegance: "Elegance in Every Arrival",
+  src\config\brand.ts:38  [iMtalii]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  src\config\brand.ts:38  [Imtalii]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  src\config\brand.ts:38  [wedding glam]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  src\config\brand.ts:39  [born to stand out]  standOut: "Why blend in when you were born to stand out?",
+  src\config\brand.ts:42  [Luxury is no longer a dream]  driveAway: "Luxury is no longer a dream. It's a drive away.",
+  src\config\brand.ts:43  [Prado TX]  fleetLine: "Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers.",
+  src\config\brand.ts:43  [Land Cruiser Prado]  fleetLine: "Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers.",
+  src\config\brand.ts:44  [Nairobi CBD]  bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.",
+  src\config\brand.ts:44  [CBD]  bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.",
+  src\config\brand.ts:44  [Self-drive]  bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.",
+  src\config\brand.ts:45  [Drive premium]  trio: ["Book now", "Drive premium", "Arrive iconic"],
+  src\config\brand.ts:45  [Arrive iconic]  trio: ["Book now", "Drive premium", "Arrive iconic"],
+  src\config\brand.ts:46  [Ready for Any Terrain]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  src\config\brand.ts:46  [24/7]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  src\config\brand.ts:46  [Nationwide delivery]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  src\config\brand.ts:48  [Self-drive]  services: ["Airport Transfers", "Chauffeur Services", "Self-Drive"], // confirmed core
+  src\config\brand.ts:68  [Ready for Any Terrain]  "safari-4x4": { label: "Safari & 4x4", line: "Ready for any terrain." },
+  src\config\brand.ts:73  [iMtalii]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Imtalii]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Bruce House]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Standard Street]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Nairobi CBD]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [CBD]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Prado TX]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Land Cruiser Prado]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:73  [Self-drive]  who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfe
+  src\config\brand.ts:88  [Nairobi CBD]  heroEyebrow: "Luxury car rentals · Nairobi CBD",
+  src\config\brand.ts:88  [CBD]  heroEyebrow: "Luxury car rentals · Nairobi CBD",
+  src\config\brand.ts:89  [Arrive with Prestige]  heroHeadline: "Arrive with prestige.",
+  src\config\brand.ts:90  [24/7]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  src\config\brand.ts:90  [Nationwide delivery]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  src\config\brand.ts:90  [Self-drive]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  src\config\brand.ts:95  [iMtalii]  whatsappPrefill: "Hello iMtalii, I'd like to book a ride.",
+  src\config\brand.ts:95  [Imtalii]  whatsappPrefill: "Hello iMtalii, I'd like to book a ride.",
+  src\config\brand.ts:97  [24/7]  formFallback: "We couldn't send your request online just now. Please book on WhatsApp or call us. We're availa
+  src\config\brand.ts:98  [Prado TX]  demoNotice: "Preview site. Except for our Prado TX fleet, cars, photos and rates shown are illustrative sample
+  src\config\brand.ts:100  [iMtalii]  ownFleetTag: "iMtalii Fleet",
+  src\config\brand.ts:100  [Imtalii]  ownFleetTag: "iMtalii Fleet",
+  src\config\brand.ts:104  [iMtalii]  logoAlt: "iMtalii Car Rentals",
+  src\config\brand.ts:104  [Imtalii]  logoAlt: "iMtalii Car Rentals",
+  src\config\brand.ts:104  [iMtalii Car Rentals]  logoAlt: "iMtalii Car Rentals",
+  src\config\brand.ts:105  [iMtalii]  photoAlt: "iMtalii's Land Cruiser Prado TX convoy dressed in wedding ribbons on a lakeside road",
+  src\config\brand.ts:105  [Imtalii]  photoAlt: "iMtalii's Land Cruiser Prado TX convoy dressed in wedding ribbons on a lakeside road",
+  src\config\brand.ts:105  [Prado TX]  photoAlt: "iMtalii's Land Cruiser Prado TX convoy dressed in wedding ribbons on a lakeside road",
+  src\config\brand.ts:105  [Land Cruiser Prado]  photoAlt: "iMtalii's Land Cruiser Prado TX convoy dressed in wedding ribbons on a lakeside road",
+  src\config\brand.ts:106  [24/7]  support247Note: "24/7 support, whenever you need us.",
+  src\config\brand.ts:107  [Nationwide delivery]  deliveryNote: "Nationwide delivery available. Fees and areas are confirmed when you book.",
+  src\config\brand.ts:111  [Bruce House]  officeOption: "Bruce House office",
+  src\config\brand.ts:117  [iMtalii]  estimateNotice: "Indicative estimate. Your final quote, including any delivery or chauffeur arrangements, is c
+  src\config\brand.ts:117  [Imtalii]  estimateNotice: "Indicative estimate. Your final quote, including any delivery or chauffeur arrangements, is c
+  src\config\brand.ts:118  [iMtalii]  estimateSmallPrint: "Part days count as a full day in estimates; final terms confirmed by iMtalii.",
+  src\config\brand.ts:118  [Imtalii]  estimateSmallPrint: "Part days count as a full day in estimates; final terms confirmed by iMtalii.",
+  src\config\brand.ts:121  [iMtalii]  articleNotice: "General information only. Requirements change; check with iMtalii or the relevant authority be
+  src\config\brand.ts:121  [Imtalii]  articleNotice: "General information only. Requirements change; check with iMtalii or the relevant authority be
+  src\config\brand.ts:127  [iMtalii]  titleTemplate: "%s | iMtalii Luxury Car Rentals Nairobi",
+  src\config\brand.ts:127  [Imtalii]  titleTemplate: "%s | iMtalii Luxury Car Rentals Nairobi",
+  src\config\brand.ts:128  [iMtalii]  defaultTitle: "iMtalii Luxury Car Rentals Nairobi",
+  src\config\brand.ts:128  [Imtalii]  defaultTitle: "iMtalii Luxury Car Rentals Nairobi",
+  src\config\brand.ts:129  [Prado TX]  description: "Luxury car rentals in Nairobi: airport transfers, chauffeur services and self-drive, with a Prad
+  src\config\brand.ts:129  [Self-drive]  description: "Luxury car rentals in Nairobi: airport transfers, chauffeur services and self-drive, with a Prad
+  src\config\brand.ts:130  [Bruce House]  openingNote: "Bruce House, Standard Street, Nairobi CBD",
+  src\config\brand.ts:130  [Standard Street]  openingNote: "Bruce House, Standard Street, Nairobi CBD",
+  src\config\brand.ts:130  [Nairobi CBD]  openingNote: "Bruce House, Standard Street, Nairobi CBD",
+  src\config\brand.ts:130  [CBD]  openingNote: "Bruce House, Standard Street, Nairobi CBD",
+  src\config\brand.ts:134  [purple]  purple: "#6A00BC", // brand purple (their Book Now button): primary buttons (white text), links on light
+  src\config\brand.ts:135  [purple]  purpleDeep: "#4E008C", // hover/pressed
+  src\config\brand.ts:136  [aubergine]  aubergine: "#1A0B2E", // deep night sections, footer, hero overlay
+  src\config\brand.ts:137  [aubergine]  aubergineRaised: "#2E1450", // cards/panels on dark
+  src\config\brand.ts:138  [aubergine]  lavender: "#C9B6EC", // text and accents on dark (10:1 on aubergine), soft highlight fills on light
+  src\config\brand.ts:138  [lavender]  lavender: "#C9B6EC", // text and accents on dark (10:1 on aubergine), soft highlight fills on light
+  src\config\brand.ts:139  [lavender]  lavenderMist: "#EEE8F8", // light section background (their post panels)
+  src\config\brand.ts:142  [lavender]  slate: "#5B5468", // body text on light (7.2:1 on white, 6.0:1 on lavenderMist)
+  src\config\brand.ts:144  [gold]  gold: "#E0A84A", // logo gold, solid: rings, hairlines, numerals and small text ON DARK only
+  src\config\brand.ts:145  [gold]  goldFrom: "#D0802F", // logo gradient start
+  src\config\brand.ts:146  [gold]  goldTo: "#F7C35F", // logo gradient end
+  src\data\blog.json:7  [iMtalii]  "content": "<p>A flight is rarely the tiring part of a journey. The tiring part tends to come afterwards: the 
+  src\data\blog.json:7  [Imtalii]  "content": "<p>A flight is rarely the tiring part of a journey. The tiring part tends to come afterwards: the 
+  src\data\blog.json:10  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:10  [Imtalii]  "author_name": "iMtalii",
+  src\data\blog.json:21  [iMtalii]  "content": "<p>Wedding cars tend to arrive on the to-do list somewhere between the flowers and the seating pla
+  src\data\blog.json:21  [Imtalii]  "content": "<p>Wedding cars tend to arrive on the to-do list somewhere between the flowers and the seating pla
+  src\data\blog.json:24  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:24  [Imtalii]  "author_name": "iMtalii",
+  src\data\blog.json:32  [Self-drive]  "slug": "self-drive-or-chauffeur",
+  src\data\blog.json:33  [Self-drive]  "title": "Self-Drive or Chauffeur: Choosing the Right Way to Ride",
+  src\data\blog.json:35  [iMtalii]  "content": "<p>When you rent a good car, you face a pleasant question before any other: would you like to driv
+  src\data\blog.json:35  [Imtalii]  "content": "<p>When you rent a good car, you face a pleasant question before any other: would you like to driv
+  src\data\blog.json:35  [Self-drive]  "content": "<p>When you rent a good car, you face a pleasant question before any other: would you like to driv
+  src\data\blog.json:38  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:38  [Imtalii]  "author_name": "iMtalii",
+  src\data\blog.json:49  [iMtalii]  "content": "<p>A car says something before you do. It sets a tone at the kerb, shapes how you feel when you st
+  src\data\blog.json:49  [Imtalii]  "content": "<p>A car says something before you do. It sets a tone at the kerb, shapes how you feel when you st
+  src\data\blog.json:49  [Prado TX]  "content": "<p>A car says something before you do. It sets a tone at the kerb, shapes how you feel when you st
+  src\data\blog.json:49  [Land Cruiser Prado]  "content": "<p>A car says something before you do. It sets a tone at the kerb, shapes how you feel when you st
+  src\data\blog.json:49  [Ready for Any Terrain]  "content": "<p>A car says something before you do. It sets a tone at the kerb, shapes how you feel when you st
+  src\data\blog.json:52  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:52  [Imtalii]  "author_name": "iMtalii",
+  src\data\blog.json:63  [iMtalii]  "content": "<p>One of the great pleasures of living in Nairobi is how quickly the city can be left behind. Lak
+  src\data\blog.json:63  [Imtalii]  "content": "<p>One of the great pleasures of living in Nairobi is how quickly the city can be left behind. Lak
+  src\data\blog.json:63  [Self-drive]  "content": "<p>One of the great pleasures of living in Nairobi is how quickly the city can be left behind. Lak
+  src\data\blog.json:66  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:66  [Imtalii]  "author_name": "iMtalii",
+  src\data\blog.json:77  [iMtalii]  "content": "<p>Every important guest forms an impression of your organisation long before the first meeting be
+  src\data\blog.json:77  [Imtalii]  "content": "<p>Every important guest forms an impression of your organisation long before the first meeting be
+  src\data\blog.json:77  [Prado TX]  "content": "<p>Every important guest forms an impression of your organisation long before the first meeting be
+  src\data\blog.json:77  [Land Cruiser Prado]  "content": "<p>Every important guest forms an impression of your organisation long before the first meeting be
+  src\data\blog.json:80  [iMtalii]  "author_name": "iMtalii",
+  src\data\blog.json:80  [Imtalii]  "author_name": "iMtalii",
+  src\data\faqs.json:3  [Self-drive]  { "id": "self-or-chauffeur", "q": "What is the difference between self-drive and chauffeur?", "a": "With self-
+  src\data\faqs.json:5  [wedding glam]  { "id": "weddings", "q": "Can you dress the cars for a wedding?", "a": "Yes, wedding glam is available. The de
+  src\data\faqs.json:6  [Nationwide delivery]  { "id": "delivery", "q": "Do you deliver cars outside Nairobi?", "a": "Yes, nationwide delivery is available. 
+  src\data\faqs.json:7  [24/7]  { "id": "support", "q": "Can I reach you at any time?", "a": "Yes. We offer 24/7 support by phone and WhatsApp
+  src\data\faqs.json:11  [Ready for Any Terrain]  { "id": "terrain", "q": "Can I travel upcountry or off-road?", "a": "Our fleet is ready for any terrain, but e
+  src\data\fleet.json:6  [iMtalii]  "source": "IM-001 is iMtalii's own Prado TX fleet (from their posts). All other cars, photos, rates and featur
+  src\data\fleet.json:6  [Imtalii]  "source": "IM-001 is iMtalii's own Prado TX fleet (from their posts). All other cars, photos, rates and featur
+  src\data\fleet.json:6  [Prado TX]  "source": "IM-001 is iMtalii's own Prado TX fleet (from their posts). All other cars, photos, rates and featur
+  src\data\fleet.json:12  [Prado TX]  "name": "Toyota Land Cruiser Prado TX",
+  src\data\fleet.json:12  [Land Cruiser Prado]  "name": "Toyota Land Cruiser Prado TX",
+  src\data\fleet.json:14  [Prado TX]  "model": "Land Cruiser Prado TX",
+  src\data\fleet.json:14  [Land Cruiser Prado]  "model": "Land Cruiser Prado TX",
+  src\data\fleet.json:20  [Self-drive]  "self-drive"
+  src\data\fleet.json:25  [prado-wedding-convoy]  "/fleet/im-001/prado-wedding-convoy.jpg"
+  src\data\fleet.json:27  [iMtalii]  "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for a
+  src\data\fleet.json:27  [Imtalii]  "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for a
+  src\data\fleet.json:27  [Prado TX]  "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for a
+  src\data\fleet.json:27  [Ready for Any Terrain]  "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for a
+  src\data\fleet.json:28  [iMtalii]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [Imtalii]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [Prado TX]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [Land Cruiser Prado]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [wedding glam]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [Ready for Any Terrain]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [24/7]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:28  [Nationwide delivery]  "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP ev
+  src\data\fleet.json:40  [iMtalii]  "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and e
+  src\data\fleet.json:40  [Imtalii]  "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and e
+  src\data\fleet.json:40  [Prado TX]  "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and e
+  src\data\fleet.json:40  [Land Cruiser Prado]  "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and e
+  src\data\fleet.json:40  [Self-drive]  "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and e
+  src\data\fleet.json:62  [CBD]  "description": "Small enough to thread through the CBD and light on its feet in traffic, the Toyota Axio makes
+  src\data\fleet.json:89  [Self-drive]  "self-drive",
+  src\data\fleet.json:166  [Self-drive]  "self-drive",
+  src\data\fleet.json:244  [Self-drive]  "self-drive",
+  src\data\fleet.json:283  [Self-drive]  "self-drive",
+  src\data\fleet.json:324  [Self-drive]  "self-drive",
+  src\data\fleet.json:444  [Self-drive]  "self-drive",
+  src\data\fleet.json:885  [Self-drive]  "self-drive",
+  src\data\fleet.json:927  [Self-drive]  "self-drive",
+  src\data\fleet.json:1008  [Self-drive]  "self-drive",
+  src\data\fleet.json:1019  [Self-drive]  "description": "Few cars do quiet as convincingly as the Lexus RX. Doors close with a soft thud, the road nois
+  src\data\fleet.json:1083  [Land Cruiser Prado]  "name": "Toyota Land Cruiser Prado",
+  src\data\fleet.json:1085  [Land Cruiser Prado]  "model": "Land Cruiser Prado",
+  src\data\fleet.json:1100  [Land Cruiser Prado]  "description": "The Toyota Land Cruiser Prado has earned its reputation one difficult road at a time. Sturdy a
+  src\data\requirements.json:3  [Self-drive]  "id": "self-drive",
+  src\data\requirements.json:4  [Self-drive]  "title": "For self-drive",
+  src\data\requirements.json:39  [wedding glam]  "Whether you would like wedding glam",
+  src\data\services.json:11  [Prado TX]  "Choose the kind of car the journey calls for, from a composed executive sedan to a Land Cruiser Prado TX with
+  src\data\services.json:11  [Land Cruiser Prado]  "Choose the kind of car the journey calls for, from a composed executive sedan to a Land Cruiser Prado TX with
+  src\data\services.json:11  [24/7]  "Choose the kind of car the journey calls for, from a composed executive sedan to a Land Cruiser Prado TX with
+  src\data\services.json:18  [24/7]  { "q": "What happens if my flight is delayed?", "a": "Contact us as soon as you can. Our support is available 
+  src\data\services.json:34  [24/7]  "We will confirm availability, the arrangements and your quote when you book. With 24/7 support and nationwide
+  src\data\services.json:34  [Nationwide delivery]  "We will confirm availability, the arrangements and your quote when you book. With 24/7 support and nationwide
+  src\data\services.json:46  [Self-drive]  "slug": "self-drive",
+  src\data\services.json:47  [Self-drive]  "title": "Self-Drive Hire",
+  src\data\services.json:50  [Luxury is no longer a dream]  "quote": "Luxury is no longer a dream. It's a drive away.",
+  src\data\services.json:51  [Self-drive]  "summary": "Take the wheel yourself. Choose a car marked for self-drive, send your dates and we will confirm t
+  src\data\services.json:53  [Self-drive]  "Some journeys are better when you are the one driving. Filter the fleet for self-drive, compare a few cars an
+  src\data\services.json:54  [Bruce House]  "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and 
+  src\data\services.json:54  [Nairobi CBD]  "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and 
+  src\data\services.json:54  [CBD]  "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and 
+  src\data\services.json:54  [Nationwide delivery]  "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and 
+  src\data\services.json:55  [24/7]  "You will need a valid driving licence and your ID or passport when you collect the car. We will confirm the f
+  src\data\services.json:60  [Self-drive]  { "q": "Which cars can I drive myself?", "a": "Use the self-drive filter on the fleet page. Each car shows whe
+  src\data\services.json:70  [wedding glam]  "eyebrow": "Dressed in wedding glam",
+  src\data\services.json:71  [iMtalii]  "quote": "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style
+  src\data\services.json:71  [Imtalii]  "quote": "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style
+  src\data\services.json:71  [wedding glam]  "quote": "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style
+  src\data\services.json:72  [Prado TX]  "summary": "A Land Cruiser Prado TX convoy for your big day, dressed in wedding glam on request.",
+  src\data\services.json:72  [Land Cruiser Prado]  "summary": "A Land Cruiser Prado TX convoy for your big day, dressed in wedding glam on request.",
+  src\data\services.json:72  [wedding glam]  "summary": "A Land Cruiser Prado TX convoy for your big day, dressed in wedding glam on request.",
+  src\data\services.json:74  [Prado TX]  "Our Land Cruiser Prado TX fleet is the one you may have seen on the road, ribbons flying and flowers at the f
+  src\data\services.json:74  [Land Cruiser Prado]  "Our Land Cruiser Prado TX fleet is the one you may have seen on the road, ribbons flying and flowers at the f
+  src\data\services.json:75  [wedding glam]  "Share your date, your venue and how many cars you have in mind, and tell us whether you would like them dress
+  src\data\services.json:76  [24/7]  "On the day, 24/7 support means you have someone to call. Your only job is to arrive."
+  src\data\services.json:81  [wedding glam]  { "q": "Can the cars be decorated?", "a": "Yes, wedding glam is available. Tell us in your request, and we wil
+  src\data\services.json:82  [Nationwide delivery]  { "q": "Can you do a wedding outside Nairobi?", "a": "Nationwide delivery is available. Share your venue and w
+  src\data\services.json:85  [prado-wedding-convoy]  "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+  src\data\services.json:92  [Seal every deal]  "eyebrow": "Seal every deal in style",
+  src\data\services.json:93  [iMtalii]  "quote": "Arrive with Prestige. Ride with iMtalii.",
+  src\data\services.json:93  [Imtalii]  "quote": "Arrive with Prestige. Ride with iMtalii.",
+  src\data\services.json:93  [Arrive with Prestige]  "quote": "Arrive with Prestige. Ride with iMtalii.",
+  src\data\services.json:94  [Prado TX]  "summary": "Prado TX and flagship cars with chauffeur services for visiting guests, corporate events and the m
+  src\data\services.json:96  [Prado TX]  "When the guest matters, so does the car that collects them. Our Land Cruiser Prado TX fleet is known for VIP 
+  src\data\services.json:96  [Land Cruiser Prado]  "When the guest matters, so does the car that collects them. Our Land Cruiser Prado TX fleet is known for VIP 
+  src\data\services.json:98  [24/7]  "We will confirm availability and your quote, and our 24/7 support stays on hand from the first pickup to the 
+  src\data\services.json:106  [prado-wedding-convoy]  "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+  src\data\steps.json:2  [Self-drive]  { "index": "01", "title": "Choose your car or service", "text": "Browse the fleet, or pick a service: airport 
+  src\data\steps.json:5  [Bruce House]  { "index": "04", "title": "Delivery or pick-up", "text": "Collect from Bruce House, ask for delivery, or meet 
+  src\data\steps.json:6  [24/7]  { "index": "05", "title": "Enjoy the ride, with 24/7 support", "text": "Self-driven or chauffeured, you can re
+  src\data\steps.json:6  [Self-drive]  { "index": "05", "title": "Enjoy the ride, with 24/7 support", "text": "Self-driven or chauffeured, you can re
+  src\lib\filters.ts:35  [Self-drive]  drive: drive === "self-drive" || drive === "chauffeur" ? drive : null,
+  src\lib\requestSchema.ts:21  [Self-drive]  service: z.enum(["self-drive", "chauffeur"], { error: "Choose self-drive or chauffeur." }),
+  src\lib\theme.ts:9  [gold]  "--logo-gold-from": brand.colors.goldFrom,
+  src\lib\theme.ts:10  [gold]  "--logo-gold-to": brand.colors.goldTo,
+  src\lib\useCompare.ts:5  [iMtalii]  const KEY = "imtalii-compare";
+  src\lib\useCompare.ts:5  [Imtalii]  const KEY = "imtalii-compare";
+  src\lib\useCompare.ts:6  [iMtalii]  const EVENT = "imtalii-compare-change";
+  src\lib\useCompare.ts:6  [Imtalii]  const EVENT = "imtalii-compare-change";
+  src\lib\whatsapp.ts:14  [Self-drive]  if (input.service === "self-drive") msg += ", self-drive";
+  src\lib\whatsapp.ts:41  [wedding glam]  if (input.glam) msg += ", wedding glam";
+  src\types\index.ts:2  [Self-drive]  export type DriveOption = "self-drive" | "chauffeur";
+  public\brand\imtalii-logo.svg:1  [iMtalii]  <!-- iMtalii Car Rentals logo, traced from the 150px original for interim use (ring redrawn). Replace with the
+  public\brand\imtalii-logo.svg:1  [Imtalii]  <!-- iMtalii Car Rentals logo, traced from the 150px original for interim use (ring redrawn). Replace with the
+  public\brand\imtalii-logo.svg:1  [iMtalii Car Rentals]  <!-- iMtalii Car Rentals logo, traced from the 150px original for interim use (ring redrawn). Replace with the
+  public\brand\imtalii-logo.svg:2  [iMtalii]  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 672" role="img" aria-label="iMtalii Car Rentals"><de
+  public\brand\imtalii-logo.svg:2  [Imtalii]  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 672" role="img" aria-label="iMtalii Car Rentals"><de
+  public\brand\imtalii-logo.svg:2  [iMtalii Car Rentals]  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 672" role="img" aria-label="iMtalii Car Rentals"><de
+  public\brand\imtalii-logo.svg:2  [gold]  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 672" role="img" aria-label="iMtalii Car Rentals"><de
+  docs\BRIEF.md:2  [iMtalii]  ## For: iMtalii Car Rentals (Nairobi CBD, Kenya)
+  docs\BRIEF.md:2  [Imtalii]  ## For: iMtalii Car Rentals (Nairobi CBD, Kenya)
+  docs\BRIEF.md:2  [iMtalii Car Rentals]  ## For: iMtalii Car Rentals (Nairobi CBD, Kenya)
+  docs\BRIEF.md:2  [Nairobi CBD]  ## For: iMtalii Car Rentals (Nairobi CBD, Kenya)
+  docs\BRIEF.md:2  [CBD]  ## For: iMtalii Car Rentals (Nairobi CBD, Kenya)
+  docs\BRIEF.md:6  [iMtalii]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [Imtalii]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [iMtalii Car Rentals]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [Nairobi CBD]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [CBD]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [Prado TX]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [Land Cruiser Prado]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [Self-drive]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [lavender]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [purple]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:6  [gold]  **iMtalii Car Rentals** rents **luxury cars for airport transfers, chauffeur services and self-drive**, from N
+  docs\BRIEF.md:9  [Bruce House]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:9  [Standard Street]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:9  [Nairobi CBD]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:9  [CBD]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:9  [00200]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:9  [Self-drive]  - Bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.
+  docs\BRIEF.md:10  [Bruce House]  - Address: **Bruce House, Standard Street, Nairobi CBD** (P.O. code 00200).
+  docs\BRIEF.md:10  [Standard Street]  - Address: **Bruce House, Standard Street, Nairobi CBD** (P.O. code 00200).
+  docs\BRIEF.md:10  [Nairobi CBD]  - Address: **Bruce House, Standard Street, Nairobi CBD** (P.O. code 00200).
+  docs\BRIEF.md:10  [CBD]  - Address: **Bruce House, Standard Street, Nairobi CBD** (P.O. code 00200).
+  docs\BRIEF.md:10  [00200]  - Address: **Bruce House, Standard Street, Nairobi CBD** (P.O. code 00200).
+  docs\BRIEF.md:11  [+254 721 621 888]  - Call/WhatsApp: **+254 721 621 888** and **0737 963 950** (both numbers, both channels).
+  docs\BRIEF.md:11  [254721621888]  - Call/WhatsApp: **+254 721 621 888** and **0737 963 950** (both numbers, both channels).
+  docs\BRIEF.md:11  [0737 963 950]  - Call/WhatsApp: **+254 721 621 888** and **0737 963 950** (both numbers, both channels).
+  docs\BRIEF.md:12  [iMtalii]  - Email: **imtaliiofficial@gmail.com** (from their post).
+  docs\BRIEF.md:12  [Imtalii]  - Email: **imtaliiofficial@gmail.com** (from their post).
+  docs\BRIEF.md:12  [imtaliiofficial@gmail.com]  - Email: **imtaliiofficial@gmail.com** (from their post).
+  docs\BRIEF.md:12  [imtaliiofficial]  - Email: **imtaliiofficial@gmail.com** (from their post).
+  docs\BRIEF.md:13  [Prado TX]  - Fleet: **Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers**. Wedding cars
+  docs\BRIEF.md:13  [Land Cruiser Prado]  - Fleet: **Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers**. Wedding cars
+  docs\BRIEF.md:13  [wedding glam]  - Fleet: **Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers**. Wedding cars
+  docs\BRIEF.md:14  [Ready for Any Terrain]  - Repeated promises in every post: **Luxury & Comfort · Ready for Any Terrain · 24/7 support · Premium Fleet ·
+  docs\BRIEF.md:14  [24/7]  - Repeated promises in every post: **Luxury & Comfort · Ready for Any Terrain · 24/7 support · Premium Fleet ·
+  docs\BRIEF.md:14  [Nationwide delivery]  - Repeated promises in every post: **Luxury & Comfort · Ready for Any Terrain · 24/7 support · Premium Fleet ·
+  docs\BRIEF.md:16  [iMtalii]  > "Unforgettable Moments Deserve Flawless Rides." · "Arrive with Prestige. Ride with Imtalii." · "Make your gr
+  docs\BRIEF.md:16  [Imtalii]  > "Unforgettable Moments Deserve Flawless Rides." · "Arrive with Prestige. Ride with Imtalii." · "Make your gr
+  docs\BRIEF.md:16  [Arrive with Prestige]  > "Unforgettable Moments Deserve Flawless Rides." · "Arrive with Prestige. Ride with Imtalii." · "Make your gr
+  docs\BRIEF.md:16  [Unforgettable Moments Deserve Flawless Rides]  > "Unforgettable Moments Deserve Flawless Rides." · "Arrive with Prestige. Ride with Imtalii." · "Make your gr
+  docs\BRIEF.md:16  [Make your grand entrance]  > "Unforgettable Moments Deserve Flawless Rides." · "Arrive with Prestige. Ride with Imtalii." · "Make your gr
+  docs\BRIEF.md:17  [iMtalii]  > "Where Luxury Meets Business. Seal every deal in style with Imtalii." · "Whether it's an airport pickup, hig
+  docs\BRIEF.md:17  [Imtalii]  > "Where Luxury Meets Business. Seal every deal in style with Imtalii." · "Whether it's an airport pickup, hig
+  docs\BRIEF.md:17  [Where Luxury Meets Business]  > "Where Luxury Meets Business. Seal every deal in style with Imtalii." · "Whether it's an airport pickup, hig
+  docs\BRIEF.md:17  [Seal every deal]  > "Where Luxury Meets Business. Seal every deal in style with Imtalii." · "Whether it's an airport pickup, hig
+  docs\BRIEF.md:18  [iMtalii]  > "Elegance in Every Arrival." · "Make your big day unforgettable with Imtalii's luxury fleet dressed in weddi
+  docs\BRIEF.md:18  [Imtalii]  > "Elegance in Every Arrival." · "Make your big day unforgettable with Imtalii's luxury fleet dressed in weddi
+  docs\BRIEF.md:18  [Elegance in Every Arrival]  > "Elegance in Every Arrival." · "Make your big day unforgettable with Imtalii's luxury fleet dressed in weddi
+  docs\BRIEF.md:18  [wedding glam]  > "Elegance in Every Arrival." · "Make your big day unforgettable with Imtalii's luxury fleet dressed in weddi
+  docs\BRIEF.md:19  [born to stand out]  > "Why blend in when you were born to stand out?" · "It's more than just a ride. It's an experience of eleganc
+  docs\BRIEF.md:19  [Luxury is no longer a dream]  > "Why blend in when you were born to stand out?" · "It's more than just a ride. It's an experience of eleganc
+  docs\BRIEF.md:20  [Drive premium]  > "Book now · Drive premium · Arrive iconic."
+  docs\BRIEF.md:20  [Arrive iconic]  > "Book now · Drive premium · Arrive iconic."
+  docs\BRIEF.md:22  [Prado TX]  Unknown, so empty and hidden, or draft: hours (beyond "24/7 support"), socials, team, founding year, the real 
+  docs\BRIEF.md:22  [24/7]  Unknown, so empty and hidden, or draft: hours (beyond "24/7 support"), socials, team, founding year, the real 
+  docs\BRIEF.md:25  [iMtalii]  - `assets/imtalii-logo.svg`: the logo **traced** from the 150px original (gold gradient "imtalii" with the rin
+  docs\BRIEF.md:25  [Imtalii]  - `assets/imtalii-logo.svg`: the logo **traced** from the 150px original (gold gradient "imtalii" with the rin
+  docs\BRIEF.md:25  [gold]  - `assets/imtalii-logo.svg`: the logo **traced** from the 150px original (gold gradient "imtalii" with the rin
+  docs\BRIEF.md:26  [iMtalii]  - `assets/own-photos/prado-wedding-convoy.jpg`: **iMtalii's own** wedding convoy image, cropped from their pos
+  docs\BRIEF.md:26  [Imtalii]  - `assets/own-photos/prado-wedding-convoy.jpg`: **iMtalii's own** wedding convoy image, cropped from their pos
+  docs\BRIEF.md:26  [prado-wedding-convoy]  - `assets/own-photos/prado-wedding-convoy.jpg`: **iMtalii's own** wedding convoy image, cropped from their pos
+  docs\BRIEF.md:27  [Prado TX]  - `src/data/fleet.json`: **29 cars**. IM-001 (their Prado TX) is confirmed; IM-002 to IM-029 are samples (§12)
+  docs\BRIEF.md:34  [iMtalii]  - No cart, payment, auth, admin or database. JSON-first. Bookings are **requests** confirmed by iMtalii.
+  docs\BRIEF.md:34  [Imtalii]  - No cart, payment, auth, admin or database. JSON-first. Bookings are **requests** confirmed by iMtalii.
+  docs\BRIEF.md:35  [Grand Arrival]  - **Design "Grand Arrival"** (§5): a deep aubergine night, royal purple, lavender light and crisp white, with 
+  docs\BRIEF.md:35  [aubergine]  - **Design "Grand Arrival"** (§5): a deep aubergine night, royal purple, lavender light and crisp white, with 
+  docs\BRIEF.md:35  [lavender]  - **Design "Grand Arrival"** (§5): a deep aubergine night, royal purple, lavender light and crisp white, with 
+  docs\BRIEF.md:35  [purple]  - **Design "Grand Arrival"** (§5): a deep aubergine night, royal purple, lavender light and crisp white, with 
+  docs\BRIEF.md:35  [gold]  - **Design "Grand Arrival"** (§5): a deep aubergine night, royal purple, lavender light and crisp white, with 
+  docs\BRIEF.md:37  [Self-drive]  1. **Hero booking console** with three service tabs: **Self-Drive · Chauffeur · Airport Transfer**, each with 
+  docs\BRIEF.md:39  [wedding glam]  3. **Occasions**: Weddings · VIP Events · Business & Executive · Weekend Escapes, each built from their own po
+  docs\BRIEF.md:40  [gold]  4. **Fleet** with five luxury classes and real filters, **Compare** (up to 3), and car pages with gallery, fea
+  docs\BRIEF.md:41  [Ready for Any Terrain]  5. **Their promises as a signature strip**: 24/7 support · Nationwide delivery · Premium fleet · Chauffeur ser
+  docs\BRIEF.md:41  [24/7]  5. **Their promises as a signature strip**: 24/7 support · Nationwide delivery · Premium fleet · Chauffeur ser
+  docs\BRIEF.md:41  [Nationwide delivery]  5. **Their promises as a signature strip**: 24/7 support · Nationwide delivery · Premium fleet · Chauffeur ser
+  docs\BRIEF.md:42  [Self-drive]  - Pages: Home, Fleet (+ car), Compare, Services (+ detail: Airport Transfers, Chauffeur Services, Self-Drive, 
+  docs\BRIEF.md:47  [iMtalii]  1. **Never invent facts about iMtalii**: no founding year, experience, customer counts, ratings, awards, team,
+  docs\BRIEF.md:47  [Imtalii]  1. **Never invent facts about iMtalii**: no founding year, experience, customer counts, ratings, awards, team,
+  docs\BRIEF.md:49  [Arrive with Prestige]  3. **No unverifiable superlatives** ("best", "#1", "cheapest", "top-rated", "Kenya's leading"). Their own phra
+  docs\BRIEF.md:50  [24/7]  4. **No invented policies or offers**: deposit, insurance, mileage, fuel, minimum age, cancellation, delivery 
+  docs\BRIEF.md:50  [Nationwide delivery]  4. **No invented policies or offers**: deposit, insurance, mileage, fuel, minimum age, cancellation, delivery 
+  docs\BRIEF.md:51  [iMtalii]  5. **The fleet beyond the Prado TX is a sample** from another company's public site. With `NEXT_PUBLIC_DEMO_MO
+  docs\BRIEF.md:51  [Imtalii]  5. **The fleet beyond the Prado TX is a sample** from another company's public site. With `NEXT_PUBLIC_DEMO_MO
+  docs\BRIEF.md:51  [Prado TX]  5. **The fleet beyond the Prado TX is a sample** from another company's public site. With `NEXT_PUBLIC_DEMO_MO
+  docs\BRIEF.md:56  [iMtalii]  10. **Name styling**: the logo reads "imtalii", their posts say "Imtalii", and we use **"iMtalii"** in copy (`
+  docs\BRIEF.md:56  [Imtalii]  10. **Name styling**: the logo reads "imtalii", their posts say "Imtalii", and we use **"iMtalii"** in copy (`
+  docs\BRIEF.md:69  [iMtalii]  name: "iMtalii",
+  docs\BRIEF.md:69  [Imtalii]  name: "iMtalii",
+  docs\BRIEF.md:70  [iMtalii]  fullName: "iMtalii Car Rentals",
+  docs\BRIEF.md:70  [Imtalii]  fullName: "iMtalii Car Rentals",
+  docs\BRIEF.md:70  [iMtalii Car Rentals]  fullName: "iMtalii Car Rentals",
+  docs\BRIEF.md:77  [+254 721 621 888]  { display: "+254 721 621 888", href: "tel:+254721621888", whatsapp: "254721621888" },
+  docs\BRIEF.md:77  [254721621888]  { display: "+254 721 621 888", href: "tel:+254721621888", whatsapp: "254721621888" },
+  docs\BRIEF.md:78  [0737 963 950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  docs\BRIEF.md:78  [+254 737 963 950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  docs\BRIEF.md:78  [254737963950]  { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
+  docs\BRIEF.md:80  [254721621888]  whatsappUrl: "https://wa.me/254721621888",
+  docs\BRIEF.md:81  [iMtalii]  email: "imtaliiofficial@gmail.com",
+  docs\BRIEF.md:81  [Imtalii]  email: "imtaliiofficial@gmail.com",
+  docs\BRIEF.md:81  [imtaliiofficial@gmail.com]  email: "imtaliiofficial@gmail.com",
+  docs\BRIEF.md:81  [imtaliiofficial]  email: "imtaliiofficial@gmail.com",
+  docs\BRIEF.md:82  [Bruce House]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  docs\BRIEF.md:82  [Standard Street]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  docs\BRIEF.md:82  [Nairobi CBD]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  docs\BRIEF.md:82  [CBD]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  docs\BRIEF.md:82  [00200]  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", count
+  docs\BRIEF.md:83  [24/7]  hours: "",                     // only "24/7 support" is confirmed
+  docs\BRIEF.md:91  [Unforgettable Moments Deserve Flawless Rides]  unforgettable: "Unforgettable Moments Deserve Flawless Rides",
+  docs\BRIEF.md:92  [iMtalii]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  docs\BRIEF.md:92  [Imtalii]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  docs\BRIEF.md:92  [Arrive with Prestige]  prestige: "Arrive with Prestige. Ride with iMtalii.",
+  docs\BRIEF.md:93  [Make your grand entrance]  grandEntrance: "Make your grand entrance unforgettable. The journey starts with us.",
+  docs\BRIEF.md:94  [Where Luxury Meets Business]  business: "Where Luxury Meets Business.",
+  docs\BRIEF.md:95  [iMtalii]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  docs\BRIEF.md:95  [Imtalii]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  docs\BRIEF.md:95  [Seal every deal]  sealTheDeal: "Seal every deal in style with iMtalii.",
+  docs\BRIEF.md:97  [Elegance in Every Arrival]  elegance: "Elegance in Every Arrival",
+  docs\BRIEF.md:98  [iMtalii]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  docs\BRIEF.md:98  [Imtalii]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  docs\BRIEF.md:98  [wedding glam]  weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in s
+  docs\BRIEF.md:99  [born to stand out]  standOut: "Why blend in when you were born to stand out?",
+  docs\BRIEF.md:101  [Luxury is no longer a dream]  driveAway: "Luxury is no longer a dream. It's a drive away.",
+  docs\BRIEF.md:102  [Drive premium]  trio: ["Book now", "Drive premium", "Arrive iconic"],
+  docs\BRIEF.md:102  [Arrive iconic]  trio: ["Book now", "Drive premium", "Arrive iconic"],
+  docs\BRIEF.md:103  [Ready for Any Terrain]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  docs\BRIEF.md:103  [24/7]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  docs\BRIEF.md:103  [Nationwide delivery]  promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services",
+  docs\BRIEF.md:105  [Self-drive]  services: ["Airport Transfers", "Chauffeur Services", "Self-Drive"],   // confirmed core
+  docs\BRIEF.md:110  [Nairobi CBD]  heroEyebrow: "Luxury car rentals · Nairobi CBD",
+  docs\BRIEF.md:110  [CBD]  heroEyebrow: "Luxury car rentals · Nairobi CBD",
+  docs\BRIEF.md:111  [Arrive with Prestige]  heroHeadline: "Arrive with prestige.",
+  docs\BRIEF.md:112  [24/7]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  docs\BRIEF.md:112  [Nationwide delivery]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  docs\BRIEF.md:112  [Self-drive]  heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nati
+  docs\BRIEF.md:117  [iMtalii]  whatsappPrefill: "Hello iMtalii, I'd like to book a ride.",
+  docs\BRIEF.md:117  [Imtalii]  whatsappPrefill: "Hello iMtalii, I'd like to book a ride.",
+  docs\BRIEF.md:119  [24/7]  formFallback: "We couldn't send your request online just now. Please book on WhatsApp or call us. We're availa
+  docs\BRIEF.md:120  [Prado TX]  demoNotice: "Preview site. Except for our Prado TX fleet, cars, photos and rates shown are illustrative sample
+  docs\BRIEF.md:124  [iMtalii]  estimateNotice: "Indicative estimate. Your final quote, including any delivery or chauffeur arrangements, is c
+  docs\BRIEF.md:124  [Imtalii]  estimateNotice: "Indicative estimate. Your final quote, including any delivery or chauffeur arrangements, is c
+  docs\BRIEF.md:127  [iMtalii]  articleNotice: "General information only. Requirements change; check with iMtalii or the relevant authority be
+  docs\BRIEF.md:127  [Imtalii]  articleNotice: "General information only. Requirements change; check with iMtalii or the relevant authority be
+  docs\BRIEF.md:133  [purple]  purple: "#6A00BC",         // brand purple (their Book Now button): primary buttons (white text), links on lig
+  docs\BRIEF.md:134  [purple]  purpleDeep: "#4E008C",     // hover/pressed
+  docs\BRIEF.md:135  [aubergine]  aubergine: "#1A0B2E",      // deep night sections, footer, hero overlay
+  docs\BRIEF.md:136  [aubergine]  aubergineRaised: "#2E1450",// cards/panels on dark
+  docs\BRIEF.md:137  [aubergine]  lavender: "#C9B6EC",       // text and accents on dark (10:1 on aubergine), soft highlight fills on light
+  docs\BRIEF.md:137  [lavender]  lavender: "#C9B6EC",       // text and accents on dark (10:1 on aubergine), soft highlight fills on light
+  docs\BRIEF.md:138  [lavender]  lavenderMist: "#EEE8F8",   // light section background (their post panels)
+  docs\BRIEF.md:141  [lavender]  slate: "#5B5468",          // body text on light (7.2:1 on white, 6.0:1 on lavenderMist)
+  docs\BRIEF.md:143  [gold]  gold: "#E0A84A",           // logo gold, solid: rings, hairlines, numerals and small text ON DARK only
+  docs\BRIEF.md:144  [gold]  goldFrom: "#D0802F",       // logo gradient start
+  docs\BRIEF.md:145  [gold]  goldTo: "#F7C35F",         // logo gradient end
+  docs\BRIEF.md:155  [iMtalii]  **Logo:** a rounded, friendly lowercase "imtalii" in a warm **orange-to-gold gradient**, with the dot of the "
+  docs\BRIEF.md:155  [Imtalii]  **Logo:** a rounded, friendly lowercase "imtalii" in a warm **orange-to-gold gradient**, with the dot of the "
+  docs\BRIEF.md:155  [purple]  **Logo:** a rounded, friendly lowercase "imtalii" in a warm **orange-to-gold gradient**, with the dot of the "
+  docs\BRIEF.md:155  [gold]  **Logo:** a rounded, friendly lowercase "imtalii" in a warm **orange-to-gold gradient**, with the dot of the "
+  docs\BRIEF.md:157  [Drive premium]  **Voice:** polished, warm and aspirational: *prestige, elegance, composure, arrival, impression*. Short, confi
+  docs\BRIEF.md:157  [Arrive iconic]  **Voice:** polished, warm and aspirational: *prestige, elegance, composure, arrival, impression*. Short, confi
+  docs\BRIEF.md:161  [Grand Arrival]  ## 5. DESIGN SYSTEM — "Grand Arrival"
+  docs\BRIEF.md:163  [aubergine]  The moment a beautiful car pulls up at night. Deep **aubergine** sections lit with **purple and lavender glows
+  docs\BRIEF.md:163  [lavender]  The moment a beautiful car pulls up at night. Deep **aubergine** sections lit with **purple and lavender glows
+  docs\BRIEF.md:163  [purple]  The moment a beautiful car pulls up at night. Deep **aubergine** sections lit with **purple and lavender glows
+  docs\BRIEF.md:163  [gold]  The moment a beautiful car pulls up at night. Deep **aubergine** sections lit with **purple and lavender glows
+  docs\BRIEF.md:168  [lavender]  | Ink on white / lavenderMist | 19.3 / 17.3 | headings |
+  docs\BRIEF.md:169  [lavender]  | Slate on white / lavenderMist | 7.21 / 6.02 | body |
+  docs\BRIEF.md:170  [lavender]  | **Purple on white / lavenderMist** | 8.98 / 7.50 | links, eyebrows, prices on light |
+  docs\BRIEF.md:170  [purple]  | **Purple on white / lavenderMist** | 8.98 / 7.50 | links, eyebrows, prices on light |
+  docs\BRIEF.md:171  [purple]  | **White on purple** | 8.98 | primary buttons |
+  docs\BRIEF.md:172  [lavender]  | Purple on lavender | 4.87 | soft badges and highlight chips (≥ 14px semibold) |
+  docs\BRIEF.md:172  [purple]  | Purple on lavender | 4.87 | soft badges and highlight chips (≥ 14px semibold) |
+  docs\BRIEF.md:173  [aubergine]  | White / lavender on aubergine | 18.6 / 10.06 | text on dark |
+  docs\BRIEF.md:173  [lavender]  | White / lavender on aubergine | 18.6 / 10.06 | text on dark |
+  docs\BRIEF.md:174  [aubergine]  | Gold on aubergine | 8.72 | small gold text, numerals and rings on dark |
+  docs\BRIEF.md:174  [gold]  | Gold on aubergine | 8.72 | small gold text, numerals and rings on dark |
+  docs\BRIEF.md:175  [purple]  | Gold on purple | 4.22 | large text (≥ 24px) and decorative only |
+  docs\BRIEF.md:175  [gold]  | Gold on purple | 4.22 | large text (≥ 24px) and decorative only |
+  docs\BRIEF.md:176  [lavender]  | ❌ **Gold on white / lavenderMist** (2.13 / 1.91) | | **never as text**. On light, gold is only hairlines and
+  docs\BRIEF.md:176  [gold]  | ❌ **Gold on white / lavenderMist** (2.13 / 1.91) | | **never as text**. On light, gold is only hairlines and
+  docs\BRIEF.md:177  [aubergine]  | ❌ **Purple on aubergine** (2.07) | | never text on dark; use lavender instead |
+  docs\BRIEF.md:177  [lavender]  | ❌ **Purple on aubergine** (2.07) | | never text on dark; use lavender instead |
+  docs\BRIEF.md:177  [purple]  | ❌ **Purple on aubergine** (2.07) | | never text on dark; use lavender instead |
+  docs\BRIEF.md:185  [24/7]  1. **Gold ring** `<GoldRing />` (from the logo emblem): thin circles framing numerals (01, 02…), service icons
+  docs\BRIEF.md:185  [gold]  1. **Gold ring** `<GoldRing />` (from the logo emblem): thin circles framing numerals (01, 02…), service icons
+  docs\BRIEF.md:187  [lavender]  3. **Ribbon** `<Ribbon />` (the wedding cars): a soft curved line in lavender or gold used as the divider on W
+  docs\BRIEF.md:187  [gold]  3. **Ribbon** `<Ribbon />` (the wedding cars): a soft curved line in lavender or gold used as the divider on W
+  docs\BRIEF.md:188  [aubergine]  4. **Lavender glow**: radial purple and lavender gradients on aubergine (hero, CTA bands), like their post ski
+  docs\BRIEF.md:188  [lavender]  4. **Lavender glow**: radial purple and lavender gradients on aubergine (hero, CTA bands), like their post ski
+  docs\BRIEF.md:188  [purple]  4. **Lavender glow**: radial purple and lavender gradients on aubergine (hero, CTA bands), like their post ski
+  docs\BRIEF.md:189  [aubergine]  5. **Frosted glass panels** (backdrop blur on aubergine at 60%) for the booking console and floating cards.
+  docs\BRIEF.md:192  [aubergine]  `.btn-primary` (purple bg, white text) · `.btn-gold` (gold bg, aubergine text, **on dark only**) · `.btn-ghost
+  docs\BRIEF.md:192  [lavender]  `.btn-primary` (purple bg, white text) · `.btn-gold` (gold bg, aubergine text, **on dark only**) · `.btn-ghost
+  docs\BRIEF.md:192  [purple]  `.btn-primary` (purple bg, white text) · `.btn-gold` (gold bg, aubergine text, **on dark only**) · `.btn-ghost
+  docs\BRIEF.md:192  [gold]  `.btn-primary` (purple bg, white text) · `.btn-gold` (gold bg, aubergine text, **on dark only**) · `.btn-ghost
+  docs\BRIEF.md:195  [aubergine]  Hero: their convoy image with a slow Ken Burns zoom (1 → 1.06) under the aubergine gradient, and the headline 
+  docs\BRIEF.md:195  [gold]  Hero: their convoy image with a slow Ken Burns zoom (1 → 1.06) under the aubergine gradient, and the headline 
+  docs\BRIEF.md:198  [iMtalii]  - **iMtalii's own photo** (`/fleet/im-001/prado-wedding-convoy.jpg`) leads the hero, Weddings and IM-001. It's
+  docs\BRIEF.md:198  [Imtalii]  - **iMtalii's own photo** (`/fleet/im-001/prado-wedding-convoy.jpg`) leads the hero, Weddings and IM-001. It's
+  docs\BRIEF.md:198  [prado-wedding-convoy]  - **iMtalii's own photo** (`/fleet/im-001/prado-wedding-convoy.jpg`) leads the hero, Weddings and IM-001. It's
+  docs\BRIEF.md:198  [purple]  - **iMtalii's own photo** (`/fleet/im-001/prado-wedding-convoy.jpg`) leads the hero, Weddings and IM-001. It's
+  docs\BRIEF.md:199  [aubergine]  - Sample car photos load from `luxurycarhire.co.ke` (demo only; add only that host to `images.remotePatterns`)
+  docs\BRIEF.md:199  [lavender]  - Sample car photos load from `luxurycarhire.co.ke` (demo only; add only that host to `images.remotePatterns`)
+  docs\BRIEF.md:199  [gold]  - Sample car photos load from `luxurycarhire.co.ke` (demo only; add only that host to `images.remotePatterns`)
+  docs\BRIEF.md:205  [Arrive with Prestige]  1. **Hero**: the convoy photo with aubergine and purple glow overlay, the eyebrow, **"Arrive with prestige."**
+  docs\BRIEF.md:205  [Self-drive]  1. **Hero**: the convoy photo with aubergine and purple glow overlay, the eyebrow, **"Arrive with prestige."**
+  docs\BRIEF.md:205  [aubergine]  1. **Hero**: the convoy photo with aubergine and purple glow overlay, the eyebrow, **"Arrive with prestige."**
+  docs\BRIEF.md:205  [purple]  1. **Hero**: the convoy photo with aubergine and purple glow overlay, the eyebrow, **"Arrive with prestige."**
+  docs\BRIEF.md:207  [aubergine]  3. **Promise strip**: their seven promises as gold-ringed icon chips on aubergine.
+  docs\BRIEF.md:207  [gold]  3. **Promise strip**: their seven promises as gold-ringed icon chips on aubergine.
+  docs\BRIEF.md:208  [Where Luxury Meets Business]  4. **"Where luxury meets business"** split section for executive and airport clients, with the arrival line.
+  docs\BRIEF.md:209  [aubergine]  5. Rhythm: alternate white, lavenderMist and aubergine-glow sections. Never three similar in a row.
+  docs\BRIEF.md:209  [lavender]  5. Rhythm: alternate white, lavenderMist and aubergine-glow sections. Never three similar in a row.
+  docs\BRIEF.md:210  [lavender]  6. Details: the gold-ring rate badge, Marcellus car names, custom date and time inputs, a lavender focus ring 
+  docs\BRIEF.md:210  [purple]  6. Details: the gold-ring rate badge, Marcellus car names, custom date and time inputs, a lavender focus ring 
+  docs\BRIEF.md:210  [gold]  6. Details: the gold-ring rate badge, Marcellus car names, custom date and time inputs, a lavender focus ring 
+  docs\BRIEF.md:217  [aubergine]  - **Sticky mobile bar**: Call · WhatsApp · Fleet · Book (on car pages, "Book this car"), each ≥ 48px, on frost
+  docs\BRIEF.md:218  [iMtalii]  - WhatsApp prefills: general; per car ("Hello iMtalii, I'd like the BMW X5 (IM-024) from 12 Dec 09:00 to 15 De
+  docs\BRIEF.md:218  [Imtalii]  - WhatsApp prefills: general; per car ("Hello iMtalii, I'd like the BMW X5 (IM-024) from 12 Dec 09:00 to 15 De
+  docs\BRIEF.md:218  [wedding glam]  - WhatsApp prefills: general; per car ("Hello iMtalii, I'd like the BMW X5 (IM-024) from 12 Dec 09:00 to 15 De
+  docs\BRIEF.md:219  [purple]  - Navbar: logo · Fleet · Services · Weddings · How It Works · About · Blog · Contact · Compare (count) · "Requ
+  docs\BRIEF.md:219  [gold]  - Navbar: logo · Fleet · Services · Weddings · How It Works · About · Blog · Contact · Compare (count) · "Requ
+  docs\BRIEF.md:225  [Where Luxury Meets Business]  Hero (§6.1) → promise strip → occasions (§6.2) → featured fleet rail (IM-001 first) → browse by class (5 tiles
+  docs\BRIEF.md:225  [Drive premium]  Hero (§6.1) → promise strip → occasions (§6.2) → featured fleet rail (IM-001 first) → browse by class (5 tiles
+  docs\BRIEF.md:225  [Arrive iconic]  Hero (§6.1) → promise strip → occasions (§6.2) → featured fleet rail (IM-001 first) → browse by class (5 tiles
+  docs\BRIEF.md:225  [Self-drive]  Hero (§6.1) → promise strip → occasions (§6.2) → featured fleet rail (IM-001 first) → browse by class (5 tiles
+  docs\BRIEF.md:225  [gold]  Hero (§6.1) → promise strip → occasions (§6.2) → featured fleet rail (IM-001 first) → browse by class (5 tiles
+  docs\BRIEF.md:229  [Self-drive]  - **Filters** (URL-synced, inside `<Suspense>`, debounced): Class · Brand (counts) · Body (Sedan, SUV) · Seats
+  docs\BRIEF.md:230  [iMtalii]  - **Car card**: image on a lavender-mist stage, Sample or iMtalii Fleet tag, class eyebrow, Marcellus name, sp
+  docs\BRIEF.md:230  [Imtalii]  - **Car card**: image on a lavender-mist stage, Sample or iMtalii Fleet tag, class eyebrow, Marcellus name, sp
+  docs\BRIEF.md:230  [lavender]  - **Car card**: image on a lavender-mist stage, Sample or iMtalii Fleet tag, class eyebrow, Marcellus name, sp
+  docs\BRIEF.md:231  [Bruce House]  - **Car page**: gallery (3 images where available) with lightbox; name; class; rate badge; specs; description;
+  docs\BRIEF.md:231  [Self-drive]  - **Car page**: gallery (3 images where available) with lightbox; name; class; rate badge; specs; description;
+  docs\BRIEF.md:241  [Self-drive]  | `self-drive` | Self-Drive Hire | **confirmed** | Booking form, self-drive preset |
+  docs\BRIEF.md:244  [24/7]  Each detail page: hero (with their convoy photo for Weddings and VIP), their quoted line, what's involved (dra
+  docs\BRIEF.md:244  [Nationwide delivery]  Each detail page: hero (with their convoy photo for Weddings and VIP), their quoted line, what's involved (dra
+  docs\BRIEF.md:247  [Bruce House]  Stepper on the arrival line (draft): **Choose your car or service → Send your request → We confirm availabilit
+  docs\BRIEF.md:247  [24/7]  Stepper on the arrival line (draft): **Choose your car or service → Send your request → We confirm availabilit
+  docs\BRIEF.md:247  [Self-drive]  Stepper on the arrival line (draft): **Choose your car or service → Send your request → We confirm availabilit
+  docs\BRIEF.md:250  [wedding glam]  General requirements (draft) and 10 FAQs (draft): booking; self-drive vs chauffeur; airport pickups (flight de
+  docs\BRIEF.md:250  [Ready for Any Terrain]  General requirements (draft) and 10 FAQs (draft): booking; self-drive vs chauffeur; airport pickups (flight de
+  docs\BRIEF.md:250  [24/7]  General requirements (draft) and 10 FAQs (draft): booking; self-drive vs chauffeur; airport pickups (flight de
+  docs\BRIEF.md:250  [Nationwide delivery]  General requirements (draft) and 10 FAQs (draft): booking; self-drive vs chauffeur; airport pickups (flight de
+  docs\BRIEF.md:250  [Self-drive]  General requirements (draft) and 10 FAQs (draft): booking; self-drive vs chauffeur; airport pickups (flight de
+  docs\BRIEF.md:253  [Bruce House]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:253  [Standard Street]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:253  [Nairobi CBD]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:253  [CBD]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:253  [Prado TX]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:253  [Self-drive]  Who we are (draft, from the bio and posts: a Nairobi CBD luxury car rental at Bruce House, Standard Street, of
+  docs\BRIEF.md:257  [Self-drive]  - `/book`: a standalone form with service tabs (Self-Drive · Chauffeur · Airport · Wedding), pre-filled from `
+  docs\BRIEF.md:258  [Bruce House]  - `/contact`: both numbers (call and WhatsApp), email, Bruce House address (map only if `mapUrl` is set), the 
+  docs\BRIEF.md:258  [24/7]  - `/contact`: both numbers (call and WhatsApp), email, Bruce House address (map only if `mapUrl` is set), the 
+  docs\BRIEF.md:260  [aubergine]  - Footer: aubergine with lavender glow, logo, promise line, nav, both numbers, email, address, `legal.rateNote
+  docs\BRIEF.md:260  [lavender]  - Footer: aubergine with lavender glow, logo, promise line, nav, both numbers, email, address, `legal.rateNote
+  docs\BRIEF.md:265  [iMtalii]  `rentalDays(from, to)`: rounded **up**, minimum 1, with a small-print rule ("Part days count as a full day in 
+  docs\BRIEF.md:265  [Imtalii]  `rentalDays(from, to)`: rounded **up**, minimum 1, with a small-print rule ("Part days count as a full day in 
+  docs\BRIEF.md:271  [Bruce House]  - **Booking**: car*, service (self-drive or chauffeur, as the car allows), pick-up date and time*, return date
+  docs\BRIEF.md:271  [Self-drive]  - **Booking**: car*, service (self-drive or chauffeur, as the car allows), pick-up date and time*, return date
+  docs\BRIEF.md:273  [Prado TX]  - **Wedding**: wedding date*, venue or area*, number of cars* (1–10), preferred car (default Prado TX), weddin
+  docs\BRIEF.md:273  [wedding glam]  - **Wedding**: wedding date*, venue or area*, number of cars* (1–10), preferred car (default Prado TX), weddin
+  docs\BRIEF.md:281  [iMtalii]  Metadata per page (`%s | iMtalii Luxury Car Rentals Nairobi`), `lang="en-KE"`, OG image from the script, `Auto
+  docs\BRIEF.md:281  [Imtalii]  Metadata per page (`%s | iMtalii Luxury Car Rentals Nairobi`), `lang="en-KE"`, OG image from the script, `Auto
+  docs\BRIEF.md:281  [Bruce House]  Metadata per page (`%s | iMtalii Luxury Car Rentals Nairobi`), `lang="en-KE"`, OG image from the script, `Auto
+  docs\BRIEF.md:281  [Standard Street]  Metadata per page (`%s | iMtalii Luxury Car Rentals Nairobi`), `lang="en-KE"`, OG image from the script, `Auto
+  docs\BRIEF.md:281  [00200]  Metadata per page (`%s | iMtalii Luxury Car Rentals Nairobi`), `lang="en-KE"`, OG image from the script, `Auto
+  docs\BRIEF.md:289  [Prado TX]  "cars": [ { "ref": "IM-001", "slug": "toyota-land-cruiser-prado-tx", "name": "Toyota Land Cruiser Prado TX", "
+  docs\BRIEF.md:289  [Land Cruiser Prado]  "cars": [ { "ref": "IM-001", "slug": "toyota-land-cruiser-prado-tx", "name": "Toyota Land Cruiser Prado TX", "
+  docs\BRIEF.md:291  [Self-drive]  "driveOptions": ["chauffeur","self-drive"], "dailyRateKes": 30000 | null, "rateOnRequest": false,
+  docs\BRIEF.md:297  [Prado TX]  **IM-001 (their Prado TX) is confirmed.** Write only its `description` (from their own posts: weddings, VIP ev
+  docs\BRIEF.md:297  [Ready for Any Terrain]  **IM-001 (their Prado TX) is confirmed.** Write only its `description` (from their own posts: weddings, VIP ev
+  docs\BRIEF.md:301  [iMtalii]  - `description`: 2 short paragraphs (60–110 words) in iMtalii's voice (prestige, comfort, composure), **paraph
+  docs\BRIEF.md:301  [Imtalii]  - `description`: 2 short paragraphs (60–110 words) in iMtalii's voice (prestige, comfort, composure), **paraph
+  docs\BRIEF.md:311  [Self-drive]  3. **Self-Drive or Chauffeur: Choosing the Right Way to Ride** (Choosing a Car)
+  docs\BRIEF.md:320  [Self-drive]  seats: number | null; driveOptions: ("self-drive" | "chauffeur")[]; dailyRateKes: number | null; rateOnRequest
+  docs\BRIEF.md:339  [gold]  src/components/brand/{Logo, GoldRing, ArrivalLine, Ribbon, Glow}.tsx
+  docs\BRIEF.md:351  [purple]  - Next.js App Router, latest stable; follow `AGENTS.md`; `params` is async. CSS variables from `brand.colors` 
+  docs\BRIEF.md:360  [iMtalii]  BOOKING_EMAIL_TO=imtaliiofficial@gmail.com
+  docs\BRIEF.md:360  [Imtalii]  BOOKING_EMAIL_TO=imtaliiofficial@gmail.com
+  docs\BRIEF.md:360  [imtaliiofficial@gmail.com]  BOOKING_EMAIL_TO=imtaliiofficial@gmail.com
+  docs\BRIEF.md:360  [imtaliiofficial]  BOOKING_EMAIL_TO=imtaliiofficial@gmail.com
+  docs\BRIEF.md:368  [254721621888]  OWNER_WHATSAPP_NUMBER=254721621888
+  docs\BRIEF.md:372  [iMtalii]  Setup and deploy; how to add or edit cars (photos in `public/fleet/<ref>/`; rates; featured; self-drive or cha
+  docs\BRIEF.md:372  [Imtalii]  Setup and deploy; how to add or edit cars (photos in `public/fleet/<ref>/`; rates; featured; self-drive or cha
+  docs\BRIEF.md:372  [Self-drive]  Setup and deploy; how to add or edit cars (photos in `public/fleet/<ref>/`; rates; featured; self-drive or cha
+  docs\BRIEF.md:373  [iMtalii]  - **Replace the 28 sample cars, photos and rates** with iMtalii's real fleet; add rates and photos for the Pra
+  docs\BRIEF.md:373  [Imtalii]  - **Replace the 28 sample cars, photos and rates** with iMtalii's real fleet; add rates and photos for the Pra
+  docs\BRIEF.md:373  [Prado TX]  - **Replace the 28 sample cars, photos and rates** with iMtalii's real fleet; add rates and photos for the Pra
+  docs\BRIEF.md:374  [Bruce House]  - Provide: Instagram, Facebook and TikTok links, a map pin for Bruce House, an official vector logo, more of t
+  docs\BRIEF.md:375  [iMtalii]  - Confirm: name styling (iMtalii / Imtalii); hours (beyond 24/7 support); which number is primary for WhatsApp
+  docs\BRIEF.md:375  [Imtalii]  - Confirm: name styling (iMtalii / Imtalii); hours (beyond 24/7 support); which number is primary for WhatsApp
+  docs\BRIEF.md:375  [wedding glam]  - Confirm: name styling (iMtalii / Imtalii); hours (beyond 24/7 support); which number is primary for WhatsApp
+  docs\BRIEF.md:375  [24/7]  - Confirm: name styling (iMtalii / Imtalii); hours (beyond 24/7 support); which number is primary for WhatsApp
+  docs\BRIEF.md:381  [wedding glam]  Also include a photography wishlist (each car: front three-quarter, interior, rear; chauffeur at the door; wed
+  docs\PHASES.md:12  [iMtalii]  2. `npx create-next-app@latest imtalii-scaffold --ts --tailwind --eslint --app --src-dir --import-alias "@/*" 
+  docs\PHASES.md:12  [Imtalii]  2. `npx create-next-app@latest imtalii-scaffold --ts --tailwind --eslint --app --src-dir --import-alias "@/*" 
+  docs\PHASES.md:18  [iMtalii]  8. Brand components: Logo (inline `assets/imtalii-logo.svg`; variants full, wordmark, emblem; tones dark and l
+  docs\PHASES.md:18  [Imtalii]  8. Brand components: Logo (inline `assets/imtalii-logo.svg`; variants full, wordmark, emblem; tones dark and l
+  docs\PHASES.md:18  [aubergine]  8. Brand components: Logo (inline `assets/imtalii-logo.svg`; variants full, wordmark, emblem; tones dark and l
+  docs\PHASES.md:18  [gold]  8. Brand components: Logo (inline `assets/imtalii-logo.svg`; variants full, wordmark, emblem; tones dark and l
+  docs\PHASES.md:34  [Self-drive]  All Home sections, meeting the personality mandate: the hero with their convoy photo, glow and the frosted Boo
+  docs\PHASES.md:54  [aubergine]  2. Accessibility: keyboard (tabs, filters, sheets, date inputs), focus, labels, contrast (no gold text on ligh
+  docs\PHASES.md:54  [purple]  2. Accessibility: keyboard (tabs, filters, sheets, date inputs), focus, labels, contrast (no gold text on ligh
+  docs\PHASES.md:54  [gold]  2. Accessibility: keyboard (tabs, filters, sheets, date inputs), focus, labels, contrast (no gold text on ligh
+  docs\PHASES.md:57  [iMtalii]  5. Short report: built, sample or draft, blocked, and what iMtalii needs to provide.
+  docs\PHASES.md:57  [Imtalii]  5. Short report: built, sample or draft, blocked, and what iMtalii needs to provide.
+  docs\PROGRESS.md:17  [Prado TX]  - [x] IM-001 (own Prado TX — description only)
+  docs\PROGRESS.md:42  [iMtalii]  ## Open questions (for iMtalii — copy into the README checklist)
+  docs\PROGRESS.md:42  [Imtalii]  ## Open questions (for iMtalii — copy into the README checklist)
+  docs\PROGRESS.md:45  [Prado TX]  - Real fleet, photos and rates; Prado TX rate, seats and self-drive availability.
+  docs\PROGRESS.md:45  [Self-drive]  - Real fleet, photos and rates; Prado TX rate, seats and self-drive availability.
+  docs\PROGRESS.md:46  [iMtalii]  - Name styling (iMtalii or Imtalii); hours beyond 24/7 support; primary WhatsApp number.
+  docs\PROGRESS.md:46  [Imtalii]  - Name styling (iMtalii or Imtalii); hours beyond 24/7 support; primary WhatsApp number.
+  docs\PROGRESS.md:46  [24/7]  - Name styling (iMtalii or Imtalii); hours beyond 24/7 support; primary WhatsApp number.
+  docs\PROGRESS.md:47  [wedding glam]  - Airport details (airports, meet and greet, waiting); wedding glam options; delivery fees and areas.
+  docs\PROGRESS.md:49  [Bruce House]  - Social links, Bruce House map pin, official vector logo, higher-resolution photos.
+  README.md:1  [iMtalii]  # iMtalii Car Rentals website
+  README.md:1  [Imtalii]  # iMtalii Car Rentals website
+  README.md:1  [iMtalii Car Rentals]  # iMtalii Car Rentals website
+  README.md:3  [iMtalii]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Imtalii]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [iMtalii Car Rentals]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Bruce House]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Standard Street]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Nairobi CBD]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [CBD]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Prado TX]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Land Cruiser Prado]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:3  [Self-drive]  The website for iMtalii Car Rentals, Bruce House, Standard Street, Nairobi CBD: airport transfers, chauffeur s
+  README.md:5  [iMtalii]  Built with Next.js (App Router), TypeScript and Tailwind. There is no database, login, payment or admin area. 
+  README.md:5  [Imtalii]  Built with Next.js (App Router), TypeScript and Tailwind. There is no database, login, payment or admin area. 
+  README.md:7  [Prado TX]  > **This is a preview.** Apart from the Prado TX (IM-001), the 28 cars, their photos and their rates are sampl
+  README.md:27  [iMtalii]  | `NEXT_PUBLIC_SITE_URL` | The live URL, used for canonical links, link previews and the sitemap. Optional on 
+  README.md:27  [Imtalii]  | `NEXT_PUBLIC_SITE_URL` | The live URL, used for canonical links, link previews and the sitemap. Optional on 
+  README.md:27  [imtalii.vercel.app]  | `NEXT_PUBLIC_SITE_URL` | The live URL, used for canonical links, link previews and the sitemap. Optional on 
+  README.md:51  [Self-drive]  **Adding or editing a car:** put photos in `public/fleet/<ref>/` and list them in `images` as `/fleet/<ref>/ph
+  README.md:53  [iMtalii]  Content marked `status: "draft"` shows a badge while draft flags are on. Change it to `"confirmed"` once iMtal
+  README.md:53  [Imtalii]  Content marked `status: "draft"` shows a badge while draft flags are on. Change it to `"confirmed"` once iMtal
+  README.md:58  [iMtalii]  - [ ] Replace the 28 sample cars, photos and rates with iMtalii's real fleet
+  README.md:58  [Imtalii]  - [ ] Replace the 28 sample cars, photos and rates with iMtalii's real fleet
+  README.md:59  [Prado TX]  - [ ] Add a rate, seat count and more photos for the Prado TX, and confirm whether it is offered as self-drive
+  README.md:59  [Self-drive]  - [ ] Add a rate, seat count and more photos for the Prado TX, and confirm whether it is offered as self-drive
+  README.md:63  [iMtalii]  ### iMtalii to provide
+  README.md:63  [Imtalii]  ### iMtalii to provide
+  README.md:65  [Bruce House]  - [ ] A map pin for Bruce House
+  README.md:69  [iMtalii]  ### iMtalii to confirm
+  README.md:69  [Imtalii]  ### iMtalii to confirm
+  README.md:70  [iMtalii]  - [ ] Name styling: iMtalii or Imtalii
+  README.md:70  [Imtalii]  - [ ] Name styling: iMtalii or Imtalii
+  README.md:71  [24/7]  - [ ] Hours, beyond 24/7 support
+  README.md:72  [+254 721 621 888]  - [ ] Which number is primary for WhatsApp (currently +254 721 621 888)
+  README.md:72  [254721621888]  - [ ] Which number is primary for WhatsApp (currently +254 721 621 888)
+  README.md:74  [wedding glam]  - [ ] Wedding glam options
+  README.md:94  [wedding glam]  - Wedding glam detail: ribbons and flowers, close up
+  README.md:111  [Arrive with Prestige]  - [ ] Hero: convoy photo, aubergine and purple glow, "Arrive with prestige." in Marcellus, frosted console, pr
+  README.md:111  [aubergine]  - [ ] Hero: convoy photo, aubergine and purple glow, "Arrive with prestige." in Marcellus, frosted console, pr
+  README.md:111  [purple]  - [ ] Hero: convoy photo, aubergine and purple glow, "Arrive with prestige." in Marcellus, frosted console, pr
+  README.md:113  [aubergine]  - [ ] Promise strip: seven gold-ringed chips on aubergine
+  README.md:113  [gold]  - [ ] Promise strip: seven gold-ringed chips on aubergine
+  README.md:114  [Where Luxury Meets Business]  - [ ] "Where Luxury Meets Business" split with the arrival line
+  README.md:115  [aubergine]  - [ ] Rhythm: white, lavender mist and aubergine alternate; never three similar in a row
+  README.md:115  [lavender]  - [ ] Rhythm: white, lavender mist and aubergine alternate; never three similar in a row
+  README.md:116  [lavender]  - [ ] Details: gold-ring rate badge, Marcellus car names, styled date inputs, lavender focus on dark and purpl
+  README.md:116  [purple]  - [ ] Details: gold-ring rate badge, Marcellus car names, styled date inputs, lavender focus on dark and purpl
+  README.md:116  [gold]  - [ ] Details: gold-ring rate badge, Marcellus car names, styled date inputs, lavender focus on dark and purpl
+  README.md:117  [aubergine]  - [ ] Gold is never text on white or mist; purple is never text on aubergine
+  README.md:117  [purple]  - [ ] Gold is never text on white or mist; purple is never text on aubergine
+  README.md:117  [gold]  - [ ] Gold is never text on white or mist; purple is never text on aubergine
+  CLAUDE.md:1  [iMtalii]  # iMtalii Car Rentals — website
+  CLAUDE.md:1  [Imtalii]  # iMtalii Car Rentals — website
+  CLAUDE.md:1  [iMtalii Car Rentals]  # iMtalii Car Rentals — website
+  CLAUDE.md:3  [iMtalii]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Imtalii]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [iMtalii Car Rentals]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [+254 721 621 888]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [254721621888]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [0737 963 950]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Bruce House]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Standard Street]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Nairobi CBD]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [CBD]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Prado TX]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Land Cruiser Prado]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [Self-drive]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [lavender]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [purple]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:3  [gold]  A luxury car rental website for **iMtalii Car Rentals**, Bruce House, Standard Street, Nairobi CBD: **airport 
+  CLAUDE.md:22  [gold]  - `src/config/brand.ts` holds name, contacts, the client's own words, services, copy, legal wording, **colours
+  CLAUDE.md:23  [iMtalii]  - `src/data/fleet.json` is provided (29 cars). **IM-001 = iMtalii's own Prado TX (confirmed, rate on request).
+  CLAUDE.md:23  [Imtalii]  - `src/data/fleet.json` is provided (29 cars). **IM-001 = iMtalii's own Prado TX (confirmed, rate on request).
+  CLAUDE.md:23  [Prado TX]  - `src/data/fleet.json` is provided (29 cars). **IM-001 = iMtalii's own Prado TX (confirmed, rate on request).
+  CLAUDE.md:27  [iMtalii]  1. **Never invent facts about iMtalii**: no founding year, customer counts, ratings, team, branches, partners 
+  CLAUDE.md:27  [Imtalii]  1. **Never invent facts about iMtalii**: no founding year, customer counts, ratings, team, branches, partners 
+  CLAUDE.md:29  [Arrive with Prestige]  3. **No "best", "#1", "cheapest" or "leading".** Their own phrases are fine ("Premium Fleet", "Arrive with Pre
+  CLAUDE.md:30  [24/7]  4. **No invented policies or offers**: no deposit, insurance, mileage, age, cancellation, delivery-fee, waitin
+  CLAUDE.md:30  [Nationwide delivery]  4. **No invented policies or offers**: no deposit, insurance, mileage, age, cancellation, delivery-fee, waitin
+  CLAUDE.md:31  [iMtalii]  5. **Sample cars** come from another company's public site. With `NEXT_PUBLIC_DEMO_MODE=true`: site-wide notic
+  CLAUDE.md:31  [Imtalii]  5. **Sample cars** come from another company's public site. With `NEXT_PUBLIC_DEMO_MODE=true`: site-wide notic
+  CLAUDE.md:35  [iMtalii]  9. No emoji, no exclamation marks. The brand is written **"iMtalii"** in copy (`brand.name`).
+  CLAUDE.md:35  [Imtalii]  9. No emoji, no exclamation marks. The brand is written **"iMtalii"** in copy (`brand.name`).
+  CLAUDE.md:37  [Grand Arrival]  ## Design essentials — "Grand Arrival" (BRIEF §5–6)
+  CLAUDE.md:38  [aubergine]  - Aubergine `#1A0B2E` night sections with purple and lavender glows, **purple `#6A00BC`** for primary buttons 
+  CLAUDE.md:38  [lavender]  - Aubergine `#1A0B2E` night sections with purple and lavender glows, **purple `#6A00BC`** for primary buttons 
+  CLAUDE.md:38  [purple]  - Aubergine `#1A0B2E` night sections with purple and lavender glows, **purple `#6A00BC`** for primary buttons 
+  CLAUDE.md:38  [gold]  - Aubergine `#1A0B2E` night sections with purple and lavender glows, **purple `#6A00BC`** for primary buttons 
+  CLAUDE.md:39  [aubergine]  - **Gold is never text on white or lavender mist; purple is never text on aubergine** (use lavender there).
+  CLAUDE.md:39  [lavender]  - **Gold is never text on white or lavender mist; purple is never text on aubergine** (use lavender there).
+  CLAUDE.md:39  [purple]  - **Gold is never text on white or lavender mist; purple is never text on aubergine** (use lavender there).
+  CLAUDE.md:39  [gold]  - **Gold is never text on white or lavender mist; purple is never text on aubergine** (use lavender there).
+  CLAUDE.md:41  [lavender]  - Motifs: **gold ring** (logo emblem), **arrival line** (flight path), **ribbon** (weddings), lavender glow, f
+  CLAUDE.md:41  [gold]  - Motifs: **gold ring** (logo emblem), **arrival line** (flight path), **ribbon** (weddings), lavender glow, f
+  CLAUDE.md:51  [iMtalii]  - `create-next-app` refuses non-empty folders: scaffold into `imtalii-scaffold/` and **merge** into the existi
+  CLAUDE.md:51  [Imtalii]  - `create-next-app` refuses non-empty folders: scaffold into `imtalii-scaffold/` and **merge** into the existi
+  package.json:2  [iMtalii]  "name": "imtalii",
+  package.json:2  [Imtalii]  "name": "imtalii",
+
+Hex colours outside src/config/brand.ts (src/ only; SVG brand files excluded):
+  src\config\brand.ts:134  purple: "#6A00BC", // brand purple (their Book Now button): primary buttons (white text), links on light
+  src\config\brand.ts:135  purpleDeep: "#4E008C", // hover/pressed
+  src\config\brand.ts:136  aubergine: "#1A0B2E", // deep night sections, footer, hero overlay
+  src\config\brand.ts:137  aubergineRaised: "#2E1450", // cards/panels on dark
+  src\config\brand.ts:138  lavender: "#C9B6EC", // text and accents on dark (10:1 on aubergine), soft highlight fills on light
+  src\config\brand.ts:139  lavenderMist: "#EEE8F8", // light section background (their post panels)
+  src\config\brand.ts:140  white: "#FFFFFF",
+  src\config\brand.ts:141  ink: "#120A1F", // headings on light
+  src\config\brand.ts:142  slate: "#5B5468", // body text on light (7.2:1 on white, 6.0:1 on lavenderMist)
+  src\config\brand.ts:143  line: "#E6E0F0",
+  src\config\brand.ts:144  gold: "#E0A84A", // logo gold, solid: rings, hairlines, numerals and small text ON DARK only
+  src\config\brand.ts:145  goldFrom: "#D0802F", // logo gradient start
+  src\config\brand.ts:146  goldTo: "#F7C35F", // logo gradient end
+
+
+Total: 934 old-brand hits, 13 stray hex codes.
+

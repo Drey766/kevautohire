@@ -29,13 +29,13 @@ export function CarCard({ car, estimate, query = "", sizes }: CarCardProps) {
       <div className="flex flex-1 flex-col p-5">
         <p className="eyebrow text-[0.6875rem]">{classLabel(car.class)}</p>
         <h3 className="mt-1.5 text-[1.4375rem]">
-          <Link href={href} className="hover:text-purple">
+          <Link href={href} className="hover:text-primary">
             {car.name}
           </Link>
         </h3>
         <SpecRow car={car} className="mt-3" />
         <div className="mt-auto pt-4">
-          <p className="tabular font-medium text-purple">{formatRate(car)}</p>
+          <p className="tabular font-medium text-primary">{formatRate(car)}</p>
           {estimate && (
             <p className="tabular mt-0.5 text-sm">
               {estimate.line} = <strong className="font-medium text-ink">{formatKes(estimate.total)}</strong>

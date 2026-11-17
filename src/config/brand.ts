@@ -4,49 +4,45 @@
 // fonts or fixed wording. Empty = not provided → hidden.
 // =====================================================
 export const brand = {
-  name: "iMtalii",
-  fullName: "iMtalii Car Rentals",
-  descriptor: "Luxury Car Rentals",
-  siteUrl: "https://imtalii.vercel.app", // live address: canonical links and link previews
+  name: "Kev Auto Hire",
+  shortName: "Kev Auto",
+  fullName: "Kev Auto Hire",
+  descriptor: "Chauffeur-Driven Car Hire",
+  siteUrl: "", // live address: unknown until a domain is chosen (canonical links fall back to the deployment URL)
   city: "Nairobi",
   country: "Kenya",
   foundedYear: null as number | null,
 
-  phones: [
-    { display: "+254 721 621 888", href: "tel:+254721621888", whatsapp: "254721621888" },
-    { display: "0737 963 950", href: "tel:+254737963950", whatsapp: "254737963950" },
-  ],
-  whatsappUrl: "https://wa.me/254721621888",
-  email: "imtaliiofficial@gmail.com",
-  address: { building: "Bruce House", street: "Standard Street", area: "Nairobi CBD", postalCode: "00200", country: "Kenya" },
-  hours: "", // only "24/7 support" is confirmed
-  support247: true,
-  nationwideDelivery: true,
+  phones: [{ display: "0721 569 063", href: "tel:+254721569063", whatsapp: "254721569063" }],
+  whatsappUrl: "https://wa.me/254721569063",
+  email: "",
+  address: { building: "", street: "", area: "", postalCode: "", country: "Kenya" },
+  hours: "",
+  servesCountrywide: true, // confirmed: "Nairobi & beyond", they serve countrywide
   mapUrl: "",
-  social: { instagram: "", facebook: "", tiktok: "", x: "" },
+  social: { instagram: "https://www.instagram.com/kev_auto_hire/", facebook: "", tiktok: "", x: "" },
+  /** Their own photo for the home hero. Empty → the hero is drawn without a photo. */
+  heroImage: "",
 
-  // ── CLIENT'S OWN WORDS (confirmed) ──
+  // ── CLIENT'S OWN WORDS (confirmed; emoji and exclamation marks dropped) ──
   voice: {
-    unforgettable: "Unforgettable Moments Deserve Flawless Rides",
-    prestige: "Arrive with Prestige. Ride with iMtalii.",
-    grandEntrance: "Make your grand entrance unforgettable. The journey starts with us.",
-    business: "Where Luxury Meets Business.",
-    sealTheDeal: "Seal every deal in style with iMtalii.",
-    wherever: "Whether it's an airport pickup, high-stakes meeting, or executive transfer: arrive composed, ride in comfort, and leave an impression that lasts.",
-    composed: "Arrive composed, ride in comfort, and leave an impression that lasts.",
-    elegance: "Elegance in Every Arrival",
-    weddingGlam: "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style, leave in memories.",
-    standOut: "Why blend in when you were born to stand out?",
-    experience: "It's more than just a ride. It's an experience of elegance, power, and prestige.",
-    weekend: "Whether it's for a weekend escape, a business meeting, or just because you deserve it, rent the car that turns heads.",
-    driveAway: "Luxury is no longer a dream. It's a drive away.",
-    fleetLine: "Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers.",
-    bio: "Luxury cars for airport transfers, chauffeur services, and self-drive. Ride in style from Nairobi CBD.",
-    trio: ["Book now", "Drive premium", "Arrive iconic"],
-    promises: ["Luxury & Comfort", "Ready for Any Terrain", "24/7 Support", "Premium Fleet", "Chauffeur Services", "Executive Comfort", "Nationwide Delivery"],
+    tagline: "Drive Comfort. Arrive in Style.", // from the logo
+    comfortStyle: "Travel in Comfort. Arrive in Style.",
+    priority: "Your journey, our priority.",
+    premiumSeaters: "Premium 7 Seaters Car Hire",
+    reach: "Nairobi & Beyond",
+    chauffeurLine: "Chauffeur-Driven: Weddings, Road Trips, Airport Transfers",
+    enjoy: "Enjoy comfortable, reliable and hassle-free chauffeur-driven rides with Kev Auto Hire.",
+    whether: "Whether it's airport transfers, corporate travel, family trips or special occasions, we provide professional drivers and quality service to make every journey seamless.",
+    wherever: "Wherever you're headed, travel in comfort and style.",
+    vans: "Our chauffeur driven 7-seater vans are perfect for weddings, airport transfers, business trips, and family travel.",
+    handle: "Book today and let us handle the journey.",
+    bookNext: "Book your next ride with us today.",
+    trio: ["Book today", "Travel in comfort", "Arrive in style"],
+    promises: ["Premium 7-Seaters", "Chauffeur-Driven", "Professional Drivers", "Comfortable & Reliable", "Hassle-Free", "Nairobi & Beyond"],
   },
-  services: ["Airport Transfers", "Chauffeur Services", "Self-Drive"], // confirmed core
-  occasions: ["Weddings", "VIP Events", "Executive Transfers", "Business Meetings", "Weekend Escapes"], // from their posts
+  services: ["Airport Transfers", "Chauffeur-Driven Hire", "Weddings", "Corporate Travel", "Family Trips & Road Trips"], // from their posts
+  occasions: ["Weddings", "Road Trips", "Airport Transfers", "Corporate Travel", "Family Trips", "Special Occasions"], // from their posts
 
   // ── NAVIGATION ──
   nav: [
@@ -59,25 +55,25 @@ export const brand = {
     { label: "Contact", href: "/contact" },
   ],
 
-  // ── FLEET CLASSES (draft descriptions) ──
+  // ── FLEET CLASSES (draft descriptions; the fleet shown is a sample) ──
   classes: {
-    "premium-comfort": { label: "Premium Comfort", line: "Easy, composed cars for the city and beyond." },
-    executive: { label: "Executive", line: "Polished sedans for the meetings that matter." },
-    "vip-flagship": { label: "VIP Flagship", line: "The rear seat is the point." },
-    "luxury-suv": { label: "Luxury SUV", line: "Height, presence and quiet comfort." },
-    "safari-4x4": { label: "Safari & 4x4", line: "Ready for any terrain." },
+    "premium-comfort": { label: "Premium Comfort", line: "Easy, comfortable cars for the city and beyond." },
+    executive: { label: "Executive", line: "Polished sedans for corporate travel." },
+    "vip-flagship": { label: "VIP Flagship", line: "Room to work, or simply rest, on the way." },
+    "luxury-suv": { label: "Luxury SUV", line: "Height, space and quiet comfort." },
+    "safari-4x4": { label: "Safari & 4x4", line: "For road trips beyond the tarmac." },
   },
 
   // ── ABOUT (draft) ──
   about: {
-    who: "iMtalii is a luxury car rental at Bruce House, Standard Street, in Nairobi CBD. We offer airport transfers, chauffeur services and self-drive, and we are known for a Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers.",
-    mission: "To make every arrival flawless, with premium cars, composed chauffeurs and support around the clock.",
-    vision: "To be Nairobi's name for arriving in style.",
+    who: "Kev Auto Hire is a chauffeur-driven car hire service in Nairobi. We offer premium 7-seaters with professional drivers for weddings, road trips, airport transfers, corporate travel, family trips and special occasions, in Nairobi and beyond.",
+    mission: "To make every journey seamless, with comfortable vehicles, professional drivers and quality service.",
+    vision: "Comfortable, stylish travel for every group, wherever in Kenya the road leads.",
     values: [
-      { name: "Prestige", text: "Every car and every arrival should feel like an occasion." },
-      { name: "Comfort", text: "The journey matters as much as the destination." },
+      { name: "Comfort", text: "Room for everyone, and a ride that feels easy from the first kilometre." },
       { name: "Reliability", text: "When we confirm a booking, you can plan your day around it." },
-      { name: "Discretion", text: "Your plans and your details stay private." },
+      { name: "Professionalism", text: "Courteous drivers who know the road and respect your time." },
+      { name: "Ease", text: "One request, and we handle the journey from there." },
     ],
     team: [] as { name: string; role: string }[],
     experience: "",
@@ -85,65 +81,63 @@ export const brand = {
 
   // ── MICRO-COPY (draft) ──
   copy: {
-    heroEyebrow: "Luxury car rentals · Nairobi CBD",
-    heroHeadline: "Arrive with prestige.",
-    heroSubtext: "Luxury cars for airport transfers, chauffeur services and self-drive, with 24/7 support and nationwide delivery.",
+    heroEyebrow: "Premium 7-seater car hire · Nairobi & beyond",
+    heroHeadline: "Travel in comfort. Arrive in style.",
+    heroSubtext: "Chauffeur-driven 7-seaters for weddings, road trips, airport transfers, corporate travel and family trips.",
     bookCta: "Request a Booking",
     fleetCta: "Explore the Fleet",
     whatsappCta: "Book on WhatsApp",
     callCta: "Call Us",
-    whatsappPrefill: "Hello iMtalii, I'd like to book a ride.",
+    whatsappPrefill: "Hello Kev Auto Hire, I'd like to book a ride.",
     formSuccess: "Request received. We'll confirm availability and your quote shortly.",
-    formFallback: "We couldn't send your request online just now. Please book on WhatsApp or call us. We're available 24/7.",
-    demoNotice: "Preview site. Except for our Prado TX fleet, cars, photos and rates shown are illustrative samples.",
+    formFallback: "We couldn't send your request online just now. Please book on WhatsApp or call us.",
+    demoNotice: "Preview site. Cars, photos and rates shown are illustrative samples.",
     sampleTag: "Sample",
-    ownFleetTag: "iMtalii Fleet",
+    ownFleetTag: "Kev Auto Fleet",
     draftBadge: "Draft",
     rateOnRequest: "Rate on request",
     quoteOnRequest: "Quote on request",
-    logoAlt: "iMtalii Car Rentals",
-    photoAlt: "iMtalii's Land Cruiser Prado TX convoy dressed in wedding ribbons on a lakeside road",
-    support247Note: "24/7 support, whenever you need us.",
-    deliveryNote: "Nationwide delivery available. Fees and areas are confirmed when you book.",
-    notFoundTitle: "This road isn't on our route.",
-    notFoundBody: "Let's get you back in style.",
-    finalCtaTitle: "Your arrival starts here.",
-    officeOption: "Bruce House office",
-    deliverOption: "Deliver to me",
+    logoAlt: "Kev Auto Hire",
+    coverageNote: "Chauffeur-driven trips in Nairobi and beyond. We serve clients countrywide.",
+    notFoundTitle: "This road doesn't go anywhere.",
+    notFoundBody: "Let us get you back on the journey.",
+    finalCtaTitle: "Book your next ride with us today.",
+    pickupOption: "Pick me up (tell us the area)",
     airportOption: "Airport",
   },
 
   legal: {
-    estimateNotice: "Indicative estimate. Your final quote, including any delivery or chauffeur arrangements, is confirmed by iMtalii when you book.",
-    estimateSmallPrint: "Part days count as a full day in estimates; final terms confirmed by iMtalii.",
+    estimateNotice: "Indicative estimate. Your final quote, including the chauffeur and route, is confirmed by Kev Auto Hire when you book.",
+    estimateSmallPrint: "Part days count as a full day in estimates; final terms confirmed by Kev Auto Hire.",
     rateNote: "Rates shown are per day and indicative. Availability is confirmed at booking.",
     formNotice: "No ID or licence numbers needed here. We'll take care of the details when we confirm your booking.",
-    articleNotice: "General information only. Requirements change; check with iMtalii or the relevant authority before you travel.",
+    articleNotice: "General information only. Requirements change; check with Kev Auto Hire or the relevant authority before you travel.",
     privacyLaw: "Data Protection Act, 2019",
     privacyRegulator: "Office of the Data Protection Commissioner (ODPC)",
   },
 
   seo: {
-    titleTemplate: "%s | iMtalii Luxury Car Rentals Nairobi",
-    defaultTitle: "iMtalii Luxury Car Rentals Nairobi",
-    description: "Luxury car rentals in Nairobi: airport transfers, chauffeur services and self-drive, with a Prado TX fleet for weddings and VIP events.",
-    openingNote: "Bruce House, Standard Street, Nairobi CBD",
+    titleTemplate: "%s | Kev Auto Hire Nairobi",
+    defaultTitle: "Kev Auto Hire | Chauffeur-Driven 7-Seater Car Hire, Nairobi",
+    description: "Chauffeur-driven 7-seater car hire in Nairobi and beyond: weddings, road trips, airport transfers, corporate travel and family trips.",
   },
 
+  // From the logo: its black and green, made text-safe (see CLAUDE.md for which colour may be text on which background).
   colors: {
-    purple: "#6A00BC", // brand purple (their Book Now button): primary buttons (white text), links on light
-    purpleDeep: "#4E008C", // hover/pressed
-    aubergine: "#1A0B2E", // deep night sections, footer, hero overlay
-    aubergineRaised: "#2E1450", // cards/panels on dark
-    lavender: "#C9B6EC", // text and accents on dark (10:1 on aubergine), soft highlight fills on light
-    lavenderMist: "#EEE8F8", // light section background (their post panels)
+    primary: "#2E6B1F", // deep logo green: primary buttons (white text), links and eyebrows on light
+    primaryDeep: "#245818", // hover/pressed
+    night: "#101513", // logo black: night sections, footer, hero
+    nightRaised: "#1C2420", // cards/panels on dark
+    soft: "#C9D6CC", // text on dark (12.3:1 on night), soft fills on light
+    mist: "#F1F6EE", // light section background
     white: "#FFFFFF",
-    ink: "#120A1F", // headings on light
-    slate: "#5B5468", // body text on light (7.2:1 on white, 6.0:1 on lavenderMist)
-    line: "#E6E0F0",
-    gold: "#E0A84A", // logo gold, solid: rings, hairlines, numerals and small text ON DARK only
-    goldFrom: "#D0802F", // logo gradient start
-    goldTo: "#F7C35F", // logo gradient end
+    ink: "#111614", // headings on light
+    body: "#4F5853", // body text on light (7.4:1 on white, 6.7:1 on mist)
+    line: "#E1E8E0",
+    accent: "#6FAE34", // logo green: rings, hairlines, numerals and small text ON DARK only
+    accentFrom: "#5E9A2C", // logo swoosh gradient start
+    accentTo: "#8CC63F", // logo swoosh gradient end, accent button hover
+    accentText: "#528126", // accent made text-safe on white (4.6:1)
   },
   fonts: { display: "Marcellus", body: "Outfit" },
 } as const;

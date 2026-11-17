@@ -1,17 +1,7 @@
 [
   {
-    "id": "self-drive",
-    "title": "For self-drive",
-    "items": [
-      "A valid driving licence",
-      "Your ID or passport",
-      "Your dates, and where you plan to travel"
-    ],
-    "status": "draft"
-  },
-  {
     "id": "chauffeur",
-    "title": "For chauffeur services",
+    "title": "For chauffeur-driven hire",
     "items": [
       "Your pick-up place and time",
       "Your stops or itinerary, as far as you know it",
@@ -35,9 +25,18 @@
     "title": "For weddings",
     "items": [
       "Your wedding date and venue",
-      "The number of cars you have in mind",
-      "Whether you would like wedding glam",
+      "The number of vehicles you have in mind",
       "Your timings for the day, once you have them"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "road-trips",
+    "title": "For family trips and road trips",
+    "items": [
+      "Your dates and where you are headed",
+      "The number of passengers and bags",
+      "Any stops you already have in mind"
     ],
     "status": "draft"
   }

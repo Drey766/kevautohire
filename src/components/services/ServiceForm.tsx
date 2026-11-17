@@ -9,8 +9,8 @@ const bookable = cars.map(({ slug, name, ref, driveOptions, dailyRateKes, rateOn
 
 const PRESETS: Record<string, { service?: string; purpose?: string; car?: string }> = {
   "chauffeur-services": { service: "chauffeur" },
-  "self-drive": { service: "self-drive" },
-  "vip-executive": { service: "chauffeur", purpose: "VIP event", car: "toyota-land-cruiser-prado-tx" },
+  "corporate-travel": { service: "chauffeur", purpose: "Corporate travel" },
+  "family-road-trips": { service: "chauffeur", purpose: "Family trip" },
 };
 
 export function ServiceForm({ service }: { service: Service }) {

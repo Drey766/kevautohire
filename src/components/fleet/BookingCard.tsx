@@ -11,7 +11,7 @@ import { rangeErrorText, validateRange, type RangeError } from "@/lib/booking";
 import { carMessage, waLink } from "@/lib/whatsapp";
 import type { Car, DriveOption } from "@/types";
 
-const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur" };
+const LABELS: Record<DriveOption, string> = { "self-drive": "Self-drive", chauffeur: "Chauffeur-driven" };
 
 export function BookingCard({ car }: { car: Car }) {
   const router = useRouter();
@@ -21,7 +21,7 @@ export function BookingCard({ car }: { car: Car }) {
   const [service, setService] = useState<DriveOption>(initial);
   const [from, setFrom] = useState(sp.get("from") ?? "");
   const [to, setTo] = useState(sp.get("to") ?? "");
-  const [pickup, setPickup] = useState<string>("office");
+  const [pickup, setPickup] = useState<string>("area");
   const [area, setArea] = useState("");
   const [error, setError] = useState<RangeError | null>(null);
 
@@ -37,7 +37,7 @@ export function BookingCard({ car }: { car: Car }) {
     const q = new URLSearchParams({ car: car.slug, service, pickup });
     if (from) q.set("from", from);
     if (to) q.set("to", to);
-    if (pickup === "deliver" && area) q.set("area", area);
+    if (pickup === "area" && area) q.set("area", area);
     router.push(`/book?${q}`);
   }
 
@@ -48,22 +48,21 @@ export function BookingCard({ car }: { car: Car }) {
       {tabs.length > 1 ? (
         <Tabs tabs={tabs} value={service} onChange={setService} idBase="car" label="How would you like to ride" className="mt-3 border-b border-line" />
       ) : (
-        <p className="mt-1 text-sm text-purple">{LABELS[service]} only</p>
+        <p className="mt-1 text-sm text-primary">{LABELS[service]}, with a professional driver</p>
       )}
 
       <div {...(tabs.length > 1 ? { role: "tabpanel", id: `car-panel-${service}`, "aria-labelledby": `car-tab-${service}` } : {})} className="mt-4 space-y-3">
         <DateTimeField label="Pick-up date and time" value={from} onChange={setFrom} error={isPickupError && error ? rangeErrorText[error] : undefined} />
-        <DateTimeField label="Return date and time" value={to} onChange={setTo} min={from || undefined} error={!isPickupError && error ? rangeErrorText[error] : undefined} />
+        <DateTimeField label="Until (date and time)" value={to} onChange={setTo} min={from || undefined} error={!isPickupError && error ? rangeErrorText[error] : undefined} />
         <Field label="Pick-up">
           {(p) => (
             <select {...p} className="input" value={pickup} onChange={(e) => setPickup(e.target.value)}>
-              <option value="office">{brand.copy.officeOption}</option>
-              <option value="deliver">{brand.copy.deliverOption}</option>
+              <option value="area">{brand.copy.pickupOption}</option>
               <option value="airport">{brand.copy.airportOption}</option>
             </select>
           )}
         </Field>
-        {pickup === "deliver" && <Field label="Delivery area">{(p) => <input {...p} className="input" value={area} maxLength={120} onChange={(e) => setArea(e.target.value)} />}</Field>}
+        {pickup === "area" && <Field label="Pick-up area">{(p) => <input {...p} className="input" value={area} maxLength={120} onChange={(e) => setArea(e.target.value)} />}</Field>}
         <EstimatePanel car={car} from={from} to={to} />
       </div>
 

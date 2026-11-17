@@ -1,0 +1,29 @@
+{
+  "background": "#FEFEFE",
+  "colors": [
+    {
+      "hex": "#121415",
+      "percent": 51.2
+    },
+    {
+      "hex": "#A2A4A5",
+      "percent": 24.1
+    },
+    {
+      "hex": "#838484",
+      "percent": 6.8
+    },
+    {
+      "hex": "#5A5C5C",
+      "percent": 6.4
+    },
+    {
+      "hex": "#323335",
+      "percent": 6.4
+    },
+    {
+      "hex": "#6D9B33",
+      "percent": 5
+    }
+  ]
+}

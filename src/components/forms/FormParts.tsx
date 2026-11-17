@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useId } from "react";
 import { CheckCircle2, MessageCircle, Phone } from "lucide-react";
 import { brand } from "@/config/brand";
-import { GoldRingLoader } from "@/components/brand/GoldRing";
+import { RingLoader } from "@/components/brand/AccentRing";
 import { waLink } from "@/lib/whatsapp";
 import type { FormStatus } from "@/components/forms/useRequestForm";
 
@@ -25,7 +25,7 @@ export function ConsentField({ checked, onChange, error }: { checked: boolean; o
   return (
     <div>
       <label htmlFor={id} className="flex min-h-11 items-start gap-3 text-[0.9375rem] font-normal text-ink">
-        <input id={id} type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} aria-invalid={error ? true : undefined} className="mt-1 h-[18px] w-[18px] flex-none accent-(--brand-purple)" />
+        <input id={id} type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} aria-invalid={error ? true : undefined} className="mt-1 h-[18px] w-[18px] flex-none accent-(--brand-primary)" />
         <span>
           I agree to {brand.name} using these details to reply to this request. See the{" "}
           <Link href="/privacy" className="link">
@@ -47,7 +47,7 @@ export function SubmitButton({ status, label }: { status: FormStatus; label: str
   const sending = status === "sending";
   return (
     <button type="submit" disabled={sending} aria-busy={sending} className="btn btn-primary w-full sm:w-auto">
-      {sending ? <GoldRingLoader size={20} label="Sending" /> : null}
+      {sending ? <RingLoader size={20} label="Sending" /> : null}
       {sending ? "Sending" : label}
     </button>
   );
@@ -65,7 +65,7 @@ export function ErrorSummary({ count }: { count: number }) {
 export function FormSuccess() {
   return (
     <div role="status" className="py-6 text-center">
-      <CheckCircle2 size={36} strokeWidth={1.25} className="mx-auto text-purple" aria-hidden="true" />
+      <CheckCircle2 size={36} strokeWidth={1.25} className="mx-auto text-primary" aria-hidden="true" />
       <p className="display mt-3 text-2xl text-ink">{brand.copy.formSuccess}</p>
     </div>
   );

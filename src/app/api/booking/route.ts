@@ -39,9 +39,9 @@ function buildEmail(kind: FormKind, v: Record<string, unknown>) {
     details = [
       line("Car", topic),
       line("Service", v.service),
-      line("Pick-up", formatDateTime(String(v.from))),
-      line("Return", formatDateTime(String(v.to))),
-      line("Collection", v.pickup === "deliver" ? `Deliver to: ${oneLine(v.area)}` : v.pickup === "airport" ? brand.copy.airportOption : brand.copy.officeOption),
+      line("From", formatDateTime(String(v.from))),
+      line("Until", formatDateTime(String(v.to))),
+      line("Pick-up", v.pickup === "area" ? oneLine(v.area) : brand.copy.airportOption),
       line("Purpose", v.purpose),
       line("Passengers", v.passengers),
       line("Notes", v.notes),
@@ -61,7 +61,7 @@ function buildEmail(kind: FormKind, v: Record<string, unknown>) {
     ];
   } else if (kind === "wedding") {
     topic = formatDateOnly(String(v.date));
-    details = [line("Wedding date", topic), line("Venue or area", v.venue), line("Number of cars", v.cars), line("Preferred car", v.preferred), line("Wedding glam", v.glam ? "Yes" : "No"), line("Timing notes", v.timing)];
+    details = [line("Wedding date", topic), line("Venue or area", v.venue), line("Number of cars", v.cars), line("Preferred car", v.preferred), line("Timing notes", v.timing)];
   } else {
     topic = "Website enquiry";
     details = [line("Message", v.message)];

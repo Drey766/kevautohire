@@ -18,10 +18,10 @@ const count = (min: number, max: number, message: string) => z.coerce.number({ e
 export const bookingSchema = z
   .object({
     car: z.string().trim().min(1, "Choose a car."),
-    service: z.enum(["self-drive", "chauffeur"], { error: "Choose self-drive or chauffeur." }),
+    service: z.enum(["chauffeur"], { error: "Choose a service." }),
     from: z.string(),
     to: z.string(),
-    pickup: z.enum(["office", "deliver", "airport"], { error: "Choose how you'd like to collect the car." }),
+    pickup: z.enum(["area", "airport"], { error: "Choose where we should pick you up." }),
     area: optionalText(120),
     purpose: z.union([z.literal(""), z.enum(PURPOSES)]).optional(),
     passengers: z.union([z.literal(""), count(1, 60, "Enter the number of passengers.")]).optional(),
@@ -37,7 +37,7 @@ export const bookingSchema = z
       const path = problem.startsWith("pickup") ? "from" : "to";
       ctx.addIssue({ code: "custom", path: [path], message: rangeErrorText[problem] });
     }
-    if (v.pickup === "deliver" && !v.area?.trim()) ctx.addIssue({ code: "custom", path: ["area"], message: "Tell us the area for delivery." });
+    if (v.pickup === "area" && !v.area?.trim()) ctx.addIssue({ code: "custom", path: ["area"], message: "Tell us the pick-up area." });
   });
 
 export const airportSchema = z
@@ -68,7 +68,6 @@ export const weddingSchema = z
     venue: requiredText("Enter your venue or area."),
     cars: count(1, MAX_WEDDING_CARS, `Enter a number from 1 to ${MAX_WEDDING_CARS}.`),
     preferred: optionalText(80),
-    glam: z.boolean(),
     timing: optionalText(NOTES_MAX),
     name,
     phone,

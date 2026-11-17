@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Rebrand tooling: not part of the site.
+    "rebrand/**",
   ]),
 ]);
 

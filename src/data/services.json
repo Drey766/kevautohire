@@ -3,19 +3,19 @@
     "slug": "airport-transfers",
     "title": "Airport Transfers",
     "nameStatus": "confirmed",
-    "eyebrow": "Land, and be looked after",
-    "quote": "Whether it's an airport pickup, high-stakes meeting, or executive transfer: arrive composed, ride in comfort, and leave an impression that lasts.",
-    "summary": "A chauffeur-driven ride to or from the airport, arranged around your flight details and quoted on request.",
+    "eyebrow": "To and from the airport",
+    "quote": "Whether it's airport transfers, corporate travel, family trips or special occasions, we provide professional drivers and quality service to make every journey seamless.",
+    "summary": "A chauffeur-driven ride to or from the airport, with room for the whole group and the luggage, quoted on request.",
     "body": [
-      "Tell us your airport, flight and the time you land or need to leave. We use those details to arrange your car and confirm your quote before you travel.",
-      "Choose the kind of car the journey calls for, from a composed executive sedan to a Land Cruiser Prado TX with room for the luggage. If your plans change or your flight moves, contact us. Our 24/7 support means someone is there to help you work it out.",
+      "Tell us your airport, flight and the time you land or need to leave. We use those details to arrange your vehicle and confirm your quote before you travel.",
+      "A 7-seater makes sense when you are travelling as a family or a team, or simply with a lot of bags. If your plans change or your flight moves, call or message us and we will work out the next step with you.",
       "Arrangements at the terminal are confirmed with your booking, so you will know how the pickup works before you fly."
     ],
-    "classes": ["executive", "vip-flagship", "luxury-suv", "safari-4x4"],
+    "classes": ["luxury-suv", "safari-4x4", "executive", "vip-flagship"],
     "formKind": "airport",
     "faqs": [
       { "q": "What details do you need for an airport transfer?", "a": "Your airport, the date and time, how many passengers and bags, and the area you are travelling to or from. A flight number helps for pickups." },
-      { "q": "What happens if my flight is delayed?", "a": "Contact us as soon as you can. Our support is available 24/7, and we will work out the next step with you." },
+      { "q": "What happens if my flight is delayed?", "a": "Call or message us as soon as you can, and we will work out the next step with you." },
       { "q": "How much does a transfer cost?", "a": "Airport transfers are quoted on request. Send your details and we will confirm your quote." }
     ],
     "image": null,
@@ -23,42 +23,21 @@
   },
   {
     "slug": "chauffeur-services",
-    "title": "Chauffeur Services",
+    "title": "Chauffeur-Driven Hire",
     "nameStatus": "confirmed",
-    "eyebrow": "Leave the road to us",
-    "quote": "Arrive composed, ride in comfort, and leave an impression that lasts.",
-    "summary": "Book a car with a chauffeur for meetings, events or a full day of appointments, and spend the journey as you choose.",
+    "eyebrow": "Professional drivers",
+    "quote": "Enjoy comfortable, reliable and hassle-free chauffeur-driven rides with Kev Auto Hire.",
+    "summary": "A vehicle and a professional driver for a single journey, a full day or several days, so you can sit back and enjoy the ride.",
     "body": [
-      "A chauffeur takes the route, the traffic and the parking off your mind. Use the time to prepare, make your calls or simply sit back.",
-      "Tell us where you need to be and when. It may be one journey, a day of meetings, or several days with visiting guests. Pick a car from the fleet, or tell us the occasion and we will suggest one.",
-      "We will confirm availability, the arrangements and your quote when you book. With 24/7 support and nationwide delivery available, your plans need not stop at the city limits."
+      "A professional driver takes the route, the traffic and the parking off your mind. Use the time to talk, rest, make your calls or simply look out of the window.",
+      "Tell us where you need to be and when. It may be one journey, a day of appointments, or several days on the road. Pick a vehicle from the fleet, or tell us the occasion and how many of you are travelling, and we will suggest one.",
+      "We will confirm availability, the arrangements and your quote when you book. We serve Nairobi and beyond, so your plans need not stop at the city limits."
     ],
-    "classes": ["premium-comfort", "executive", "vip-flagship", "luxury-suv", "safari-4x4"],
+    "classes": ["luxury-suv", "safari-4x4", "premium-comfort", "executive", "vip-flagship"],
     "formKind": "booking",
     "faqs": [
-      { "q": "Can I book a chauffeur for several days?", "a": "Yes, tell us your dates and plans in your request and we will confirm availability and your quote." },
-      { "q": "Can a chauffeur take me out of Nairobi?", "a": "Tell us where you are going. The route and arrangements are confirmed when you book." }
-    ],
-    "image": null,
-    "status": "draft"
-  },
-  {
-    "slug": "self-drive",
-    "title": "Self-Drive Hire",
-    "nameStatus": "confirmed",
-    "eyebrow": "The keys are yours",
-    "quote": "Luxury is no longer a dream. It's a drive away.",
-    "summary": "Take the wheel yourself. Choose a car marked for self-drive, send your dates and we will confirm the details.",
-    "body": [
-      "Some journeys are better when you are the one driving. Filter the fleet for self-drive, compare a few cars and send us your dates.",
-      "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and areas are confirmed when you book.",
-      "You will need a valid driving licence and your ID or passport when you collect the car. We will confirm the full requirements with your booking, and our 24/7 support stays with you for the whole trip."
-    ],
-    "classes": ["premium-comfort", "executive", "luxury-suv"],
-    "formKind": "booking",
-    "faqs": [
-      { "q": "Which cars can I drive myself?", "a": "Use the self-drive filter on the fleet page. Each car shows whether self-drive, chauffeur or both are offered." },
-      { "q": "What do I need to bring?", "a": "A valid driving licence and your ID or passport. We confirm the full requirements when you book. You do not need to enter any of these numbers on this website." }
+      { "q": "Can I book a driver for several days?", "a": "Yes, tell us your dates and plans in your request and we will confirm availability and your quote." },
+      { "q": "Can you take me out of Nairobi?", "a": "Yes, we serve clients countrywide. Tell us where you are going, and the route and arrangements are confirmed when you book." }
     ],
     "image": null,
     "status": "draft"
@@ -67,43 +46,63 @@
     "slug": "weddings",
     "title": "Weddings",
     "nameStatus": "confirmed",
-    "eyebrow": "Dressed in wedding glam",
-    "quote": "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style, leave in memories.",
-    "summary": "A Land Cruiser Prado TX convoy for your big day, dressed in wedding glam on request.",
+    "eyebrow": "For the big day",
+    "quote": "Our chauffeur driven 7-seater vans are perfect for weddings, airport transfers, business trips, and family travel.",
+    "summary": "Chauffeur-driven 7-seaters to move the bridal party, the family and your guests on the day.",
     "body": [
-      "Our Land Cruiser Prado TX fleet is the one you may have seen on the road, ribbons flying and flowers at the front. It brings a sense of occasion to the bridal party, the family and everyone in between.",
-      "Share your date, your venue and how many cars you have in mind, and tell us whether you would like them dressed in wedding glam. Decoration options are discussed when we confirm your booking.",
-      "On the day, 24/7 support means you have someone to call. Your only job is to arrive."
+      "A wedding day runs on timing. Seven seats per vehicle means fewer cars to coordinate, and a professional driver means nobody in the bridal party has to think about the road.",
+      "Share your date, your venue and how many vehicles you have in mind. We will confirm availability, the plan for the day and your quote.",
+      "Tell us your timings once you have them, and we will handle the journey. Your only job is to arrive."
     ],
-    "classes": ["safari-4x4", "luxury-suv", "vip-flagship"],
+    "classes": ["luxury-suv", "safari-4x4", "vip-flagship"],
     "formKind": "wedding",
     "faqs": [
-      { "q": "Can the cars be decorated?", "a": "Yes, wedding glam is available. Tell us in your request, and we will go through the options and your quote when we confirm." },
-      { "q": "Can you do a wedding outside Nairobi?", "a": "Nationwide delivery is available. Share your venue and we will confirm the arrangements." },
-      { "q": "How many cars can I request?", "a": "You can request up to 10 cars on this form. For anything larger, call or message us on WhatsApp." }
+      { "q": "Can you do a wedding outside Nairobi?", "a": "Yes, we serve clients countrywide. Share your venue and we will confirm the arrangements." },
+      { "q": "How many vehicles can I request?", "a": "You can request up to 10 on this form. For anything larger, call or message us on WhatsApp." }
     ],
-    "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+    "image": null,
     "status": "draft"
   },
   {
-    "slug": "vip-executive",
-    "title": "VIP Events & Executive Transfers",
+    "slug": "corporate-travel",
+    "title": "Corporate Travel",
     "nameStatus": "confirmed",
-    "eyebrow": "Seal every deal in style",
-    "quote": "Arrive with Prestige. Ride with iMtalii.",
-    "summary": "Prado TX and flagship cars with chauffeur services for visiting guests, corporate events and the meetings that matter.",
+    "eyebrow": "Business trips and visiting teams",
+    "quote": "Your journey, our priority.",
+    "summary": "Chauffeur-driven vehicles for business trips, visiting guests and teams who need to travel together.",
     "body": [
-      "When the guest matters, so does the car that collects them. Our Land Cruiser Prado TX fleet is known for VIP events and executive transfers, and it can be booked with chauffeur services.",
-      "Send us the occasion, the dates and how many people are travelling. A single executive transfer and a convoy for an event start with the same short request.",
-      "We will confirm availability and your quote, and our 24/7 support stays on hand from the first pickup to the final drop-off."
+      "When a team travels together, the day runs more smoothly. A 7-seater with a professional driver keeps everyone on the same schedule, from the hotel to the meeting and on to the airport.",
+      "Send us the dates, the stops and how many people are travelling. A single business trip and several vehicles for a visiting delegation start with the same short request.",
+      "We will confirm availability and your quote, and we are a phone call or a WhatsApp message away if plans change."
     ],
-    "classes": ["safari-4x4", "vip-flagship", "luxury-suv", "executive"],
+    "classes": ["luxury-suv", "executive", "vip-flagship", "safari-4x4"],
     "formKind": "booking",
     "faqs": [
-      { "q": "Can you provide several cars for one event?", "a": "Tell us how many you need and when. We will confirm what is available and send your quote." },
+      { "q": "Can you provide several vehicles for one trip?", "a": "Tell us how many you need and when. We will confirm what is available and send your quote." },
       { "q": "Is the journey kept confidential?", "a": "We only use your details to arrange your booking. See our privacy notice for more." }
     ],
-    "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+    "image": null,
+    "status": "draft"
+  },
+  {
+    "slug": "family-road-trips",
+    "title": "Family Trips & Road Trips",
+    "nameStatus": "confirmed",
+    "eyebrow": "Nairobi & beyond",
+    "quote": "Wherever you're headed, travel in comfort and style.",
+    "summary": "Room for the whole family and the bags, with a professional driver, for a weekend away or a longer road trip.",
+    "body": [
+      "Road trips are better when everyone can sit back. Seven seats leave room for the family, the bags and the snacks, and a professional driver means nobody spends the trip watching the road.",
+      "Tell us where you are headed, your dates and how many of you are travelling. We serve clients countrywide, and the route and arrangements are confirmed when you book.",
+      "Book today and let us handle the journey."
+    ],
+    "classes": ["luxury-suv", "safari-4x4", "premium-comfort"],
+    "formKind": "booking",
+    "faqs": [
+      { "q": "Can you take us upcountry?", "a": "Yes, we serve clients countrywide. Tell us your route and we will confirm what suits it." },
+      { "q": "How many people fit?", "a": "Our vehicles are 7-seaters. Tell us how many of you are travelling, and how much luggage, and we will suggest the right number of vehicles." }
+    ],
+    "image": null,
     "status": "draft"
   }
 ]

@@ -1,46 +1,30 @@
-import { useId, type CSSProperties } from "react";
+import Image from "next/image";
 import { brand } from "@/config/brand";
-import { LOGO_TAGLINE, LOGO_WORDMARK } from "./logo-paths";
+import { cn } from "@/lib/cn";
 
-const VIEWS = {
-  full: [0, 0, 1128, 672],
-  wordmark: [0, 0, 1128, 470],
-  // The ringed "i": the left of the wordmark, cropped by the viewBox.
-  emblem: [42, 18, 172, 412],
-} as const;
+// The client's logo is a small (150px) raster on white, so it is shown no taller than 75px.
+// On dark backgrounds it sits on a white disc, which suits its round emblem.
+// Replace public/brand/logo@2x.png when the official vector arrives.
+const SRC = "/brand/logo@2x.png";
+const W = 248;
+const H = 240;
 
 interface LogoProps {
-  variant?: keyof typeof VIEWS;
-  /** "dark" = placed on a dark background (white tagline). */
+  /** "dark" = placed on a dark background (shown on a white disc). */
   tone?: "dark" | "light";
+  /** Display height in px (max 75). */
+  size?: number;
   className?: string;
   decorative?: boolean;
 }
 
-export function Logo({ variant = "full", tone = "dark", className, decorative }: LogoProps) {
-  const gradientId = `imtalii-gold-${useId().replace(/[^a-zA-Z0-9]/g, "")}`;
-  const [x, y, w, h] = VIEWS[variant];
-  const style = { "--logo-tagline": tone === "dark" ? "var(--brand-white)" : "var(--brand-ink)" } as CSSProperties;
-
+export function Logo({ tone = "dark", size = 52, className, decorative }: LogoProps) {
+  const h = Math.min(size, 75);
+  const img = <Image src={SRC} width={W} height={H} alt={decorative ? "" : brand.copy.logoAlt} style={{ height: tone === "dark" ? Math.round(h * 0.82) : h, width: "auto" }} priority={false} />;
+  if (tone === "light") return <span className={cn("inline-flex", className)}>{img}</span>;
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox={`${x} ${y} ${w} ${h}`}
-      width={w}
-      height={h}
-      className={className}
-      style={style}
-      {...(decorative ? { "aria-hidden": true } : { role: "img", "aria-label": brand.copy.logoAlt })}
-    >
-      <defs>
-        <linearGradient id={gradientId} x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="var(--logo-gold-from)" />
-          <stop offset="1" stopColor="var(--logo-gold-to)" />
-        </linearGradient>
-      </defs>
-      <path fill={`url(#${gradientId})`} fillRule="evenodd" d={LOGO_WORDMARK} />
-      <circle cx="128" cy="104" r="80" fill="none" stroke={`url(#${gradientId})`} strokeWidth="11" />
-      {variant === "full" && <path fill="var(--logo-tagline)" fillRule="evenodd" d={LOGO_TAGLINE} />}
-    </svg>
+    <span className={cn("logo-disc", className)} style={{ width: h, height: h }}>
+      {img}
+    </span>
   );
 }

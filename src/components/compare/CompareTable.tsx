@@ -90,10 +90,10 @@ export function CompareTable({ cars }: { cars: Car[] }) {
                     </span>
                   </div>
                   <div className="mt-3 flex items-start justify-between gap-2">
-                    <Link href={`/fleet/${c.slug}`} className="display inline-flex min-h-11 items-center text-xl leading-tight text-ink hover:text-purple">
+                    <Link href={`/fleet/${c.slug}`} className="display inline-flex min-h-11 items-center text-xl leading-tight text-ink hover:text-primary">
                       {c.name}
                     </Link>
-                    <button type="button" onClick={() => remove(c.slug)} aria-label={`Remove ${c.name}`} className="flex h-11 w-11 flex-none items-center justify-center rounded-full text-slate hover:text-purple">
+                    <button type="button" onClick={() => remove(c.slug)} aria-label={`Remove ${c.name}`} className="flex h-11 w-11 flex-none items-center justify-center rounded-full text-body hover:text-primary">
                       <X size={18} strokeWidth={1.5} />
                     </button>
                   </div>
@@ -124,7 +124,7 @@ export function CompareTable({ cars }: { cars: Car[] }) {
                   </th>
                   {has.map((yes, i) => (
                     <td key={picked[i].ref} className={cell}>
-                      {yes ? <Check size={18} strokeWidth={1.75} className="text-purple" aria-label="Yes" /> : <Minus size={18} strokeWidth={1.5} className="text-slate" aria-label="Not listed" />}
+                      {yes ? <Check size={18} strokeWidth={1.75} className="text-primary" aria-label="Yes" /> : <Minus size={18} strokeWidth={1.5} className="text-body" aria-label="Not listed" />}
                     </td>
                   ))}
                 </tr>
