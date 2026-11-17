@@ -26,7 +26,7 @@ export const brand = {
    * Empty → that spot is drawn with the logo's swoosh instead. Swap a file in public/photos/ to replace it.
    */
   photos: {
-    hero: "/photos/hero.jpg",
+    hero: "/photos/hero-fleet.jpg",
     weddings: "/photos/weddings.jpg",
     airport: "/photos/airport.jpg",
     corporate: "/photos/corporate.jpg",
@@ -109,6 +109,7 @@ export const brand = {
     rateOnRequest: "Rate on request",
     quoteOnRequest: "Quote on request",
     logoAlt: "Kev Auto Hire",
+    heroPhotoAlt: "A row of parked minivans in blue, white, black and red",
     coverageNote: "Chauffeur-driven trips in Nairobi and beyond. We serve clients countrywide.",
     notFoundTitle: "This road doesn't go anywhere.",
     notFoundBody: "Let us get you back on the journey.",

@@ -10,7 +10,7 @@ Claude: update this after every piece of work. If you were compacted, read this 
 New logo (PNG from the client's 150px JPG, on a white disc on dark), colours from the logo (black and green), all copy rewritten in Kev Auto Hire's voice (their quotes confirmed, everything else draft), services reshaped around their posts (Airport Transfers, Chauffeur-Driven Hire, Weddings, Corporate Travel, Family Trips & Road Trips). Self-drive, 24/7, delivery, office, email and wedding decoration removed (not confirmed). The earlier client's own car and photos removed; the 28 samples kept (refs KA-002 to KA-029), chauffeur-only. Lint and build pass. Visual check done at 375 and 1280 (Home, a car page, Contact).
 
 ## Photos
-Stock photos from Pexels now fill the hero, occasion tiles, service pages, About panel and blog covers (`public/photos/`, `brand.photos`, credits in `docs/PHOTOS.md`). They are stand-ins: black sedans, a convertible and a safari vehicle, not Kev Auto Hire's 7-seaters. Visual check done at 375 and 1280. Fixed the About panel clipping the logo on phones and loaded the navbar logo eagerly.
+Stock photos from Pexels fill the occasion tiles, service pages, About panel and blog covers (`public/photos/`, `brand.photos`, credits in `docs/PHOTOS.md`). The **home hero is a supplied photo of a row of minivans** (`hero-fleet.jpg`; confirm it is theirs). The stock photos are stand-ins: black sedans, a convertible and a safari vehicle, not Kev Auto Hire's 7-seaters. Visual check done at 375 and 1280. Fixed the About panel clipping the logo on phones and loaded the navbar logo eagerly.
 
 ## Open questions (for Kev Auto Hire — also in the README checklist)
 - Their real vehicles (models, seats, photos, rates). The site currently shows only samples.

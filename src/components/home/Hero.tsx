@@ -13,7 +13,7 @@ export function Hero() {
           {/* Their photo emerges from the night on the right; on phones it sits above the headline. */}
           <div className="absolute inset-x-0 top-0 -z-20 h-[68vw] min-h-[320px] overflow-hidden lg:inset-y-0 lg:right-0 lg:left-auto lg:h-auto lg:w-[74%]">
             <div className="absolute inset-0 origin-[35%_65%] motion-safe:animate-kenburns">
-              <SmartImage src={photo} alt="" sizes="(min-width: 1024px) 74vw, 100vw" className="object-[30%_center]" eager />
+              <SmartImage src={photo} alt={brand.copy.heroPhotoAlt} sizes="(min-width: 1024px) 74vw, 100vw" className="object-[30%_center]" eager />
             </div>
           </div>
           <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[68vw] min-h-[320px] bg-linear-to-b from-night/45 via-night/40 via-45% to-night to-85% lg:inset-y-0 lg:h-auto lg:from-night/55 lg:via-transparent lg:via-50% lg:to-night/90 lg:to-100%" />
