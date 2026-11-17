@@ -11,14 +11,28 @@
       "A 7-seater makes sense when you are travelling as a family or a team, or simply with a lot of bags. If your plans change or your flight moves, call or message us and we will work out the next step with you.",
       "Arrangements at the terminal are confirmed with your booking, so you will know how the pickup works before you fly."
     ],
-    "classes": ["luxury-suv", "safari-4x4", "executive", "vip-flagship"],
+    "classes": [
+      "luxury-suv",
+      "safari-4x4",
+      "executive",
+      "vip-flagship"
+    ],
     "formKind": "airport",
     "faqs": [
-      { "q": "What details do you need for an airport transfer?", "a": "Your airport, the date and time, how many passengers and bags, and the area you are travelling to or from. A flight number helps for pickups." },
-      { "q": "What happens if my flight is delayed?", "a": "Call or message us as soon as you can, and we will work out the next step with you." },
-      { "q": "How much does a transfer cost?", "a": "Airport transfers are quoted on request. Send your details and we will confirm your quote." }
+      {
+        "q": "What details do you need for an airport transfer?",
+        "a": "Your airport, the date and time, how many passengers and bags, and the area you are travelling to or from. A flight number helps for pickups."
+      },
+      {
+        "q": "What happens if my flight is delayed?",
+        "a": "Call or message us as soon as you can, and we will work out the next step with you."
+      },
+      {
+        "q": "How much does a transfer cost?",
+        "a": "Airport transfers are quoted on request. Send your details and we will confirm your quote."
+      }
     ],
-    "image": null,
+    "image": "/photos/airport.jpg",
     "status": "draft"
   },
   {
@@ -33,13 +47,25 @@
       "Tell us where you need to be and when. It may be one journey, a day of appointments, or several days on the road. Pick a vehicle from the fleet, or tell us the occasion and how many of you are travelling, and we will suggest one.",
       "We will confirm availability, the arrangements and your quote when you book. We serve Nairobi and beyond, so your plans need not stop at the city limits."
     ],
-    "classes": ["luxury-suv", "safari-4x4", "premium-comfort", "executive", "vip-flagship"],
+    "classes": [
+      "luxury-suv",
+      "safari-4x4",
+      "premium-comfort",
+      "executive",
+      "vip-flagship"
+    ],
     "formKind": "booking",
     "faqs": [
-      { "q": "Can I book a driver for several days?", "a": "Yes, tell us your dates and plans in your request and we will confirm availability and your quote." },
-      { "q": "Can you take me out of Nairobi?", "a": "Yes, we serve clients countrywide. Tell us where you are going, and the route and arrangements are confirmed when you book." }
+      {
+        "q": "Can I book a driver for several days?",
+        "a": "Yes, tell us your dates and plans in your request and we will confirm availability and your quote."
+      },
+      {
+        "q": "Can you take me out of Nairobi?",
+        "a": "Yes, we serve clients countrywide. Tell us where you are going, and the route and arrangements are confirmed when you book."
+      }
     ],
-    "image": null,
+    "image": "/photos/chauffeur.jpg",
     "status": "draft"
   },
   {
@@ -54,13 +80,23 @@
       "Share your date, your venue and how many vehicles you have in mind. We will confirm availability, the plan for the day and your quote.",
       "Tell us your timings once you have them, and we will handle the journey. Your only job is to arrive."
     ],
-    "classes": ["luxury-suv", "safari-4x4", "vip-flagship"],
+    "classes": [
+      "luxury-suv",
+      "safari-4x4",
+      "vip-flagship"
+    ],
     "formKind": "wedding",
     "faqs": [
-      { "q": "Can you do a wedding outside Nairobi?", "a": "Yes, we serve clients countrywide. Share your venue and we will confirm the arrangements." },
-      { "q": "How many vehicles can I request?", "a": "You can request up to 10 on this form. For anything larger, call or message us on WhatsApp." }
+      {
+        "q": "Can you do a wedding outside Nairobi?",
+        "a": "Yes, we serve clients countrywide. Share your venue and we will confirm the arrangements."
+      },
+      {
+        "q": "How many vehicles can I request?",
+        "a": "You can request up to 10 on this form. For anything larger, call or message us on WhatsApp."
+      }
     ],
-    "image": null,
+    "image": "/photos/weddings.jpg",
     "status": "draft"
   },
   {
@@ -75,13 +111,24 @@
       "Send us the dates, the stops and how many people are travelling. A single business trip and several vehicles for a visiting delegation start with the same short request.",
       "We will confirm availability and your quote, and we are a phone call or a WhatsApp message away if plans change."
     ],
-    "classes": ["luxury-suv", "executive", "vip-flagship", "safari-4x4"],
+    "classes": [
+      "luxury-suv",
+      "executive",
+      "vip-flagship",
+      "safari-4x4"
+    ],
     "formKind": "booking",
     "faqs": [
-      { "q": "Can you provide several vehicles for one trip?", "a": "Tell us how many you need and when. We will confirm what is available and send your quote." },
-      { "q": "Is the journey kept confidential?", "a": "We only use your details to arrange your booking. See our privacy notice for more." }
+      {
+        "q": "Can you provide several vehicles for one trip?",
+        "a": "Tell us how many you need and when. We will confirm what is available and send your quote."
+      },
+      {
+        "q": "Is the journey kept confidential?",
+        "a": "We only use your details to arrange your booking. See our privacy notice for more."
+      }
     ],
-    "image": null,
+    "image": "/photos/corporate.jpg",
     "status": "draft"
   },
   {
@@ -96,13 +143,23 @@
       "Tell us where you are headed, your dates and how many of you are travelling. We serve clients countrywide, and the route and arrangements are confirmed when you book.",
       "Book today and let us handle the journey."
     ],
-    "classes": ["luxury-suv", "safari-4x4", "premium-comfort"],
+    "classes": [
+      "luxury-suv",
+      "safari-4x4",
+      "premium-comfort"
+    ],
     "formKind": "booking",
     "faqs": [
-      { "q": "Can you take us upcountry?", "a": "Yes, we serve clients countrywide. Tell us your route and we will confirm what suits it." },
-      { "q": "How many people fit?", "a": "Our vehicles are 7-seaters. Tell us how many of you are travelling, and how much luggage, and we will suggest the right number of vehicles." }
+      {
+        "q": "Can you take us upcountry?",
+        "a": "Yes, we serve clients countrywide. Tell us your route and we will confirm what suits it."
+      },
+      {
+        "q": "How many people fit?",
+        "a": "Our vehicles are 7-seaters. Tell us how many of you are travelling, and how much luggage, and we will suggest the right number of vehicles."
+      }
     ],
-    "image": null,
+    "image": "/photos/road-trip.jpg",
     "status": "draft"
   }
 ]

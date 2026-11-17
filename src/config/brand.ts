@@ -21,8 +21,19 @@ export const brand = {
   servesCountrywide: true, // confirmed: "Nairobi & beyond", they serve countrywide
   mapUrl: "",
   social: { instagram: "https://www.instagram.com/kev_auto_hire/", facebook: "", tiktok: "", x: "" },
-  /** Their own photo for the home hero. Empty → the hero is drawn without a photo. */
-  heroImage: "",
+  /**
+   * Stock photos (Pexels, free to use) standing in until Kev Auto Hire's own photos arrive; see docs/PHOTOS.md.
+   * Empty → that spot is drawn with the logo's swoosh instead. Swap a file in public/photos/ to replace it.
+   */
+  photos: {
+    hero: "/photos/hero.jpg",
+    weddings: "/photos/weddings.jpg",
+    airport: "/photos/airport.jpg",
+    corporate: "/photos/corporate.jpg",
+    chauffeur: "/photos/chauffeur.jpg",
+    roadTrip: "/photos/road-trip.jpg",
+    about: "/photos/about.jpg",
+  },
 
   // ── CLIENT'S OWN WORDS (confirmed; emoji and exclamation marks dropped) ──
   voice: {

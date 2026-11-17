@@ -7,6 +7,7 @@ import { PromiseStrip } from "@/components/home/PromiseStrip";
 import { PageHero } from "@/components/ui/PageHero";
 import { Swoosh } from "@/components/brand/Swoosh";
 import { Logo } from "@/components/brand/Logo";
+import { SmartImage } from "@/components/ui/SmartImage";
 import { DraftBadge } from "@/components/ui/Tags";
 
 export const metadata: Metadata = pageMeta({
@@ -31,8 +32,17 @@ export default function AboutPage() {
             {a.experience && <p className="mt-4">{a.experience}</p>}
             <Ribbon className="mt-7 w-56" tone="accent" />
           </div>
-          <div className="night flex aspect-[16/10] flex-col items-start justify-end overflow-hidden rounded-2xl p-7 sm:p-10 lg:col-span-6">
-            <Swoosh className="absolute -top-10 -right-16 -z-10 w-[80%] max-w-none" />
+          <div className="night flex min-h-[340px] flex-col sm:min-h-0 sm:aspect-[16/10] items-start justify-end overflow-hidden rounded-2xl p-7 sm:p-10 lg:col-span-6">
+            {brand.photos.about ? (
+              <>
+                <div className="absolute inset-0 -z-20">
+                  <SmartImage src={brand.photos.about} alt="" sizes="(min-width: 1024px) 50vw, 100vw" className="object-[50%_60%]" />
+                </div>
+                <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-t from-night via-night/60 to-night/10" />
+              </>
+            ) : (
+              <Swoosh className="absolute -top-10 -right-16 -z-10 w-[80%] max-w-none" />
+            )}
             <Logo size={72} />
             <p className="display mt-6 text-[1.75rem] leading-snug text-white sm:text-[2.25rem]">{brand.voice.premiumSeaters}</p>
             <p className="mt-2 text-accent">{brand.voice.reach}</p>

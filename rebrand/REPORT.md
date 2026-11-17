@@ -88,7 +88,7 @@ Tool fix: `brand-scan.mjs` compared paths with `/` and so flagged `brand.ts` its
 ## Open questions for Kev Auto Hire
 1. **Logo:** an official vector (SVG or PDF). The current one is 150px, so it can't be shown larger than 75px.
 2. **Their vehicles:** models, seat counts, photos and rates. The fleet is currently 100% samples from another company.
-3. **Photos** for the home hero, Weddings and About (set `brand.heroImage`).
+3. **Photos** of their vehicles and drivers to replace the Pexels stand-ins (see "Follow-up: stock photos" below).
 4. **Email** for bookings (needed for the form emails and the privacy notice), office or base address, hours, domain, Facebook and TikTok.
 5. **Self-drive:** offered or not?
 6. Airports served and how pickups and delays work; wedding extras; requirements; what rates include; payment methods.
@@ -104,3 +104,10 @@ Tool fix: `brand-scan.mjs` compared paths with `/` and so flagged `brand.ts` its
 5. When a domain is chosen: add it in Vercel and set `siteUrl` in `src/config/brand.ts`.
 
 Not touched: `imtalii-claude-code-kit.zip` and `rebrand-dropin(1).zip` in the project root (git-ignored, the old client's build kit and the rebrand kit). Delete them yourself if you no longer need them.
+
+## Follow-up: stock photos (2026-11-17)
+The areas that were drawn with the swoosh now use **Pexels stock photos** (7 files in `public/photos/`, 100–280KB each, set in `brand.photos`): the home hero, the Weddings, Airport, Corporate and Family tiles, the five service-page heroes, the About panel and the five blog covers. Credits and licence notes are in `docs/PHOTOS.md`.
+- They are **mood images, not Kev Auto Hire's vehicles** (black sedans, a convertible, a safari vehicle), used as decorative images (`alt=""`) and never labelled as the fleet. Replace them with the client's own photos by overwriting the file, or set a path in `brand.photos` to `""` to bring the swoosh back.
+- The sample **car photos** were left alone: a generic photo can't match a named model, and a mislabelled car would mislead.
+- Fixes found while checking: the About panel clipped the logo on phones (it now has a minimum height), and the navbar logo now loads eagerly.
+- Checked at 375×812 and 1280×800 (Home, Airport service page, About): no horizontal overflow, text legible over every photo.

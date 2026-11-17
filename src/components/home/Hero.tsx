@@ -5,7 +5,7 @@ import { SmartImage } from "@/components/ui/SmartImage";
 import { BookingConsole } from "@/components/home/BookingConsole";
 
 export function Hero() {
-  const photo = brand.heroImage;
+  const photo = brand.photos.hero;
   return (
     <section className="night flex flex-col justify-end overflow-hidden lg:min-h-[calc(100svh-2rem)]">
       {photo ? (

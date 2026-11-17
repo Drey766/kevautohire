@@ -30,7 +30,7 @@ export function Navbar() {
     <header className={cn("sticky top-0 z-40 -mb-[var(--nav-h)] h-[var(--nav-h)] transition-[background-color,box-shadow] duration-300", scrolled ? "bg-white/90 shadow-[0_1px_0_var(--brand-line)] backdrop-blur-lg" : "night-scope bg-transparent")}>
       <div className="container-site flex h-full items-center justify-between gap-6">
         <Link href="/" aria-label={`${brand.fullName} home`} className="shrink-0">
-          <Logo tone={scrolled ? "light" : "dark"} size={52} decorative />
+          <Logo tone={scrolled ? "light" : "dark"} size={52} priority decorative />
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-5 xl:flex">

@@ -55,7 +55,7 @@ Everything fixed lives in **`src/config/brand.ts`**: name, contacts, the client'
 
 **Adding a vehicle:** put photos in `public/fleet/<ref>/` and list them in `images` as `/fleet/<ref>/photo.jpg`, with the best shot first. Set `dailyRateKes`, or set it to `null` with `rateOnRequest: true`. `featured: true` adds it to the Home rail. `driveOptions` is `["chauffeur"]` (add `"self-drive"` only if Kev Auto Hire confirms it; the forms and filters then offer it automatically). Real vehicles need `sample: false` and `contentStatus: "confirmed"`.
 
-**Home hero photo:** set `heroImage` in `brand.ts` to one of their own photos (for example `/brand/hero.jpg`).
+**Photos:** the hero, occasion tiles, service pages, About panel and blog covers use Pexels stock photos from `public/photos/`, set in `brand.photos` (`brand.ts`). Replace a file with the client's own photo (same name), or set a path to `""` to show the logo's swoosh instead. Credits and the replacement plan: `docs/PHOTOS.md`.
 
 Content marked `status: "draft"` shows a badge while draft flags are on. Change it to `"confirmed"` once Kev Auto Hire has approved it.
 

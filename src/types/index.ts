@@ -78,6 +78,8 @@ export interface BlogPost {
   content: string;
   category: BlogCategory;
   coverRef: string | null;
+  /** Local photo for the card and article header, instead of a car photo. */
+  coverImage?: string | null;
   author_name: string;
   read_time: number;
   created_at: string;

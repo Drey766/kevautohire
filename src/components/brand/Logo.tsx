@@ -14,13 +14,15 @@ interface LogoProps {
   tone?: "dark" | "light";
   /** Display height in px (max 75). */
   size?: number;
+  /** Above the fold (the navbar): load eagerly. */
+  priority?: boolean;
   className?: string;
   decorative?: boolean;
 }
 
-export function Logo({ tone = "dark", size = 52, className, decorative }: LogoProps) {
+export function Logo({ tone = "dark", size = 52, priority, className, decorative }: LogoProps) {
   const h = Math.min(size, 75);
-  const img = <Image src={SRC} width={W} height={H} alt={decorative ? "" : brand.copy.logoAlt} style={{ height: tone === "dark" ? Math.round(h * 0.82) : h, width: "auto" }} priority={false} />;
+  const img = <Image src={SRC} width={W} height={H} alt={decorative ? "" : brand.copy.logoAlt} style={{ height: tone === "dark" ? Math.round(h * 0.82) : h, width: "auto" }} priority={priority} />;
   if (tone === "light") return <span className={cn("inline-flex", className)}>{img}</span>;
   return (
     <span className={cn("logo-disc", className)} style={{ width: h, height: h }}>

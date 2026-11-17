@@ -51,7 +51,7 @@ Unknown, so empty and hidden, or draft: email, office address, map, hours, websi
 ---
 
 ## 3. BRAND CONFIG — single source of truth
-`src/config/brand.ts` holds identity (`name`, `shortName`, `fullName`, `descriptor`), contact (`phones`, `whatsappUrl`, `email` empty, `address` empty, `social.instagram`), `servesCountrywide`, `heroImage` (empty: the hero is drawn without a photo), `voice` (their words, confirmed), `services`, `occasions`, `nav`, fleet `classes`, `about` (draft), `copy` (draft micro-copy), `legal`, `seo`, `colors` and `fonts`. Edit there, not in components.
+`src/config/brand.ts` holds identity (`name`, `shortName`, `fullName`, `descriptor`), contact (`phones`, `whatsappUrl`, `email` empty, `address` empty, `social.instagram`), `servesCountrywide`, `photos` (Pexels stock stand-ins; empty path = swoosh fallback), `voice` (their words, confirmed), `services`, `occasions`, `nav`, fleet `classes`, `about` (draft), `copy` (draft micro-copy), `legal`, `seo`, `colors` and `fonts`. Edit there, not in components.
 
 ---
 
@@ -89,7 +89,7 @@ A comfortable, well-kept vehicle waiting in the evening: deep black-green **nigh
 
 ### Motifs
 1. **Accent ring** `<AccentRing />` (the logo's round emblem): thin double circles framing numerals, service icons, the rate badge and promise icons; a slow dashed ring as the loader.
-2. **Swoosh** `<Swoosh />` (the logo's green arc): a large gradient sweep with a fine lower arc, the backdrop for the hero, service heroes, the Weddings tile and the About panel while there are no photos.
+2. **Swoosh** `<Swoosh />` (the logo's green arc): a large gradient sweep with a fine lower arc, the fallback backdrop for the hero, service heroes, the Weddings tile and the About panel when a photo path is empty.
 3. **Arrival line** `<ArrivalLine />`: a fine dashed path with a tiny plane, for airport content and the How It Works stepper; draws in on scroll.
 4. **Ribbon** `<Ribbon />`: a soft double curve, the divider on Weddings, Occasions and About.
 5. **Green glow** `<Glow />`: radial primary and soft gradients on night.
@@ -99,16 +99,16 @@ A comfortable, well-kept vehicle waiting in the evening: deep black-green **nigh
 `.btn-primary` · `.btn-accent` (accent bg, night text, **on dark only**) · `.btn-ghost` · `.eyebrow` · `.display` · `.rate-badge` · `.card-car` · `.panel-glass` · `.logo-disc` · `.accent-ring` · `.section` · `.container-site` · `.input` / `.label` · `.prose-blog` · `.tag-sample` · `.tag-own` · `.badge-draft`. Radius 16px for cards, pill buttons. Shadows tinted from tokens, on hover only.
 
 ### Motion
-Hero headline rises in; the arrival line draws on scroll; rings rotate slowly; cards lift 4px; the compare tray glides up. **All off under `prefers-reduced-motion`.** If `brand.heroImage` is set, the hero shows that photo with a slow Ken Burns zoom.
+Hero headline rises in; the arrival line draws on scroll; rings rotate slowly; cards lift 4px; the compare tray glides up. **All off under `prefers-reduced-motion`.** The hero photo (`brand.photos.hero`) has a slow Ken Burns zoom.
 
 ### Imagery
-- No photos of Kev Auto Hire's own vehicles yet. The hero, Occasions, About and service pages are designed to work without them (swoosh and glow).
+- No photos of Kev Auto Hire's own vehicles yet. The hero, Occasions tiles, service pages, About panel and blog covers use **Pexels stock photos** (`public/photos/`, set in `brand.photos`, credits in `docs/PHOTOS.md`) as decorative images (`alt=""`), never labelled as the company's fleet. With a path set to `""` the spot falls back to the swoosh and glow.
 - Sample car photos load from the sample host (demo only; the only host in `images.remotePatterns`). `<SmartImage />` falls back to a night panel with the logo in an accent ring.
 
 ---
 
 ## 6. PERSONALITY MANDATE
-1. **Hero**: night with the swoosh (or their photo once provided), the eyebrow "Premium 7-seater car hire · Nairobi & beyond", **"Travel in comfort. Arrive in style."** in large Marcellus, `voice.enjoy` as the subhead, the **frosted booking console** (Chauffeur-Driven · Airport Transfer), and the promise strip beneath.
+1. **Hero**: night with the hero photo (stock for now, theirs once provided; swoosh if none), the eyebrow "Premium 7-seater car hire · Nairobi & beyond", **"Travel in comfort. Arrive in style."** in large Marcellus, `voice.enjoy` as the subhead, the **frosted booking console** (Chauffeur-Driven · Airport Transfer), and the promise strip beneath.
 2. **Occasions**: four asymmetric tiles (Weddings, Airport Transfers, Corporate Travel, Family Trips & Road Trips) under "Your journey, our priority.", each with their own words where they exist.
 3. **Promise strip**: their six promises as accent-ringed icon chips on night.
 4. **Airport and corporate travel** split section with the arrival line.

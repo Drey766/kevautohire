@@ -10,8 +10,8 @@ export function BlogCard({ post, level = "h3" }: { post: BlogPost; level?: "h2" 
   return (
     <article className="group flex flex-col">
       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-mist">
-        <SmartImage src={cover?.images[0]} alt="" sizes="(min-width: 768px) 33vw, 100vw" className="transition-transform duration-700 group-hover:scale-[1.04]" />
-        {cover?.sample && (
+        <SmartImage src={post.coverImage ?? cover?.images[0]} alt="" sizes="(min-width: 768px) 33vw, 100vw" className="transition-transform duration-700 group-hover:scale-[1.04]" />
+        {!post.coverImage && cover?.sample && (
           <span className="absolute top-3 left-3">
             <SampleTag />
           </span>
