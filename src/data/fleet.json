@@ -1,0 +1,1161 @@
+{
+  "meta": {
+    "currency": "KES",
+    "rateUnit": "day",
+    "count": 29,
+    "source": "IM-001 is iMtalii's own Prado TX fleet (from their posts). All other cars, photos, rates and features are illustrative samples for a preview build and must be replaced before launch."
+  },
+  "cars": [
+    {
+      "ref": "IM-001",
+      "slug": "toyota-land-cruiser-prado-tx",
+      "name": "Toyota Land Cruiser Prado TX",
+      "brand": "Toyota",
+      "model": "Land Cruiser Prado TX",
+      "class": "safari-4x4",
+      "bodyType": "SUV",
+      "seats": null,
+      "driveOptions": [
+        "chauffeur",
+        "self-drive"
+      ],
+      "dailyRateKes": null,
+      "rateOnRequest": true,
+      "images": [
+        "/fleet/im-001/prado-wedding-convoy.jpg"
+      ],
+      "summary": "The Prado TX fleet iMtalii is known for: weddings, VIP events and executive transfers, ready for any terrain.",
+      "description": "The Land Cruiser Prado TX is the car iMtalii is known for: a luxury fleet for weddings, VIP events and executive transfers. Dressed in wedding glam for a big day, or sent quietly to collect a guest at the airport, it brings luxury and comfort to every arrival, and it is ready for any terrain.\n\nBook it with chauffeur services and let the day run around you. 24/7 support is always on hand, and nationwide delivery is available. Tell us the occasion, and we'll confirm availability and your quote.",
+      "features": [],
+      "idealFor": [
+        "Weddings",
+        "VIP events",
+        "Executive transfers",
+        "Airport transfers",
+        "Upcountry trips"
+      ],
+      "featured": true,
+      "sample": false,
+      "contentStatus": "confirmed",
+      "note": "Confirmed from iMtalii's own posts (Luxury Land Cruiser Prado TX fleet for weddings, VIP events and executive transfers). Rate, seats and self-drive availability to confirm."
+    },
+    {
+      "ref": "IM-003",
+      "slug": "toyota-axio",
+      "name": "Toyota Axio",
+      "brand": "Toyota",
+      "model": "Axio",
+      "class": "premium-comfort",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 4000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-axio-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-axio-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-axio-rear.jpg"
+      ],
+      "summary": "A neat, frugal sedan that slips through town without fuss, with a chauffeur at the wheel.",
+      "description": "Small enough to thread through the CBD and light on its feet in traffic, the Toyota Axio makes short work of a full diary. It is the sensible choice among our sedans, and it wears that well.\n\nWith a chauffeur handling the route and the parking, your time stays your own. Settle in, take your calls and step out at each stop feeling unhurried. For everyday journeys around Nairobi, it keeps things simple and comfortable.",
+      "features": [
+        "Cloth Upholstery",
+        "Climate Control",
+        "Power Windows",
+        "Keyless Entry",
+        "Bluetooth Connectivity",
+        "USB Ports"
+      ],
+      "idealFor": [
+        "City driving",
+        "Airport transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-002",
+      "slug": "toyota-allion",
+      "name": "Toyota Allion",
+      "brand": "Toyota",
+      "model": "Allion",
+      "class": "premium-comfort",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 4500,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-allion-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-allion-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-allion-rear.jpg"
+      ],
+      "summary": "A calm, roomy saloon for daily errands, airport runs and unhurried city meetings.",
+      "description": "The Toyota Allion is a quiet companion for the working week. Its cabin is wider than its neat outline suggests, the ride stays settled over Nairobi's busier streets, and everything falls easily to hand.\n\nChoose it when the day calls for composure rather than theatre: a run to the airport, a string of appointments, a relative to collect from across town. Drive it yourself or hand over the keys to a chauffeur and use the back seat to catch up.",
+      "features": [
+        "Cloth Upholstery",
+        "Power Windows",
+        "Keyless Entry",
+        "Bluetooth Connectivity",
+        "USB Ports",
+        "Rearview Camera"
+      ],
+      "idealFor": [
+        "City driving",
+        "Airport transfers",
+        "Business meetings"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-007",
+      "slug": "toyota-mark-x",
+      "name": "Toyota Mark X",
+      "brand": "Toyota",
+      "model": "Mark X",
+      "class": "premium-comfort",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 7000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-markx-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-markx-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-markx-rear.jpg"
+      ],
+      "summary": "A rear-wheel-drive Toyota sedan with a sporting edge, driven for you by a chauffeur.",
+      "description": "The Toyota Mark X has always had a little more spirit than the sedans around it. Its stance is purposeful, its six-cylinder heart is smooth, and the cabin is finished with an eye for occasion.\n\nWith a chauffeur at the wheel, all of that translates into an easy, confident ride across the city. It is a fine way to reach a meeting or a dinner looking composed, with the journey itself taken care of.",
+      "features": [
+        "Leather Upholstery",
+        "Dual-Zone Climate Control",
+        "Power Seats",
+        "Keyless Entry",
+        "Rearview Camera",
+        "Bluetooth Connectivity"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "City driving",
+        "Executive transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-005",
+      "slug": "mazda-cx-5",
+      "name": "Mazda CX-5",
+      "brand": "Mazda",
+      "model": "CX-5",
+      "class": "premium-comfort",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 7500,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/mazda-cx5-main.jpg",
+        "https://luxurycarhire.co.ke/images/mazda-cx5-interior.jpg",
+        "https://luxurycarhire.co.ke/images/mazda-cx5-rear.jpg"
+      ],
+      "summary": "A stylish compact SUV with a raised view of the road and an interior that feels considered.",
+      "description": "Sharp lines outside and a tidy, well-finished cabin inside make the Mazda CX-5 an easy car to like. You sit a little higher than the traffic, the controls feel precise, and the proportions are right for both tight parking and open roads.\n\nIt is equally at home on a weekday in Nairobi and on a weekend away. Drive yourself and enjoy it, or book a chauffeur and let someone else mind the road.",
+      "features": [
+        "Leather Upholstery",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Power Liftgate",
+        "Keyless Entry",
+        "Apple CarPlay",
+        "Backup Camera"
+      ],
+      "idealFor": [
+        "City driving",
+        "Weekend escapes",
+        "Business meetings"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-009",
+      "slug": "subaru-forester",
+      "name": "Subaru Forester",
+      "brand": "Subaru",
+      "model": "Forester",
+      "class": "premium-comfort",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 8000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/subaru-forester-main.jpg",
+        "https://luxurycarhire.co.ke/images/subaru-forester-interior.jpg",
+        "https://luxurycarhire.co.ke/images/subaru-forester-rear.jpg"
+      ],
+      "summary": "A surefooted all-wheel-drive SUV for trips where the tarmac may run out.",
+      "description": "Subaru built the Forester for people who would rather not turn back when the road gets interesting. All-wheel drive comes as standard, the windows are generous, and the view out makes unfamiliar routes easier to read.\n\nWith a chauffeur at the wheel, it is a settled choice for upcountry visits and weekends beyond the city. Inside, the cabin stays calm and practical, ready for muddy boots and good company alike.",
+      "features": [
+        "Dual-Zone Climate Control",
+        "Power Liftgate",
+        "Keyless Entry & Push Start",
+        "EyeSight Driver Assist System",
+        "Adaptive Cruise Control",
+        "Apple CarPlay & Android Auto"
+      ],
+      "idealFor": [
+        "Upcountry trips",
+        "Weekend escapes",
+        "Safari & rough roads"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-006",
+      "slug": "nissan-x-trail",
+      "name": "Nissan X-Trail",
+      "brand": "Nissan",
+      "model": "X-Trail",
+      "class": "premium-comfort",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 10000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/nissan-xtrail-main.jpg",
+        "https://luxurycarhire.co.ke/images/nissan-xtrail-interior.jpg",
+        "https://luxurycarhire.co.ke/images/nissan-xtrail-rear.jpg"
+      ],
+      "summary": "A practical family SUV with room for luggage, comfortable seats and a willing nature.",
+      "description": "The Nissan X-Trail is built for days when plans include bags, children and a change of scenery. There is generous space front and back, a tall driving position, and a relaxed manner that keeps long stretches from feeling long.\n\nLoad it up for a family weekend or use it for a week of errands around the city. It is available to drive yourself or with a chauffeur, whichever makes the trip easier.",
+      "features": [
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Power Liftgate",
+        "Keyless Entry",
+        "Apple CarPlay/Android Auto",
+        "Backup Camera"
+      ],
+      "idealFor": [
+        "Weekend escapes",
+        "Upcountry trips",
+        "City driving"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-010",
+      "slug": "toyota-rav4",
+      "name": "Toyota RAV4",
+      "brand": "Toyota",
+      "model": "RAV4",
+      "class": "premium-comfort",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 12000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-rav4-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-rav4-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-rav4-rear.jpg"
+      ],
+      "summary": "A versatile, adventure-minded crossover that is just as comfortable on the school run.",
+      "description": "The Toyota RAV4 has an honest, go-anywhere character that makes it easy to live with. The cabin is spacious, the boot swallows a weekend's luggage, and the driving position gives you a clear, confident view ahead.\n\nTake it out of town for a change of air or keep it for a busy week in Nairobi. Drive it yourself if the road is part of the pleasure, or book a chauffeur if you would prefer to watch the scenery.",
+      "features": [
+        "Cloth Upholstery",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Power Liftgate",
+        "Keyless Entry",
+        "Apple CarPlay",
+        "Backup Camera",
+        "Lane Departure Alert"
+      ],
+      "idealFor": [
+        "Weekend escapes",
+        "City driving",
+        "Upcountry trips"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-004",
+      "slug": "mazda-atenza",
+      "name": "Mazda Atenza",
+      "brand": "Mazda",
+      "model": "Atenza",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 8000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/mazda-atenza-main.jpg",
+        "https://luxurycarhire.co.ke/images/mazda-atenza-interior.jpg",
+        "https://luxurycarhire.co.ke/images/mazda-atenza-rear.jpg"
+      ],
+      "summary": "A sleek Japanese sedan with a flowing silhouette and a cabin that feels a class above.",
+      "description": "The Mazda Atenza looks as though it was drawn in a single stroke. Long, low and gracefully proportioned, it arrives with more presence than you might expect, and the leather-lined cabin carries on the thought.\n\nIt suits the client lunch and the long afternoon of meetings equally well. Take the wheel and enjoy how neatly it responds, or have a chauffeur drive while you prepare for what comes next.",
+      "features": [
+        "Leather Upholstery",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Power Seats",
+        "Keyless Entry",
+        "Bluetooth Connectivity",
+        "Rearview Camera",
+        "Cruise Control"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "Executive transfers",
+        "City driving"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-008",
+      "slug": "toyota-crown",
+      "name": "Toyota Crown",
+      "brand": "Toyota",
+      "model": "Crown",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 9000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-crown-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-crown-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-crown-rear.jpg"
+      ],
+      "summary": "Toyota's stately executive sedan, chauffeur-driven and quietly dignified.",
+      "description": "The Toyota Crown has a long history of carrying people who have somewhere important to be. It keeps its elegance understated: a poised profile, a hushed cabin and seats that invite you to sit back and let the city pass.\n\nThis is a car for the rear seat. Your chauffeur handles the route while you read, rest or prepare your remarks, and you arrive looking as though the traffic never happened.",
+      "features": [
+        "Leather Upholstery",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Power Seats",
+        "Keyless Entry",
+        "Rearview Camera",
+        "Bluetooth Connectivity"
+      ],
+      "idealFor": [
+        "Executive transfers",
+        "Airport transfers",
+        "Business meetings"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-022",
+      "slug": "audi-a6",
+      "name": "Audi A6",
+      "brand": "Audi",
+      "model": "A6",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 15000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/audi-a6-main.jpg",
+        "https://luxurycarhire.co.ke/images/audi-a6-interior.jpg",
+        "https://luxurycarhire.co.ke/images/audi-a6-rear.jpg"
+      ],
+      "summary": "A crisp, technology-rich Audi sedan for those who like their business well pressed.",
+      "description": "The Audi A6 has the clean precision of a well-kept boardroom. Sharp lighting, digital instruments and a cabin of soft leather and exact seams give it an air of quiet competence.\n\nChauffeur-driven, it is a natural fit for the working day, with a smooth ride that lets you finish that last document on the way in. Step out with your jacket uncreased and your attention firmly on the meeting ahead.",
+      "features": [
+        "Valcona Leather Seats",
+        "Ambient Lighting",
+        "Panoramic Sunroof",
+        "Matrix LED Headlights",
+        "Air Suspension",
+        "Virtual Cockpit Plus",
+        "MMI Navigation Plus",
+        "Bang & Olufsen Audio"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "Executive transfers",
+        "Airport transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-029",
+      "slug": "mercedes-benz-c-class",
+      "name": "Mercedes-Benz C-Class",
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 18000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/mercedes-s-class-main.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-s-class-interior.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-s-class-rear.jpg"
+      ],
+      "summary": "A compact Mercedes-Benz with big-car poise, for driving yourself or being driven.",
+      "description": "The Mercedes-Benz C-Class brings the marque's elegance to a size that suits the city. Its cabin borrows from the larger models, with sweeping trim, soft ambient light and a central screen that feels pleasantly modern.\n\nTake the wheel for a day of appointments around Nairobi, or leave the driving to a chauffeur and arrive fresh. It is a poised, approachable way to enjoy a Mercedes-Benz whenever the occasion deserves a little polish.",
+      "features": [
+        "Premium Leather Seats",
+        "Climate Control",
+        "Panoramic Sunroof",
+        "Ambient Lighting",
+        "MBUX Infotainment",
+        "Burmester Audio System",
+        "Wireless Charging"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "City driving",
+        "Executive transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-024",
+      "slug": "mercedes-benz-e-class",
+      "name": "Mercedes-Benz E-Class",
+      "brand": "Mercedes-Benz",
+      "model": "E-Class",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 20000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/mercedes-e-class-main.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-e-class-interior.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-e-class-rear.jpg"
+      ],
+      "summary": "The classic executive Mercedes-Benz, serene and supremely well mannered.",
+      "description": "Few cars are as closely tied to the idea of arriving well as the Mercedes-Benz E-Class. It rides softly, speaks quietly and fills its cabin with warm light and fine materials.\n\nBooked with a chauffeur, it is the natural car for a senior guest, a board meeting or an evening at a formal dinner. Nothing about it needs explaining, which is precisely why it continues to be chosen for occasions that matter.",
+      "features": [
+        "Nappa Leather Seats",
+        "Ambient Lighting",
+        "Dual-Zone Climate Control",
+        "Panoramic Sunroof",
+        "Air Suspension",
+        "MBUX Infotainment System",
+        "Burmester Surround Sound",
+        "Keyless-Go"
+      ],
+      "idealFor": [
+        "Executive transfers",
+        "Business meetings",
+        "Airport transfers",
+        "VIP events"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-021",
+      "slug": "lexus-es",
+      "name": "Lexus ES",
+      "brand": "Lexus",
+      "model": "ES",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/lexus-es-main.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-es-interior.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-es-rear.jpg"
+      ],
+      "summary": "A graceful Lexus sedan, whisper-quiet and finished with Japanese attention to detail.",
+      "description": "The Lexus ES is a study in calm. It glides rather than drives, and the cabin is finished with the kind of care that reveals itself slowly: a soft stitch here, a well-weighted switch there.\n\nWith a chauffeur at the wheel, the rear seat becomes a private room between appointments. It is a gracious way to welcome a guest from the airport or to reach an important meeting feeling rested and ready.",
+      "features": [
+        "Leather Upholstery",
+        "Dual-Zone Climate Control",
+        "Power Moonroof",
+        "LED Headlights",
+        "Ventilated Seats",
+        "Mark Levinson Audio",
+        "Wireless Charging",
+        "Lexus Safety System+"
+      ],
+      "idealFor": [
+        "Executive transfers",
+        "Airport transfers",
+        "Business meetings"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-017",
+      "slug": "volvo-s90",
+      "name": "Volvo S90",
+      "brand": "Volvo",
+      "model": "S90",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/volvo-s90-main.jpg",
+        "https://luxurycarhire.co.ke/images/volvo-s90-interior.jpg",
+        "https://luxurycarhire.co.ke/images/volvo-s90-rear.jpg"
+      ],
+      "summary": "Scandinavian calm on wheels, with a light-filled cabin and elegant, uncluttered design.",
+      "description": "The Volvo S90 approaches luxury the Swedish way: with restraint. Clean surfaces, pale light through the glass roof and seats that feel carefully thought through create a cabin that lowers the pulse the moment you sit down.\n\nChauffeur-driven, it is an ideal place to prepare for a difficult meeting or to decompress after one. Discreet and quietly confident, it suits guests who appreciate good design more than a loud entrance.",
+      "features": [
+        "Nappa Leather Seats",
+        "Panoramic Sunroof",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Ambient Lighting",
+        "Sensus Connect Infotainment",
+        "Bowers & Wilkins Audio",
+        "Pilot Assist"
+      ],
+      "idealFor": [
+        "Executive transfers",
+        "Business meetings",
+        "Airport transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-023",
+      "slug": "bmw-5-series",
+      "name": "BMW 5 Series",
+      "brand": "BMW",
+      "model": "5 Series",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 35000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/bmw-5-series-main.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-5-series-interior.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-5-series-rear.jpg"
+      ],
+      "summary": "The driver's executive sedan, sharp and assured, here with a chauffeur to enjoy it for you.",
+      "description": "The BMW 5 Series has long been the choice of people who care about how a car feels as well as how it looks. Balanced, responsive and handsomely restrained, it makes even a routine trip seem deliberate.\n\nIn the rear seat, that composure becomes pure comfort. Your chauffeur handles the road while ambient light and a fine sound system set the tone, and you arrive with the assurance that every detail has been considered.",
+      "features": [
+        "Dakota Leather Seats",
+        "Ambient Lighting",
+        "Dual-Zone Climate Control",
+        "Panoramic Sunroof",
+        "LED Headlights",
+        "iDrive 7.0 System",
+        "Harman Kardon Audio",
+        "Gesture Control"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "Executive transfers",
+        "VIP events"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-016",
+      "slug": "jaguar-xf",
+      "name": "Jaguar XF",
+      "brand": "Jaguar",
+      "model": "XF",
+      "class": "executive",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 45000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/jaguar-xf-main.jpg",
+        "https://luxurycarhire.co.ke/images/jaguar-xf-interior.jpg",
+        "https://luxurycarhire.co.ke/images/jaguar-xf-rear.jpg"
+      ],
+      "summary": "British elegance in sedan form, sleek and tailored, with a chauffeur at the wheel.",
+      "description": "The Jaguar XF wears its heritage lightly. A long bonnet, a low roofline and a cabin with the feel of a well-cut suit give it a character quite distinct from its German rivals.\n\nIt is the car to choose when you would rather be remembered than merely noticed. Your chauffeur takes care of the road while you enjoy the soft leather and fine sound system, and you step out with quiet confidence.",
+      "features": [
+        "Leather Upholstery",
+        "Ambient Lighting",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Heated Seats",
+        "Power Sunroof",
+        "InControl Touch Pro",
+        "Meridian Audio System"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "Executive transfers",
+        "VIP events"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-027",
+      "slug": "audi-a8",
+      "name": "Audi A8",
+      "brand": "Audi",
+      "model": "A8",
+      "class": "vip-flagship",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 25000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/audi-a8-main.jpg",
+        "https://luxurycarhire.co.ke/images/audi-a8-interior.jpg",
+        "https://luxurycarhire.co.ke/images/audi-a8-rear.jpg"
+      ],
+      "summary": "Audi's flagship limousine, cool, composed and quietly packed with technology.",
+      "description": "The Audi A8 expresses luxury through intelligence. Everything works with a soft precision, from the matrix headlights to the touch-sensitive controls, and the cabin has the calm, cool order of a very good hotel suite.\n\nIn the rear, massaging seats and a smooth air-sprung ride let you recover between engagements. With a chauffeur driving, it is an accomplished choice for visiting dignitaries and anyone who values discretion over display.",
+      "features": [
+        "Valcona Leather Interior",
+        "Massage & Ventilation",
+        "4-Zone Climate Control",
+        "Panoramic Sunroof",
+        "Matrix LED Headlights",
+        "Air Suspension",
+        "Virtual Cockpit Plus",
+        "Bang & Olufsen 3D Audio"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Executive transfers",
+        "Business meetings"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-028",
+      "slug": "bmw-7-series",
+      "name": "BMW 7 Series",
+      "brand": "BMW",
+      "model": "7 Series",
+      "class": "vip-flagship",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 35000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/bmw-7-series-main.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-7-series-interior.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-7-series-rear.jpg"
+      ],
+      "summary": "BMW's grandest sedan, with lounge-like rear seats and an unmistakable sense of arrival.",
+      "description": "The BMW 7 Series is a statement delivered in a calm voice. Its long body and imposing grille announce the arrival, while the rear cabin, with lounge seating and a glowing glass roof, keeps the experience entirely private.\n\nBook it chauffeur-driven for the evenings and engagements where the entrance matters. Massage seats ease the journey, and the moment the door opens, it is clear that someone important has come.",
+      "features": [
+        "Executive Lounge Seats",
+        "Massage & Ventilation",
+        "4-Zone Climate Control",
+        "Panoramic Sky Lounge",
+        "Ambient Lighting Plus",
+        "Gesture Control",
+        "Harman Kardon Audio",
+        "Wireless Charging"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Weddings",
+        "Executive transfers"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-026",
+      "slug": "lexus-ls",
+      "name": "Lexus LS",
+      "brand": "Lexus",
+      "model": "LS",
+      "class": "vip-flagship",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 35000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/lexus-ls-main.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-ls-interior.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-ls-rear.jpg"
+      ],
+      "summary": "Lexus's flagship, crafted with extraordinary care for those who travel in the back.",
+      "description": "The Lexus LS is the product of an almost obsessive attention to detail. Hand-finished glass trim, deep semi-aniline leather and rear seats that massage away the day create an atmosphere closer to a private lounge than a car.\n\nChauffeur-driven by design, it is a car for the guest whose comfort is the whole point. The silence inside is remarkable, and it makes long transfers feel surprisingly short.",
+      "features": [
+        "Kiriko Glass Ornamentation",
+        "Shiatsu Massage Seats",
+        "Semi-Aniline Leather",
+        "Heated & Ventilated Seats",
+        "Air Suspension System",
+        "Mark Levinson Audio",
+        "Lexus Safety System+ 2.0",
+        "Wireless Charging"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Executive transfers",
+        "Airport transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-015",
+      "slug": "porsche-panamera",
+      "name": "Porsche Panamera",
+      "brand": "Porsche",
+      "model": "Panamera",
+      "class": "vip-flagship",
+      "bodyType": "Sedan",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 45000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/porsche-panamera-main.jpg",
+        "https://luxurycarhire.co.ke/images/porsche-panamera-interior.jpg",
+        "https://luxurycarhire.co.ke/images/porsche-panamera-rear.jpg"
+      ],
+      "summary": "A low, dramatic Porsche with four proper seats and a real sense of occasion.",
+      "description": "The Porsche Panamera is what happens when a sports car learns good manners. It is long, low and unmistakable, and it turns an ordinary drive across town into something people stop to watch.\n\nInside, four individual seats wrap around you in leather and quiet technology. With a chauffeur at the wheel, it is a striking choice for a gala, a launch or a wedding exit that guests will still be talking about the following morning.",
+      "features": [
+        "Leather Upholstery",
+        "Panoramic Sunroof",
+        "Quad-Zone Climate Control",
+        "LED Matrix Headlights",
+        "Heated & Ventilated Seats",
+        "Ambient Lighting",
+        "Porsche Communication Management",
+        "Bose Surround Sound"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Weddings",
+        "Executive transfers"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-014",
+      "slug": "mercedes-benz-gle",
+      "name": "Mercedes-Benz GLE",
+      "brand": "Mercedes-Benz",
+      "model": "GLE",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 25000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/mercedes-gle-main.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-gle-interior.jpg",
+        "https://luxurycarhire.co.ke/images/mercedes-gle-rear.jpg"
+      ],
+      "summary": "A polished Mercedes-Benz SUV with a floating ride, driven for you by a chauffeur.",
+      "description": "The Mercedes-Benz GLE takes the feeling of a fine saloon and raises it above the traffic. Soft nappa leather, sweeping screens and a ride that smooths over the rough patches make the cabin a pleasant place to spend an hour or three.\n\nAs a chauffeur-driven car, it suits guests you want to look after properly. Expect a calm arrival, plenty of room for luggage and the unmistakable presence of a Mercedes-Benz.",
+      "features": [
+        "Nappa Leather Seats",
+        "Panoramic Sunroof",
+        "Tri-Zone Climate Control",
+        "LED Headlights",
+        "Heated & Ventilated Seats",
+        "Power Tailgate",
+        "MBUX Infotainment System",
+        "Burmester Surround Sound"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Executive transfers",
+        "Airport transfers"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-012",
+      "slug": "audi-q7",
+      "name": "Audi Q7",
+      "brand": "Audi",
+      "model": "Q7",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 7,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/audi-q7-main.jpg",
+        "https://luxurycarhire.co.ke/images/audi-q7-interior.jpg",
+        "https://luxurycarhire.co.ke/images/audi-q7-rear.jpg"
+      ],
+      "summary": "A broad-shouldered seven-seat Audi that brings the whole party along in comfort.",
+      "description": "The Audi Q7 solves a familiar problem with style: how to bring everyone and still arrive looking composed. Three rows of seats sit inside a cabin of crisp German design, and the ride stays calm however full the car may be.\n\nUse it for the family gathering, the visiting delegation or the bridal party's second car. Drive yourself, or let a chauffeur manage the road while the conversation carries on behind.",
+      "features": [
+        "Leather Upholstery",
+        "Panoramic Sunroof",
+        "Tri-Zone Climate Control",
+        "LED Headlights",
+        "Heated Seats",
+        "Power Tailgate",
+        "MMI Navigation Plus",
+        "Adaptive Cruise Control"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Weddings",
+        "Weekend escapes",
+        "Airport transfers"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-013",
+      "slug": "bmw-x5",
+      "name": "BMW X5",
+      "brand": "BMW",
+      "model": "X5",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/bmw-x5-main.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-x5-interior.jpg",
+        "https://luxurycarhire.co.ke/images/bmw-x5-rear.jpg"
+      ],
+      "summary": "A poised, athletic luxury SUV that makes every journey feel well spent.",
+      "description": "The BMW X5 has the rare gift of feeling both substantial and light on its feet. Sit up high behind that familiar grille, and the road opens up with a clarity that makes driving a pleasure again.\n\nWhether you take the keys yourself or sit behind a chauffeur, the glass roof and well-appointed cabin keep the mood bright. It is a strong presence at a meeting, an event or a getaway from the city.",
+      "features": [
+        "Leather Upholstery",
+        "Ambient Lighting",
+        "Panoramic Sunroof",
+        "Heated Seats",
+        "Power Tailgate",
+        "iDrive 7.0 System",
+        "Harman Kardon Audio",
+        "Adaptive Cruise Control"
+      ],
+      "idealFor": [
+        "Business meetings",
+        "Executive transfers",
+        "Weekend escapes"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-018",
+      "slug": "land-rover-discovery",
+      "name": "Land Rover Discovery",
+      "brand": "Land Rover",
+      "model": "Discovery",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 7,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/land-rover-discovery-main.jpg",
+        "https://luxurycarhire.co.ke/images/land-rover-discovery-interior.jpg",
+        "https://luxurycarhire.co.ke/images/land-rover-discovery-rear.jpg"
+      ],
+      "summary": "A capable seven-seat Land Rover, equally at home at the lodge and the hotel entrance.",
+      "description": "The Land Rover Discovery carries a certain easy authority wherever it goes. Three rows of seats, a commanding view and the brand's long experience away from the tarmac make it a natural partner for bigger journeys.\n\nWith a chauffeur in charge, the whole party can relax and watch the landscape change. It is well suited to family trips and upcountry visits, and it looks entirely at ease when the journey ends at a smart hotel.",
+      "features": [
+        "Leather Upholstery",
+        "Panoramic Sunroof",
+        "Tri-Zone Climate Control",
+        "LED Headlights",
+        "Heated Seats",
+        "Power Tailgate",
+        "Meridian Audio System",
+        "Terrain Response 2"
+      ],
+      "idealFor": [
+        "Upcountry trips",
+        "Safari & rough roads",
+        "Weekend escapes"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-011",
+      "slug": "lexus-rx",
+      "name": "Lexus RX",
+      "brand": "Lexus",
+      "model": "RX",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "self-drive",
+        "chauffeur"
+      ],
+      "dailyRateKes": 30000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/lexus-rx-main.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-rx-interior.jpg",
+        "https://luxurycarhire.co.ke/images/lexus-rx-rear.jpg"
+      ],
+      "summary": "A serene Japanese luxury crossover, with a beautifully hushed cabin and warm craftsmanship.",
+      "description": "Few cars do quiet as convincingly as the Lexus RX. Doors close with a soft thud, the road noise fades, and you are left in a cabin of supple leather and careful detail. It is luxury without any need to raise its voice.\n\nIt makes an elegant choice for airport collections and family occasions, and it is just as agreeable for a long afternoon behind the wheel. Book it as a self-drive, or with a chauffeur for complete ease.",
+      "features": [
+        "Leather Upholstery",
+        "Panoramic Sunroof",
+        "Dual-Zone Climate Control",
+        "LED Headlights",
+        "Heated & Ventilated Seats",
+        "Power Tailgate",
+        "Mark Levinson Audio",
+        "Lexus Safety System+"
+      ],
+      "idealFor": [
+        "Airport transfers",
+        "Executive transfers",
+        "Weekend escapes"
+      ],
+      "featured": false,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-025",
+      "slug": "range-rover-vogue",
+      "name": "Range Rover Vogue",
+      "brand": "Land Rover",
+      "model": "Range Rover Vogue",
+      "class": "luxury-suv",
+      "bodyType": "SUV",
+      "seats": 5,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 35000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/range-rover-vogue-main.jpg",
+        "https://luxurycarhire.co.ke/images/range-rover-vogue-interior.jpg",
+        "https://luxurycarhire.co.ke/images/range-rover-vogue-safari.jpg"
+      ],
+      "summary": "The original luxury SUV: stately, serene and at ease on any road you choose.",
+      "description": "The Range Rover Vogue occupies a place of its own. High, upright and beautifully detailed, it treats a red carpet and a rutted track with exactly the same unruffled poise.\n\nWith a chauffeur at the wheel, the rear of the cabin is one of the calmest places to watch the country pass by. Soft leather, a glass roof and a floating ride combine to make arrivals feel like an event, wherever they happen to be.",
+      "features": [
+        "Windsor Leather Interior",
+        "Heated & Cooled Seats",
+        "4-Zone Climate Control",
+        "Panoramic Sunroof",
+        "Meridian Audio System",
+        "Air Suspension",
+        "Terrain Response 2",
+        "Wade Sensing"
+      ],
+      "idealFor": [
+        "VIP events",
+        "Weddings",
+        "Executive transfers",
+        "Upcountry trips"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-020",
+      "slug": "toyota-land-cruiser-prado",
+      "name": "Toyota Land Cruiser Prado",
+      "brand": "Toyota",
+      "model": "Land Cruiser Prado",
+      "class": "safari-4x4",
+      "bodyType": "SUV",
+      "seats": 7,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 15000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/toyota-prado-main.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-prado-interior.jpg",
+        "https://luxurycarhire.co.ke/images/toyota-prado-rear.jpg"
+      ],
+      "summary": "The dependable safari favourite, with seven seats with a chauffeur at the wheel.",
+      "description": "The Toyota Land Cruiser Prado has earned its reputation one difficult road at a time. Sturdy and well mannered, it takes rough tracks in its stride and still offers a comfortable, leather-lined cabin once the dust has settled.\n\nBook it chauffeur-driven for a safari or a long trip upcountry, and leave the road to someone else. With seats for the whole group and room for the luggage, it keeps adventure feeling civilised from start to finish.",
+      "features": [
+        "Leather Seats",
+        "Climate Control",
+        "Sunroof",
+        "Roof Rails",
+        "Rear Entertainment",
+        "Rearview Camera",
+        "Cruise Control",
+        "Multi-Terrain Select"
+      ],
+      "idealFor": [
+        "Safari & rough roads",
+        "Upcountry trips",
+        "Weekend escapes"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    },
+    {
+      "ref": "IM-019",
+      "slug": "nissan-patrol",
+      "name": "Nissan Patrol",
+      "brand": "Nissan",
+      "model": "Patrol",
+      "class": "safari-4x4",
+      "bodyType": "SUV",
+      "seats": 7,
+      "driveOptions": [
+        "chauffeur"
+      ],
+      "dailyRateKes": 20000,
+      "rateOnRequest": false,
+      "images": [
+        "https://luxurycarhire.co.ke/images/nissan-patrol-main.jpg",
+        "https://luxurycarhire.co.ke/images/nissan-patrol-interior.jpg",
+        "https://luxurycarhire.co.ke/images/nissan-patrol-rear.jpg"
+      ],
+      "summary": "A commanding full-size 4x4 with V8 authority and space to stretch out.",
+      "description": "The Nissan Patrol is a large vehicle that makes no apology for it. Its V8 gathers pace without effort, the cabin has space to spare, and its long off-road pedigree brings a reassuring calm to difficult routes.\n\nChauffeur-driven, it is a fine choice for a group heading well beyond the city, or for an entrance that needs real presence. Rear entertainment keeps younger passengers occupied while the miles slide quietly by.",
+      "features": [
+        "Leather Seats",
+        "Climate Control",
+        "Sunroof",
+        "LED Headlights",
+        "Rear Entertainment",
+        "Roof Rails",
+        "Bose Audio System",
+        "Hill Descent Control"
+      ],
+      "idealFor": [
+        "Safari & rough roads",
+        "Upcountry trips",
+        "VIP events"
+      ],
+      "featured": true,
+      "sample": true,
+      "contentStatus": "sample"
+    }
+  ]
+}

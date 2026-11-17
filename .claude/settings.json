@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest imtalii-scaffold *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(node scripts/prepare-assets.mjs)",
+      "Bash(git init)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "PowerShell(npx create-next-app@latest imtalii-scaffold *)",
+      "PowerShell(npm install *)",
+      "PowerShell(npm run *)",
+      "PowerShell(node scripts/prepare-assets.mjs)",
+      "PowerShell(git init)",
+      "PowerShell(git status *)",
+      "PowerShell(git diff *)",
+      "PowerShell(git log *)",
+      "PowerShell(git show *)",
+      "PowerShell(git add *)",
+      "PowerShell(git commit *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-ChildItem *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(npx vercel *)",
+      "Bash(vercel *)",
+      "PowerShell(git push *)",
+      "PowerShell(npx vercel *)",
+      "PowerShell(vercel *)"
+    ]
+  }
+}

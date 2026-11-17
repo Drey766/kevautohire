@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "airport-transfers",
+    "title": "Airport Transfers",
+    "nameStatus": "confirmed",
+    "eyebrow": "Land, and be looked after",
+    "quote": "Whether it's an airport pickup, high-stakes meeting, or executive transfer: arrive composed, ride in comfort, and leave an impression that lasts.",
+    "summary": "A chauffeur-driven ride to or from the airport, arranged around your flight details and quoted on request.",
+    "body": [
+      "Tell us your airport, flight and the time you land or need to leave. We use those details to arrange your car and confirm your quote before you travel.",
+      "Choose the kind of car the journey calls for, from a composed executive sedan to a Land Cruiser Prado TX with room for the luggage. If your plans change or your flight moves, contact us. Our 24/7 support means someone is there to help you work it out.",
+      "Arrangements at the terminal are confirmed with your booking, so you will know how the pickup works before you fly."
+    ],
+    "classes": ["executive", "vip-flagship", "luxury-suv", "safari-4x4"],
+    "formKind": "airport",
+    "faqs": [
+      { "q": "What details do you need for an airport transfer?", "a": "Your airport, the date and time, how many passengers and bags, and the area you are travelling to or from. A flight number helps for pickups." },
+      { "q": "What happens if my flight is delayed?", "a": "Contact us as soon as you can. Our support is available 24/7, and we will work out the next step with you." },
+      { "q": "How much does a transfer cost?", "a": "Airport transfers are quoted on request. Send your details and we will confirm your quote." }
+    ],
+    "image": null,
+    "status": "draft"
+  },
+  {
+    "slug": "chauffeur-services",
+    "title": "Chauffeur Services",
+    "nameStatus": "confirmed",
+    "eyebrow": "Leave the road to us",
+    "quote": "Arrive composed, ride in comfort, and leave an impression that lasts.",
+    "summary": "Book a car with a chauffeur for meetings, events or a full day of appointments, and spend the journey as you choose.",
+    "body": [
+      "A chauffeur takes the route, the traffic and the parking off your mind. Use the time to prepare, make your calls or simply sit back.",
+      "Tell us where you need to be and when. It may be one journey, a day of meetings, or several days with visiting guests. Pick a car from the fleet, or tell us the occasion and we will suggest one.",
+      "We will confirm availability, the arrangements and your quote when you book. With 24/7 support and nationwide delivery available, your plans need not stop at the city limits."
+    ],
+    "classes": ["premium-comfort", "executive", "vip-flagship", "luxury-suv", "safari-4x4"],
+    "formKind": "booking",
+    "faqs": [
+      { "q": "Can I book a chauffeur for several days?", "a": "Yes, tell us your dates and plans in your request and we will confirm availability and your quote." },
+      { "q": "Can a chauffeur take me out of Nairobi?", "a": "Tell us where you are going. The route and arrangements are confirmed when you book." }
+    ],
+    "image": null,
+    "status": "draft"
+  },
+  {
+    "slug": "self-drive",
+    "title": "Self-Drive Hire",
+    "nameStatus": "confirmed",
+    "eyebrow": "The keys are yours",
+    "quote": "Luxury is no longer a dream. It's a drive away.",
+    "summary": "Take the wheel yourself. Choose a car marked for self-drive, send your dates and we will confirm the details.",
+    "body": [
+      "Some journeys are better when you are the one driving. Filter the fleet for self-drive, compare a few cars and send us your dates.",
+      "Collect from Bruce House in Nairobi CBD, or ask for delivery. Nationwide delivery is available, and fees and areas are confirmed when you book.",
+      "You will need a valid driving licence and your ID or passport when you collect the car. We will confirm the full requirements with your booking, and our 24/7 support stays with you for the whole trip."
+    ],
+    "classes": ["premium-comfort", "executive", "luxury-suv"],
+    "formKind": "booking",
+    "faqs": [
+      { "q": "Which cars can I drive myself?", "a": "Use the self-drive filter on the fleet page. Each car shows whether self-drive, chauffeur or both are offered." },
+      { "q": "What do I need to bring?", "a": "A valid driving licence and your ID or passport. We confirm the full requirements when you book. You do not need to enter any of these numbers on this website." }
+    ],
+    "image": null,
+    "status": "draft"
+  },
+  {
+    "slug": "weddings",
+    "title": "Weddings",
+    "nameStatus": "confirmed",
+    "eyebrow": "Dressed in wedding glam",
+    "quote": "Make your big day unforgettable with iMtalii's luxury fleet dressed in wedding glam. Arrive in style, leave in memories.",
+    "summary": "A Land Cruiser Prado TX convoy for your big day, dressed in wedding glam on request.",
+    "body": [
+      "Our Land Cruiser Prado TX fleet is the one you may have seen on the road, ribbons flying and flowers at the front. It brings a sense of occasion to the bridal party, the family and everyone in between.",
+      "Share your date, your venue and how many cars you have in mind, and tell us whether you would like them dressed in wedding glam. Decoration options are discussed when we confirm your booking.",
+      "On the day, 24/7 support means you have someone to call. Your only job is to arrive."
+    ],
+    "classes": ["safari-4x4", "luxury-suv", "vip-flagship"],
+    "formKind": "wedding",
+    "faqs": [
+      { "q": "Can the cars be decorated?", "a": "Yes, wedding glam is available. Tell us in your request, and we will go through the options and your quote when we confirm." },
+      { "q": "Can you do a wedding outside Nairobi?", "a": "Nationwide delivery is available. Share your venue and we will confirm the arrangements." },
+      { "q": "How many cars can I request?", "a": "You can request up to 10 cars on this form. For anything larger, call or message us on WhatsApp." }
+    ],
+    "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+    "status": "draft"
+  },
+  {
+    "slug": "vip-executive",
+    "title": "VIP Events & Executive Transfers",
+    "nameStatus": "confirmed",
+    "eyebrow": "Seal every deal in style",
+    "quote": "Arrive with Prestige. Ride with iMtalii.",
+    "summary": "Prado TX and flagship cars with chauffeur services for visiting guests, corporate events and the meetings that matter.",
+    "body": [
+      "When the guest matters, so does the car that collects them. Our Land Cruiser Prado TX fleet is known for VIP events and executive transfers, and it can be booked with chauffeur services.",
+      "Send us the occasion, the dates and how many people are travelling. A single executive transfer and a convoy for an event start with the same short request.",
+      "We will confirm availability and your quote, and our 24/7 support stays on hand from the first pickup to the final drop-off."
+    ],
+    "classes": ["safari-4x4", "vip-flagship", "luxury-suv", "executive"],
+    "formKind": "booking",
+    "faqs": [
+      { "q": "Can you provide several cars for one event?", "a": "Tell us how many you need and when. We will confirm what is available and send your quote." },
+      { "q": "Is the journey kept confidential?", "a": "We only use your details to arrange your booking. See our privacy notice for more." }
+    ],
+    "image": "/fleet/im-001/prado-wedding-convoy.jpg",
+    "status": "draft"
+  }
+]
