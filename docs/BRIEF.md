@@ -102,7 +102,7 @@ A comfortable, well-kept vehicle waiting in the evening: deep black-green **nigh
 Hero headline rises in; the arrival line draws on scroll; rings rotate slowly; cards lift 4px; the compare tray glides up. **All off under `prefers-reduced-motion`.** The hero photo (`brand.photos.hero`) has a slow Ken Burns zoom.
 
 ### Imagery
-- No photos of Kev Auto Hire's own vehicles yet. The hero, Occasions tiles, service pages, About panel and blog covers use **Pexels stock photos** (`public/photos/`, set in `brand.photos`, credits in `docs/PHOTOS.md`) as decorative images (`alt=""`), never labelled as the company's fleet. With a path set to `""` the spot falls back to the swoosh and glow.
+- Supplied photos of their own vans: the home hero (a row of minivans) and the Weddings photo (a van dressed in roses). Everything else uses **Kenyan Pexels stock photos** (Nairobi skyline, a man in a suit on a Nairobi street, the Nairobi expressway, a Kenyan dirt road, a Maasai Mara sunset): decorative (`alt=""`), never labelled as the fleet. Paths are in `brand.photos`, credits in `docs/PHOTOS.md`. With a path set to `""` the spot falls back to the swoosh and glow.
 - Sample car photos load from the sample host (demo only; the only host in `images.remotePatterns`). `<SmartImage />` falls back to a night panel with the logo in an accent ring.
 
 ---

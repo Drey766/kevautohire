@@ -27,10 +27,10 @@ export const brand = {
    */
   photos: {
     hero: "/photos/hero-fleet.jpg",
-    weddings: "/photos/weddings.jpg",
-    airport: "/photos/airport.jpg",
-    corporate: "/photos/corporate.jpg",
-    chauffeur: "/photos/chauffeur.jpg",
+    weddings: "/photos/wedding-fleet.jpg",
+    airport: "/photos/airport-nairobi.jpg",
+    corporate: "/photos/corporate-nairobi.jpg",
+    chauffeur: "/photos/chauffeur-nairobi.jpg",
     roadTrip: "/photos/road-trip.jpg",
     about: "/photos/about.jpg",
   },

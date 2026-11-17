@@ -45,9 +45,9 @@ export function Occasions() {
         <div className="mt-10 grid gap-4 lg:mt-14 lg:grid-cols-12 lg:gap-5">
           {/* Weddings: the signature tile */}
           <Link href="/services/weddings" className="night group overflow-hidden rounded-2xl lg:col-span-7 lg:row-span-2">
-            <div className="flex h-full min-h-[400px] flex-col justify-end p-6 sm:p-9 lg:min-h-[600px]">
+            <div className="flex h-full min-h-[540px] flex-col justify-end p-6 sm:min-h-[480px] sm:p-9 lg:min-h-[600px]">
               {!p.weddings && <Swoosh className="absolute -top-16 -right-24 -z-10 w-[130%] max-w-none transition-transform duration-700 group-hover:scale-[1.03] sm:w-[90%]" />}
-              <Backdrop photo={p.weddings} sizes="(min-width: 1024px) 58vw, 100vw" position="object-[65%_center]" glow="left" />
+              <Backdrop photo={p.weddings} sizes="(min-width: 1024px) 58vw, 100vw" position="object-[50%_58%]" glow="left" />
               <h3 className="display text-[2.5rem] sm:text-5xl">Weddings</h3>
               <p className="mt-3 max-w-lg text-white">{brand.voice.vans}</p>
               <More label="Plan your wedding transport" />
@@ -56,7 +56,7 @@ export function Occasions() {
 
           <Link href="/services/airport-transfers" className="night group overflow-hidden rounded-2xl lg:col-span-5">
             <div className="flex h-full min-h-[290px] flex-col justify-end p-6 sm:p-8">
-              <Backdrop photo={p.airport} sizes="(min-width: 1024px) 40vw, 100vw" position="object-[50%_30%]" />
+              <Backdrop photo={p.airport} sizes="(min-width: 1024px) 40vw, 100vw" position="object-[50%_45%]" />
               <h3 className="display text-[2rem] sm:text-[2.5rem]">Airport Transfers</h3>
               {airport && <p className="mt-2 text-white">{airport.summary}</p>}
               <More label="Arrange a transfer" />
@@ -65,7 +65,7 @@ export function Occasions() {
 
           <Link href="/services/corporate-travel" className="night group overflow-hidden rounded-2xl lg:col-span-5">
             <div className="flex h-full min-h-[290px] flex-col justify-end p-6 sm:p-8">
-              <Backdrop photo={p.corporate} sizes="(min-width: 1024px) 40vw, 100vw" position="object-[50%_25%]" glow="hero" />
+              <Backdrop photo={p.corporate} sizes="(min-width: 1024px) 40vw, 100vw" position="object-[88%_30%]" glow="hero" />
               <h3 className="display text-[2rem] sm:text-[2.5rem]">Corporate Travel</h3>
               {corporate && <p className="mt-2 text-white">{corporate.summary}</p>}
               <More label="Business trips and teams" />

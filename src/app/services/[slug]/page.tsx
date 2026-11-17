@@ -43,7 +43,7 @@ export default async function ServicePage({ params }: PageProps<"/services/[slug
         {service.image && (
           <>
             <div className="absolute inset-0 -z-20">
-              <SmartImage src={service.image} alt="" sizes="100vw" className="object-[35%_center]" eager />
+              <SmartImage src={service.image} alt="" sizes="100vw" className="object-[50%_52%]" eager />
             </div>
             <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-t from-night via-night/70 to-night/50 lg:bg-linear-to-r lg:from-night lg:via-night/70 lg:to-night/10" />
           </>

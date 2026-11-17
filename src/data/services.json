@@ -32,7 +32,7 @@
         "a": "Airport transfers are quoted on request. Send your details and we will confirm your quote."
       }
     ],
-    "image": "/photos/airport.jpg",
+    "image": "/photos/airport-nairobi.jpg",
     "status": "draft"
   },
   {
@@ -65,7 +65,7 @@
         "a": "Yes, we serve clients countrywide. Tell us where you are going, and the route and arrangements are confirmed when you book."
       }
     ],
-    "image": "/photos/chauffeur.jpg",
+    "image": "/photos/chauffeur-nairobi.jpg",
     "status": "draft"
   },
   {
@@ -96,7 +96,7 @@
         "a": "You can request up to 10 on this form. For anything larger, call or message us on WhatsApp."
       }
     ],
-    "image": "/photos/weddings.jpg",
+    "image": "/photos/wedding-fleet.jpg",
     "status": "draft"
   },
   {
@@ -128,7 +128,7 @@
         "a": "We only use your details to arrange your booking. See our privacy notice for more."
       }
     ],
-    "image": "/photos/corporate.jpg",
+    "image": "/photos/corporate-nairobi.jpg",
     "status": "draft"
   },
   {
