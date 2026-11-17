@@ -97,7 +97,7 @@ Tool fix: `brand-scan.mjs` compared paths with `/` and so flagged `brand.ts` its
 9. Vehicle classes: the five luxury classes suit the sample cars; Kev Auto Hire's 7-seaters may need different ones.
 
 ## Deploy as a new Vercel project
-1. This folder now has its own git repository (`main` holds the pre-rebrand snapshot; the rebrand is on `rebrand/kev-auto-hire`). Merge or keep the branch, then create a **new** GitHub repository and push to it. Never push to the old client's repository.
+1. This folder now has its own git repository (`master` holds the pre-rebrand snapshot; the rebrand is on `rebrand/kev-auto-hire`). Merge or keep the branch, then create a **new** GitHub repository and push to it. Never push to the old client's repository.
 2. Vercel → Add New → Project → import the new repository (Next.js is detected).
 3. Environment variables: `NEXT_PUBLIC_DEMO_MODE=true`, `NEXT_PUBLIC_SHOW_DRAFT_FLAGS=true`, and later `RESEND_API_KEY`, `BOOKING_EMAIL_TO`, `BOOKING_FROM_EMAIL` (sender on a verified domain), optionally the WhatsApp alert variables with `OWNER_WHATSAPP_NUMBER=254721569063`.
 4. Deploy. Check the favicon and link preview in a private window (browsers cache favicons).
